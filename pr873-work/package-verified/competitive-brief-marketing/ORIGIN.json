@@ -1,0 +1,34 @@
+{
+  "changes": [
+    "Skill name and slash trigger use marketing alias",
+    "CONNECTORS link rewritten to bundled references/CONNECTORS.md",
+    "Added modification notice; other instructions unchanged"
+  ],
+  "commit": "c75fda00ff0e41c8ee331ae312c8a07f1967653b",
+  "connector_configuration": "Catalog text only; no .mcp.json, servers, tokens or permissions installed",
+  "dependency": {
+    "blob": "f4d375273c56cfeb923022556ac5ec60e4c818ff",
+    "bytes": 1260,
+    "path": "marketing/CONNECTORS.md",
+    "sha256": "e85d04dde99b220ba438cf1345212e7414da536fb7d781d83a4ad57270586630"
+  },
+  "execution_status": "not_run: no install, model conversion or execution by this builder",
+  "license": {
+    "blob": "f53c679acba79cbb292961fd9fb9e87ca20eab22",
+    "bytes": 11607,
+    "handling": "Preserve exact upstream bytes including nonstandard trailing text; no normalization.",
+    "path": "LICENSE",
+    "sha256": "a6946284993aeec75c7d75906064b66210c46051e562077efb30eb6dcfe72e26"
+  },
+  "package_name": "competitive-brief-marketing",
+  "packaged_skill_sha256": "cbd975db84da1a5fec61f7cae3dbb8608cd8bed9ed45e319cecfddb518768675",
+  "primary": {
+    "blob": "1a7df218996ed350c67e6899a60321f205bb69d6",
+    "bytes": 13150,
+    "path": "marketing/skills/competitive-brief/SKILL.md",
+    "recorded_e2e": true,
+    "scope": "positioning, messaging, content gaps; seven-section brief",
+    "sha256": "c1e5442facbc3206ac6a77392bef009fe9aff4ba7c2678e2f4118be2f6be82b3"
+  },
+  "repository": "anthropics/knowledge-work-plugins"
+}

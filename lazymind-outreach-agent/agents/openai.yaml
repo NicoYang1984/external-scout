@@ -1,0 +1,4 @@
+interface:
+  display_name: "LazyMind Outreach Agent"
+  short_description: "Evidence-backed outreach with approval-gated dry-run sending"
+  default_prompt: "Use $lazymind-outreach-agent to find qualified LazyMind outreach targets, draft personalized messages, and keep sending in dry-run until explicitly approved."

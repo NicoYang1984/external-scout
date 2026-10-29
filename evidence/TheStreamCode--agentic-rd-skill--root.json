@@ -1,0 +1,359 @@
+{
+  "source": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/",
+  "retrieved_at": "2026-10-27T08:28:45.708Z",
+  "transport": "authorized GitHub connector GET",
+  "response": [
+    {
+      "name": ".editorconfig",
+      "path": ".editorconfig",
+      "sha": "1014ba78880c899e842b397cb89a878be4671f7d",
+      "size": 188,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.editorconfig?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.editorconfig",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/1014ba78880c899e842b397cb89a878be4671f7d",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/.editorconfig",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.editorconfig?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/1014ba78880c899e842b397cb89a878be4671f7d",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.editorconfig"
+      }
+    },
+    {
+      "name": ".gitattributes",
+      "path": ".gitattributes",
+      "sha": "843ff0709de92e8b907b5795b2c9d2930b33c5fc",
+      "size": 141,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.gitattributes?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.gitattributes",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/843ff0709de92e8b907b5795b2c9d2930b33c5fc",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/.gitattributes",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.gitattributes?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/843ff0709de92e8b907b5795b2c9d2930b33c5fc",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.gitattributes"
+      }
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "sha": "a0451368ba87d57b3fb1259eaf2b798b53546e23",
+      "size": 0,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.github?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/.github",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/a0451368ba87d57b3fb1259eaf2b798b53546e23",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.github?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/a0451368ba87d57b3fb1259eaf2b798b53546e23",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/.github"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "18ae2868fa06473f4238bc52f6cad5059991ba19",
+      "size": 101,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.gitignore?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.gitignore",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/18ae2868fa06473f4238bc52f6cad5059991ba19",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.gitignore?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/18ae2868fa06473f4238bc52f6cad5059991ba19",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.gitignore"
+      }
+    },
+    {
+      "name": ".markdownlint-cli2.jsonc",
+      "path": ".markdownlint-cli2.jsonc",
+      "sha": "048869c7f7f9a0860773b6f7f7b8b03a01516a0d",
+      "size": 691,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.markdownlint-cli2.jsonc?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.markdownlint-cli2.jsonc",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/048869c7f7f9a0860773b6f7f7b8b03a01516a0d",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/.markdownlint-cli2.jsonc",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.markdownlint-cli2.jsonc?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/048869c7f7f9a0860773b6f7f7b8b03a01516a0d",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/.markdownlint-cli2.jsonc"
+      }
+    },
+    {
+      "name": "AGENTS.md",
+      "path": "AGENTS.md",
+      "sha": "39ea0a99676a61fc30f3442b737839d86432ff58",
+      "size": 6858,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/AGENTS.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/AGENTS.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/39ea0a99676a61fc30f3442b737839d86432ff58",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/AGENTS.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/AGENTS.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/39ea0a99676a61fc30f3442b737839d86432ff58",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/AGENTS.md"
+      }
+    },
+    {
+      "name": "CHANGELOG.md",
+      "path": "CHANGELOG.md",
+      "sha": "8d6da7b74dee8f37783b512a7893125be2966062",
+      "size": 7518,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CHANGELOG.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CHANGELOG.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/8d6da7b74dee8f37783b512a7893125be2966062",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/CHANGELOG.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CHANGELOG.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/8d6da7b74dee8f37783b512a7893125be2966062",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CHANGELOG.md"
+      }
+    },
+    {
+      "name": "CITATION.cff",
+      "path": "CITATION.cff",
+      "sha": "c874f9cbb59cbf22082a95505f5eea387c6e648c",
+      "size": 312,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CITATION.cff?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CITATION.cff",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/c874f9cbb59cbf22082a95505f5eea387c6e648c",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/CITATION.cff",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CITATION.cff?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/c874f9cbb59cbf22082a95505f5eea387c6e648c",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CITATION.cff"
+      }
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "656c30cb38219fcdcce8b16cd7f463ce64cafeac",
+      "size": 5473,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CODE_OF_CONDUCT.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CODE_OF_CONDUCT.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/656c30cb38219fcdcce8b16cd7f463ce64cafeac",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/CODE_OF_CONDUCT.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CODE_OF_CONDUCT.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/656c30cb38219fcdcce8b16cd7f463ce64cafeac",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CODE_OF_CONDUCT.md"
+      }
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "path": "CONTRIBUTING.md",
+      "sha": "ddef02237bbb2a1dda01fc788f2a830b6abbbee9",
+      "size": 3560,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CONTRIBUTING.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CONTRIBUTING.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/ddef02237bbb2a1dda01fc788f2a830b6abbbee9",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/CONTRIBUTING.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/CONTRIBUTING.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/ddef02237bbb2a1dda01fc788f2a830b6abbbee9",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/CONTRIBUTING.md"
+      }
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "sha": "a3bbb6ce3889f3ec4c2df09cf24f81ed79f7fc64",
+      "size": 1085,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/LICENSE?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/LICENSE",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/a3bbb6ce3889f3ec4c2df09cf24f81ed79f7fc64",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/LICENSE",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/LICENSE?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/a3bbb6ce3889f3ec4c2df09cf24f81ed79f7fc64",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/LICENSE"
+      }
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha": "b9f2f125cead4eca77737d23377e3201d6d988e4",
+      "size": 12409,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/README.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/README.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/b9f2f125cead4eca77737d23377e3201d6d988e4",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/README.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/b9f2f125cead4eca77737d23377e3201d6d988e4",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/README.md"
+      }
+    },
+    {
+      "name": "RELEASING.md",
+      "path": "RELEASING.md",
+      "sha": "1f79932aa2374f91b14fb5eaca57a31cb085a2b1",
+      "size": 2544,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/RELEASING.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/RELEASING.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/1f79932aa2374f91b14fb5eaca57a31cb085a2b1",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/RELEASING.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/RELEASING.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/1f79932aa2374f91b14fb5eaca57a31cb085a2b1",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/RELEASING.md"
+      }
+    },
+    {
+      "name": "SECURITY.md",
+      "path": "SECURITY.md",
+      "sha": "15a714fd622105f51b79145cfaf20e1d1146adb8",
+      "size": 3217,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/SECURITY.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/SECURITY.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/15a714fd622105f51b79145cfaf20e1d1146adb8",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/SECURITY.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/SECURITY.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/15a714fd622105f51b79145cfaf20e1d1146adb8",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/SECURITY.md"
+      }
+    },
+    {
+      "name": "SUPPORT.md",
+      "path": "SUPPORT.md",
+      "sha": "62e41862efcd33a86bf99ee378484a302c18a0b9",
+      "size": 1183,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/SUPPORT.md?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/SUPPORT.md",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/62e41862efcd33a86bf99ee378484a302c18a0b9",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/SUPPORT.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/SUPPORT.md?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/62e41862efcd33a86bf99ee378484a302c18a0b9",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/SUPPORT.md"
+      }
+    },
+    {
+      "name": "assets",
+      "path": "assets",
+      "sha": "7449be2f46526c8d3d086aad3e154c100ab8e764",
+      "size": 0,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/assets?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/assets",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/7449be2f46526c8d3d086aad3e154c100ab8e764",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/assets?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/7449be2f46526c8d3d086aad3e154c100ab8e764",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/assets"
+      }
+    },
+    {
+      "name": "evals",
+      "path": "evals",
+      "sha": "fd04004efe6ac591ad3a033bb9718f73cc9d25b1",
+      "size": 0,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/evals?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/evals",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/fd04004efe6ac591ad3a033bb9718f73cc9d25b1",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/evals?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/fd04004efe6ac591ad3a033bb9718f73cc9d25b1",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/evals"
+      }
+    },
+    {
+      "name": "package.json",
+      "path": "package.json",
+      "sha": "063a188ee5f5bf38594f5c39cacc6d45e53b588f",
+      "size": 1363,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/package.json?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/package.json",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/063a188ee5f5bf38594f5c39cacc6d45e53b588f",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/package.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/package.json?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/063a188ee5f5bf38594f5c39cacc6d45e53b588f",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/package.json"
+      }
+    },
+    {
+      "name": "requirements-validation.txt",
+      "path": "requirements-validation.txt",
+      "sha": "2dd9ba6f5a227f1c4029c4f315a7ab5ef0408d76",
+      "size": 644,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/requirements-validation.txt?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/requirements-validation.txt",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/2dd9ba6f5a227f1c4029c4f315a7ab5ef0408d76",
+      "download_url": "https://raw.githubusercontent.com/TheStreamCode/agentic-rd-skill/main/requirements-validation.txt",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/requirements-validation.txt?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/blobs/2dd9ba6f5a227f1c4029c4f315a7ab5ef0408d76",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/blob/main/requirements-validation.txt"
+      }
+    },
+    {
+      "name": "scripts",
+      "path": "scripts",
+      "sha": "59e65029bfa84c452a82d2ad1e2325cf7d74a6f4",
+      "size": 0,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/scripts?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/scripts",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/59e65029bfa84c452a82d2ad1e2325cf7d74a6f4",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/scripts?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/59e65029bfa84c452a82d2ad1e2325cf7d74a6f4",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/scripts"
+      }
+    },
+    {
+      "name": "skills",
+      "path": "skills",
+      "sha": "22c35a0bb1a6ed33cc457e42fc8f7da683d118a3",
+      "size": 0,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/skills?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/skills",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/22c35a0bb1a6ed33cc457e42fc8f7da683d118a3",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/skills?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/22c35a0bb1a6ed33cc457e42fc8f7da683d118a3",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/skills"
+      }
+    },
+    {
+      "name": "tests",
+      "path": "tests",
+      "sha": "3b5e1393e3f21c64ecb5b27558e99a8fbad72089",
+      "size": 0,
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/tests?ref=main",
+      "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/tests",
+      "git_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/3b5e1393e3f21c64ecb5b27558e99a8fbad72089",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/tests?ref=main",
+        "git": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/3b5e1393e3f21c64ecb5b27558e99a8fbad72089",
+        "html": "https://github.com/TheStreamCode/agentic-rd-skill/tree/main/tests"
+      }
+    }
+  ]
+}

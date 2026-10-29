@@ -1,0 +1,18 @@
+{
+  "scoped_pr873_capabilities": 7,
+  "marketing_identity_correct": true,
+  "product_management_not_e2e": true,
+  "history_rows_for_issue": 2,
+  "sqlite_integrity": "ok",
+  "cursor": {
+    "last_issue_number": 0,
+    "pending_issue_numbers": []
+  },
+  "scout_manifest_and_archive": "passed",
+  "local_supplement_tests": 15,
+  "scout_tests": 39,
+  "head_commit": "bc27d44e447fc9ffba09b0f6a3a656569ef01f41",
+  "pr_draft": true,
+  "new_model_runs": 0,
+  "new_hosted_imports": 0
+}

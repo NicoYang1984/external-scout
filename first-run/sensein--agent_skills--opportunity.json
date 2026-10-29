@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "url": "https://github.com/sensein/agent_skills",
+  "repo": "sensein/agent_skills",
+  "title": "sensein/agent_skills bounded assessment",
+  "domain": "研究和文献",
+  "route": "small_project",
+  "category": "workflow_gap",
+  "status": "verification_pending",
+  "evidence_level": "source_reviewed",
+  "support_level": "easy_extension",
+  "capability_ids": [
+    "skill_directory_install",
+    "conversion_preflight"
+  ],
+  "capability_evidence": [
+    {
+      "source": "references/capabilities.json#skill_directory_install",
+      "finding": "限定事实；目标项目尚未实际运行"
+    },
+    {
+      "source": "references/capabilities.json#conversion_preflight",
+      "finding": "限定事实；目标项目尚未实际运行"
+    }
+  ],
+  "runnable_path": "固定 commit 的单 Skill 目录安装及 preflight；不承诺完整业务执行",
+  "technical_fit": {
+    "capability_match": 2,
+    "integration_cost": 1,
+    "validation": 1,
+    "recovery_fit": 0
+  },
+  "ecosystem_value": {
+    "user_value": 3,
+    "collaboration": 1,
+    "audience_evidence": 0
+  },
+  "score_evidence": [
+    {
+      "source": "https://github.com/sensein/agent_skills/blob/1dafcb10cb0e44930d35a6ab8c8534320e65514f/README.md",
+      "finding": "多个真实研究 Skill 可做限定目录安装和依赖检查；未验证 SynthScholar 业务 E2E，也不能外推专业检索、机构访问或文献质量。"
+    },
+    {
+      "source": "https://github.com/sensein/agent_skills/blob/1dafcb10cb0e44930d35a6ab8c8534320e65514f/CONTRIBUTING.md",
+      "finding": "根目录未见 CONTRIBUTING；不得推断无其他规则"
+    }
+  ],
+  "summary": "多个真实研究 Skill 可做限定目录安装和依赖检查；未验证 SynthScholar 业务 E2E，也不能外推专业检索、机构访问或文献质量。",
+  "sources": [
+    {
+      "url": "https://github.com/sensein/agent_skills",
+      "finding": "公开元数据、README 和有界 Issue/PR 枚举",
+      "commit": "1dafcb10cb0e44930d35a6ab8c8534320e65514f",
+      "checked_at": "2026-10-27"
+    }
+  ],
+  "stars": 1,
+  "proposed_action": "仅以公开或自带资料设计单一 Skill 的依赖完整性验证；Issue #35 已有 PR #36，不重复贡献。",
+  "validation_status": "planned",
+  "public_contribution_url": null,
+  "review_status": "not_requested",
+  "outreach_channel": "GitHub, only if subsequently authorized",
+  "outreach_permission": "not_granted",
+  "reply_status": "not_contacted",
+  "trial_status": "not_started",
+  "conversion_evidence": [],
+  "next_follow_up": null,
+  "next_action": "仅以公开或自带资料设计单一 Skill 的依赖完整性验证；Issue #35 已有 PR #36，不重复贡献。"
+}

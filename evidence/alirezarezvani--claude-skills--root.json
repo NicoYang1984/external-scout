@@ -1,0 +1,935 @@
+{
+  "source": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/",
+  "retrieved_at": "2026-10-27T08:28:45.456Z",
+  "transport": "authorized GitHub connector GET",
+  "response": [
+    {
+      "name": ".claude-plugin",
+      "path": ".claude-plugin",
+      "sha": "0736db535f21262c4d232322b57c5bf6312d8a30",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.claude-plugin?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.claude-plugin",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/0736db535f21262c4d232322b57c5bf6312d8a30",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.claude-plugin?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/0736db535f21262c4d232322b57c5bf6312d8a30",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.claude-plugin"
+      }
+    },
+    {
+      "name": ".claude",
+      "path": ".claude",
+      "sha": "a59ed741646ceb1853071b6c171c1064d5f5abef",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.claude?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.claude",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a59ed741646ceb1853071b6c171c1064d5f5abef",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.claude?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a59ed741646ceb1853071b6c171c1064d5f5abef",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.claude"
+      }
+    },
+    {
+      "name": ".codex-plugin",
+      "path": ".codex-plugin",
+      "sha": "881d1b4eab8e6fb5fb30a696c9bf6c95d8cc46f4",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.codex-plugin?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.codex-plugin",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/881d1b4eab8e6fb5fb30a696c9bf6c95d8cc46f4",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.codex-plugin?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/881d1b4eab8e6fb5fb30a696c9bf6c95d8cc46f4",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.codex-plugin"
+      }
+    },
+    {
+      "name": ".codex",
+      "path": ".codex",
+      "sha": "a3956548b2a17e4a1908816681e580ca3c29c77e",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.codex?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.codex",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a3956548b2a17e4a1908816681e580ca3c29c77e",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.codex?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a3956548b2a17e4a1908816681e580ca3c29c77e",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.codex"
+      }
+    },
+    {
+      "name": ".gemini",
+      "path": ".gemini",
+      "sha": "fc2952cebdc7ae232b69152b139d0995ab7bb9cd",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.gemini?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.gemini",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/fc2952cebdc7ae232b69152b139d0995ab7bb9cd",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.gemini?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/fc2952cebdc7ae232b69152b139d0995ab7bb9cd",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.gemini"
+      }
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "sha": "c736a2e76dbe5c441cfbde4303719cf8a4d86236",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.github?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.github",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c736a2e76dbe5c441cfbde4303719cf8a4d86236",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.github?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c736a2e76dbe5c441cfbde4303719cf8a4d86236",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.github"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "eb754872806bb9a44d410322f51a867be90a80b3",
+      "size": 2327,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.gitignore?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/.gitignore",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/eb754872806bb9a44d410322f51a867be90a80b3",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.gitignore?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/eb754872806bb9a44d410322f51a867be90a80b3",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/.gitignore"
+      }
+    },
+    {
+      "name": ".hermes",
+      "path": ".hermes",
+      "sha": "2465243fdf41479ff0395eb889183d2f1850913f",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.hermes?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.hermes",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/2465243fdf41479ff0395eb889183d2f1850913f",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.hermes?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/2465243fdf41479ff0395eb889183d2f1850913f",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.hermes"
+      }
+    },
+    {
+      "name": ".mcp.json",
+      "path": ".mcp.json",
+      "sha": "ebfccaac736c400d8ecc73c1d0c59ff2d2c54193",
+      "size": 151,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.mcp.json?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/.mcp.json",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/ebfccaac736c400d8ecc73c1d0c59ff2d2c54193",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/.mcp.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.mcp.json?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/ebfccaac736c400d8ecc73c1d0c59ff2d2c54193",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/.mcp.json"
+      }
+    },
+    {
+      "name": ".vibe",
+      "path": ".vibe",
+      "sha": "72232dc18ee50c9bfa1fb47590a9796d84f5a6d3",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.vibe?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/.vibe",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/72232dc18ee50c9bfa1fb47590a9796d84f5a6d3",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.vibe?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/72232dc18ee50c9bfa1fb47590a9796d84f5a6d3",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/.vibe"
+      }
+    },
+    {
+      "name": ".yamllintignore",
+      "path": ".yamllintignore",
+      "sha": "8f59c3c4205a342190ded57dfa427aea88067e82",
+      "size": 125,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.yamllintignore?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/.yamllintignore",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/8f59c3c4205a342190ded57dfa427aea88067e82",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/.yamllintignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/.yamllintignore?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/8f59c3c4205a342190ded57dfa427aea88067e82",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/.yamllintignore"
+      }
+    },
+    {
+      "name": "CHANGELOG.md",
+      "path": "CHANGELOG.md",
+      "sha": "72d311c16aa8a364dce283a2fe9c72cfc9c05895",
+      "size": 189460,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CHANGELOG.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/CHANGELOG.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/72d311c16aa8a364dce283a2fe9c72cfc9c05895",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/CHANGELOG.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CHANGELOG.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/72d311c16aa8a364dce283a2fe9c72cfc9c05895",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/CHANGELOG.md"
+      }
+    },
+    {
+      "name": "CLAUDE.md",
+      "path": "CLAUDE.md",
+      "sha": "c8e78e4f833401ea5d0e21b0525862f360e452b1",
+      "size": 115740,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CLAUDE.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/c8e78e4f833401ea5d0e21b0525862f360e452b1",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/CLAUDE.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CLAUDE.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/c8e78e4f833401ea5d0e21b0525862f360e452b1",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/CLAUDE.md"
+      }
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "path": "CODE_OF_CONDUCT.md",
+      "sha": "5e69484913ffd8eff2ae2e83986a5d9c86b7e68e",
+      "size": 5343,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CODE_OF_CONDUCT.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/CODE_OF_CONDUCT.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/5e69484913ffd8eff2ae2e83986a5d9c86b7e68e",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/CODE_OF_CONDUCT.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CODE_OF_CONDUCT.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/5e69484913ffd8eff2ae2e83986a5d9c86b7e68e",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/CODE_OF_CONDUCT.md"
+      }
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "path": "CONTRIBUTING.md",
+      "sha": "4dfd88990f0cab77ec6ee496254e93f56c0eeaf0",
+      "size": 6779,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CONTRIBUTING.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/CONTRIBUTING.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/4dfd88990f0cab77ec6ee496254e93f56c0eeaf0",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/CONTRIBUTING.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CONTRIBUTING.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/4dfd88990f0cab77ec6ee496254e93f56c0eeaf0",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/CONTRIBUTING.md"
+      }
+    },
+    {
+      "name": "CONVENTIONS.md",
+      "path": "CONVENTIONS.md",
+      "sha": "52fbddfe96b425bfdb2276306de7863fc0958d20",
+      "size": 9024,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CONVENTIONS.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/CONVENTIONS.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/52fbddfe96b425bfdb2276306de7863fc0958d20",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/CONVENTIONS.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/CONVENTIONS.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/52fbddfe96b425bfdb2276306de7863fc0958d20",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/CONVENTIONS.md"
+      }
+    },
+    {
+      "name": "GEMINI.md",
+      "path": "GEMINI.md",
+      "sha": "9a190b953760094224dcf3afceeea7767d49036b",
+      "size": 3114,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/GEMINI.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/GEMINI.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/9a190b953760094224dcf3afceeea7767d49036b",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/GEMINI.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/GEMINI.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/9a190b953760094224dcf3afceeea7767d49036b",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/GEMINI.md"
+      }
+    },
+    {
+      "name": "INSTALLATION.md",
+      "path": "INSTALLATION.md",
+      "sha": "829d9b1d136b3ac96541eb45d059373c5774758b",
+      "size": 33494,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/INSTALLATION.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/INSTALLATION.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/829d9b1d136b3ac96541eb45d059373c5774758b",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/INSTALLATION.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/INSTALLATION.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/829d9b1d136b3ac96541eb45d059373c5774758b",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/INSTALLATION.md"
+      }
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "sha": "c3e30bcc287d6a1ebdb4ab29c10d344fd1053639",
+      "size": 1072,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/LICENSE?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/LICENSE",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/c3e30bcc287d6a1ebdb4ab29c10d344fd1053639",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/LICENSE",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/LICENSE?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/c3e30bcc287d6a1ebdb4ab29c10d344fd1053639",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/LICENSE"
+      }
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha": "b7ee263c0d82f1054949a0255f3bd6afe5ebcf94",
+      "size": 26860,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/README.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/README.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/b7ee263c0d82f1054949a0255f3bd6afe5ebcf94",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/README.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/b7ee263c0d82f1054949a0255f3bd6afe5ebcf94",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/README.md"
+      }
+    },
+    {
+      "name": "SECURITY.md",
+      "path": "SECURITY.md",
+      "sha": "f42caf486e855bc5229eaefc01675894b25a00b3",
+      "size": 7040,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/SECURITY.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/SECURITY.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/f42caf486e855bc5229eaefc01675894b25a00b3",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/SECURITY.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/SECURITY.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/f42caf486e855bc5229eaefc01675894b25a00b3",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/SECURITY.md"
+      }
+    },
+    {
+      "name": "SKILL-AUTHORING-STANDARD.md",
+      "path": "SKILL-AUTHORING-STANDARD.md",
+      "sha": "e8559a637fa4cd7d4d7db0da984bd37a20b1f331",
+      "size": 15216,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/SKILL-AUTHORING-STANDARD.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/SKILL-AUTHORING-STANDARD.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/e8559a637fa4cd7d4d7db0da984bd37a20b1f331",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/SKILL-AUTHORING-STANDARD.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/SKILL-AUTHORING-STANDARD.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/e8559a637fa4cd7d4d7db0da984bd37a20b1f331",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/SKILL-AUTHORING-STANDARD.md"
+      }
+    },
+    {
+      "name": "SKILL_PIPELINE.md",
+      "path": "SKILL_PIPELINE.md",
+      "sha": "d50b2ac4a55e03bfb52f948244db107d8cd2c705",
+      "size": 14402,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/SKILL_PIPELINE.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/SKILL_PIPELINE.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/d50b2ac4a55e03bfb52f948244db107d8cd2c705",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/SKILL_PIPELINE.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/SKILL_PIPELINE.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/d50b2ac4a55e03bfb52f948244db107d8cd2c705",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/SKILL_PIPELINE.md"
+      }
+    },
+    {
+      "name": "STORE.md",
+      "path": "STORE.md",
+      "sha": "b6580847f99c1a0b247975e829cea07b9c207012",
+      "size": 4601,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/STORE.md?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/STORE.md",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/b6580847f99c1a0b247975e829cea07b9c207012",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/STORE.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/STORE.md?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/b6580847f99c1a0b247975e829cea07b9c207012",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/STORE.md"
+      }
+    },
+    {
+      "name": "agent-launcher",
+      "path": "agent-launcher",
+      "sha": "7efbd47a3f4b2d1677da5f44b91b0b18e83f48f5",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/agent-launcher?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/agent-launcher",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/7efbd47a3f4b2d1677da5f44b91b0b18e83f48f5",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/agent-launcher?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/7efbd47a3f4b2d1677da5f44b91b0b18e83f48f5",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/agent-launcher"
+      }
+    },
+    {
+      "name": "agents",
+      "path": "agents",
+      "sha": "4fbe47b2e5ac21b77964e258762508ab53e08276",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/agents?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/agents",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/4fbe47b2e5ac21b77964e258762508ab53e08276",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/agents?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/4fbe47b2e5ac21b77964e258762508ab53e08276",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/agents"
+      }
+    },
+    {
+      "name": "assets",
+      "path": "assets",
+      "sha": "c0484157cb5f5af3d98f8603635223a251781d74",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/assets?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/assets",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c0484157cb5f5af3d98f8603635223a251781d74",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/assets?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c0484157cb5f5af3d98f8603635223a251781d74",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/assets"
+      }
+    },
+    {
+      "name": "audit",
+      "path": "audit",
+      "sha": "0147f499da9a86408e003eab8402000fbc2e155f",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/audit?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/audit",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/0147f499da9a86408e003eab8402000fbc2e155f",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/audit?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/0147f499da9a86408e003eab8402000fbc2e155f",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/audit"
+      }
+    },
+    {
+      "name": "business-growth",
+      "path": "business-growth",
+      "sha": "fa5ba7a65380a1804de1411e1268e8d30dd5f613",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/business-growth?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/fa5ba7a65380a1804de1411e1268e8d30dd5f613",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/business-growth?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/fa5ba7a65380a1804de1411e1268e8d30dd5f613",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/business-growth"
+      }
+    },
+    {
+      "name": "business-operations",
+      "path": "business-operations",
+      "sha": "d312219cb9dd0755e997989ac8d0788538dd37b5",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/business-operations?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/d312219cb9dd0755e997989ac8d0788538dd37b5",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/business-operations?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/d312219cb9dd0755e997989ac8d0788538dd37b5",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/business-operations"
+      }
+    },
+    {
+      "name": "c-level-advisor",
+      "path": "c-level-advisor",
+      "sha": "77182bc1555ab41ac9ab6a692d9e184fad907b55",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/c-level-advisor?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/77182bc1555ab41ac9ab6a692d9e184fad907b55",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/c-level-advisor?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/77182bc1555ab41ac9ab6a692d9e184fad907b55",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor"
+      }
+    },
+    {
+      "name": "c-level-agents",
+      "path": "c-level-agents",
+      "sha": "159d229328df8f2b82e856459c9c656567d00d97",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/c-level-agents?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-agents",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/159d229328df8f2b82e856459c9c656567d00d97",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/c-level-agents?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/159d229328df8f2b82e856459c9c656567d00d97",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-agents"
+      }
+    },
+    {
+      "name": "commands",
+      "path": "commands",
+      "sha": "a53a8ae350eba6d9d20d7aeeeb07a1186c84cec6",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/commands?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/commands",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a53a8ae350eba6d9d20d7aeeeb07a1186c84cec6",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/commands?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a53a8ae350eba6d9d20d7aeeeb07a1186c84cec6",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/commands"
+      }
+    },
+    {
+      "name": "commercial",
+      "path": "commercial",
+      "sha": "f663ad28b1dddbdce1dabca5593b03e74d2978d3",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/commercial?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/commercial",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/f663ad28b1dddbdce1dabca5593b03e74d2978d3",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/commercial?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/f663ad28b1dddbdce1dabca5593b03e74d2978d3",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/commercial"
+      }
+    },
+    {
+      "name": "compliance-os",
+      "path": "compliance-os",
+      "sha": "5c7eed3ca08dea7bd4908dda2639f687668aed4c",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/compliance-os?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/compliance-os",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/5c7eed3ca08dea7bd4908dda2639f687668aed4c",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/compliance-os?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/5c7eed3ca08dea7bd4908dda2639f687668aed4c",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/compliance-os"
+      }
+    },
+    {
+      "name": "custom-gpt",
+      "path": "custom-gpt",
+      "sha": "11717a65d78f2847c5beaf72c7430c957c9c03e5",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/custom-gpt?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/custom-gpt",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/11717a65d78f2847c5beaf72c7430c957c9c03e5",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/custom-gpt?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/11717a65d78f2847c5beaf72c7430c957c9c03e5",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/custom-gpt"
+      }
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "sha": "713c4aa89e702233e21272a589460e71b6c7b226",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/docs?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/docs",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/713c4aa89e702233e21272a589460e71b6c7b226",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/docs?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/713c4aa89e702233e21272a589460e71b6c7b226",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/docs"
+      }
+    },
+    {
+      "name": "engineering-team",
+      "path": "engineering-team",
+      "sha": "1ff87657d61d89842f7bc030990d7e10d3f1bbd7",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/engineering-team?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/1ff87657d61d89842f7bc030990d7e10d3f1bbd7",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/engineering-team?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/1ff87657d61d89842f7bc030990d7e10d3f1bbd7",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team"
+      }
+    },
+    {
+      "name": "engineering",
+      "path": "engineering",
+      "sha": "c15b47a22c7b94ecf018e145abed72bdc2370ade",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/engineering?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c15b47a22c7b94ecf018e145abed72bdc2370ade",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/engineering?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c15b47a22c7b94ecf018e145abed72bdc2370ade",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering"
+      }
+    },
+    {
+      "name": "finance",
+      "path": "finance",
+      "sha": "a02096a65590e70fe4550ffc203347e5003f2ace",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/finance?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/finance",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a02096a65590e70fe4550ffc203347e5003f2ace",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/finance?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a02096a65590e70fe4550ffc203347e5003f2ace",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/finance"
+      }
+    },
+    {
+      "name": "loop-library",
+      "path": "loop-library",
+      "sha": "40f2435ed38d7d65cfed915d232ac4dd1dbfbaf6",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/loop-library?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/loop-library",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/40f2435ed38d7d65cfed915d232ac4dd1dbfbaf6",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/loop-library?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/40f2435ed38d7d65cfed915d232ac4dd1dbfbaf6",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/loop-library"
+      }
+    },
+    {
+      "name": "markdown-html",
+      "path": "markdown-html",
+      "sha": "844ff763ac2b4ced1bc11743b99c933c3bf6f283",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/markdown-html?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/markdown-html",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/844ff763ac2b4ced1bc11743b99c933c3bf6f283",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/markdown-html?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/844ff763ac2b4ced1bc11743b99c933c3bf6f283",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/markdown-html"
+      }
+    },
+    {
+      "name": "marketing-skill",
+      "path": "marketing-skill",
+      "sha": "c35e347367ffe11f23d4726f0ee501ca70b7ca47",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/marketing-skill?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c35e347367ffe11f23d4726f0ee501ca70b7ca47",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/marketing-skill?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/c35e347367ffe11f23d4726f0ee501ca70b7ca47",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill"
+      }
+    },
+    {
+      "name": "marketing",
+      "path": "marketing",
+      "sha": "5c979dac0158d8710fd8a6e050423ddbd58904fe",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/marketing?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/5c979dac0158d8710fd8a6e050423ddbd58904fe",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/marketing?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/5c979dac0158d8710fd8a6e050423ddbd58904fe",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/marketing"
+      }
+    },
+    {
+      "name": "mkdocs.yml",
+      "path": "mkdocs.yml",
+      "sha": "b94f3fb961998e2b4e0c8743786192d31355b81a",
+      "size": 38914,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/mkdocs.yml?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/mkdocs.yml",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/b94f3fb961998e2b4e0c8743786192d31355b81a",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/mkdocs.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/mkdocs.yml?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/b94f3fb961998e2b4e0c8743786192d31355b81a",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/mkdocs.yml"
+      }
+    },
+    {
+      "name": "orchestration",
+      "path": "orchestration",
+      "sha": "5fdedf53e724cb9449fb40c5d8823b79a587f988",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/orchestration?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/orchestration",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/5fdedf53e724cb9449fb40c5d8823b79a587f988",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/orchestration?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/5fdedf53e724cb9449fb40c5d8823b79a587f988",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/orchestration"
+      }
+    },
+    {
+      "name": "product-team",
+      "path": "product-team",
+      "sha": "eda9299474cb33d787ca5314ec7d88c0dda54949",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/product-team?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/eda9299474cb33d787ca5314ec7d88c0dda54949",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/product-team?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/eda9299474cb33d787ca5314ec7d88c0dda54949",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team"
+      }
+    },
+    {
+      "name": "productivity",
+      "path": "productivity",
+      "sha": "a99d2ace344dd55588c7094f601dbfa530386353",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/productivity?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a99d2ace344dd55588c7094f601dbfa530386353",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/productivity?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/a99d2ace344dd55588c7094f601dbfa530386353",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/productivity"
+      }
+    },
+    {
+      "name": "project-management",
+      "path": "project-management",
+      "sha": "808bec5aacccb2a1762179519542f319055f58c0",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/project-management?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/808bec5aacccb2a1762179519542f319055f58c0",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/project-management?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/808bec5aacccb2a1762179519542f319055f58c0",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/project-management"
+      }
+    },
+    {
+      "name": "pyproject.toml",
+      "path": "pyproject.toml",
+      "sha": "f8bd2693992d67ba221ae8fb059e31686154316a",
+      "size": 133,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/pyproject.toml?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/pyproject.toml",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/f8bd2693992d67ba221ae8fb059e31686154316a",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/pyproject.toml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/pyproject.toml?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/f8bd2693992d67ba221ae8fb059e31686154316a",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/pyproject.toml"
+      }
+    },
+    {
+      "name": "ra-qm-team",
+      "path": "ra-qm-team",
+      "sha": "18e1b85f5e5674da9cf0b56d69bf7d5a9c9cea47",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/ra-qm-team?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/18e1b85f5e5674da9cf0b56d69bf7d5a9c9cea47",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/ra-qm-team?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/18e1b85f5e5674da9cf0b56d69bf7d5a9c9cea47",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team"
+      }
+    },
+    {
+      "name": "requirements-dev.txt",
+      "path": "requirements-dev.txt",
+      "sha": "52931166edee41bafa9f11e94572ddb436cce61d",
+      "size": 17,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/requirements-dev.txt?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/requirements-dev.txt",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/52931166edee41bafa9f11e94572ddb436cce61d",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/requirements-dev.txt",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/requirements-dev.txt?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/52931166edee41bafa9f11e94572ddb436cce61d",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/requirements-dev.txt"
+      }
+    },
+    {
+      "name": "research-ops",
+      "path": "research-ops",
+      "sha": "b52dda6ce0b521eec765830595bfc5e44fdc8c22",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/research-ops?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/research-ops",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/b52dda6ce0b521eec765830595bfc5e44fdc8c22",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/research-ops?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/b52dda6ce0b521eec765830595bfc5e44fdc8c22",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/research-ops"
+      }
+    },
+    {
+      "name": "research",
+      "path": "research",
+      "sha": "601d0b684be9fe5e8cb0cd1cc3f31bb135ec9a5b",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/research?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/research",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/601d0b684be9fe5e8cb0cd1cc3f31bb135ec9a5b",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/research?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/601d0b684be9fe5e8cb0cd1cc3f31bb135ec9a5b",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/research"
+      }
+    },
+    {
+      "name": "scripts",
+      "path": "scripts",
+      "sha": "f553ac1e684ce6479b0be368545a2e3b91e9fd0f",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/scripts?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/scripts",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/f553ac1e684ce6479b0be368545a2e3b91e9fd0f",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/scripts?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/f553ac1e684ce6479b0be368545a2e3b91e9fd0f",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/scripts"
+      }
+    },
+    {
+      "name": "standards",
+      "path": "standards",
+      "sha": "d6dd76682986d0fa54a97a2769cccaefff7172c9",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/standards?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/standards",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/d6dd76682986d0fa54a97a2769cccaefff7172c9",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/standards?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/d6dd76682986d0fa54a97a2769cccaefff7172c9",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/standards"
+      }
+    },
+    {
+      "name": "templates",
+      "path": "templates",
+      "sha": "38af4654de78456b60cfdeee1d2b21a19e0d5f0c",
+      "size": 0,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/templates?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/tree/main/templates",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/38af4654de78456b60cfdeee1d2b21a19e0d5f0c",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/templates?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/38af4654de78456b60cfdeee1d2b21a19e0d5f0c",
+        "html": "https://github.com/alirezarezvani/claude-skills/tree/main/templates"
+      }
+    },
+    {
+      "name": "tessl.json",
+      "path": "tessl.json",
+      "sha": "2d7081011f19d3ce88f804ff95120aa624ec6f05",
+      "size": 52,
+      "url": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/tessl.json?ref=main",
+      "html_url": "https://github.com/alirezarezvani/claude-skills/blob/main/tessl.json",
+      "git_url": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/2d7081011f19d3ce88f804ff95120aa624ec6f05",
+      "download_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/tessl.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/alirezarezvani/claude-skills/contents/tessl.json?ref=main",
+        "git": "https://api.github.com/repos/alirezarezvani/claude-skills/git/blobs/2d7081011f19d3ce88f804ff95120aa624ec6f05",
+        "html": "https://github.com/alirezarezvani/claude-skills/blob/main/tessl.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+[
+  {
+    "schema_version": 2,
+    "run_id": "round2-20261027",
+    "evidence_level": "source_reviewed",
+    "validation_status": "planned",
+    "public_contribution_url": null,
+    "review_status": "not_requested",
+    "outreach_permission": "not_granted",
+    "reply_status": "not_contacted",
+    "trial_status": "not_started",
+    "conversion_evidence": [],
+    "next_follow_up": "2026-11-03T09:00:00Z",
+    "repo": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/issues/1381",
+    "title": "产品方案/售前 Competitive Brief：依赖完整、可观测和辅助恢复的 LazyMind Example",
+    "route": "issue_analysis",
+    "domain": [
+      "产品方案与竞品分析",
+      "营销和运营",
+      "Agent 开发与开源维护"
+    ],
+    "category": "skill_reliability",
+    "status": "verification_pending",
+    "support_level": "easy_extension",
+    "capability_ids": [
+      "skill_directory_install",
+      "workflow_observation",
+      "assisted_retry"
+    ],
+    "capability_evidence": [
+      {
+        "capability_id": "skill_directory_install",
+        "source": "references/capabilities.json#skill_directory_install",
+        "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+        "sources": [
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+        ],
+        "last_verified": "2026-10-27",
+        "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。"
+      },
+      {
+        "capability_id": "workflow_observation",
+        "source": "references/capabilities.json#workflow_observation",
+        "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+        "sources": [
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+        ],
+        "last_verified": "2026-10-27",
+        "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。"
+      },
+      {
+        "capability_id": "assisted_retry",
+        "source": "references/capabilities.json#assisted_retry",
+        "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+        "sources": [
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+        ],
+        "last_verified": "2026-10-27",
+        "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。"
+      }
+    ],
+    "runnable_path": "在团队独立 Example 中固定 competitive-brief 源目录；保留署名，显式补齐 CONNECTORS 文本与相对路径，提供离线事实卡及工具配置清单；使用已验证 /tree/<commit>/<dir> 导入路径和既有工作流观测/官方步骤重试路径。仅声明安装、观测和辅助恢复，不声明自动完成报告或修复 claude.ai 安装器。",
+    "technical_fit": {
+      "capability_match": 4,
+      "integration_cost": 2,
+      "validation": 1,
+      "recovery_fit": 1
+    },
+    "ecosystem_value": {
+      "user_value": 3,
+      "collaboration": 0,
+      "audience_evidence": 1
+    },
+    "score_evidence": [
+      "A capability_match=4：PR873 已记录同一 competitive-brief 类型的目录安装、状态读取和辅助恢复；范围严格限定于这些行为。",
+      "A integration_cost=2：计划仅增加独立样例、依赖文件/路径、配置说明和验收脚本，无 Core 或宿主协议改动。",
+      "A validation=1：有同一 Skill 的既往运行记录，但当前固定版本的补齐依赖包装未执行；不能给2。",
+      "A recovery_fit=1：辅助重试已有证据；external task 仍 failed，不能给完全恢复分。",
+      "B user_value=3：#1381 真实报告跨插件父目录依赖丢失，当前 competitive-brief 仍有该引用；业务简报支持产品/售前。",
+      "B collaboration=0：PR1389 closed且merged=false；当前自动关闭策略不允许本类型外部改动，无维护者合作承诺。",
+      "B audience_evidence=1：公开问题有实际报告者，未证明触达规模；33313 Star 不计分。"
+    ],
+    "summary": "优先推进一个团队自有 Example，验证可移植打包和透明运行记录；不得声称修复上游、降低成本或提升报告质量。",
+    "sources": [
+      {
+        "url": "https://github.com/anthropics/knowledge-work-plugins/issues/1381",
+        "finding": "open；独立安装缺少插件根 CONNECTORS；无评论"
+      },
+      {
+        "url": "https://github.com/anthropics/knowledge-work-plugins/pull/1389",
+        "finding": "closed, merged=false；类似修复被关闭，不能推断已解决"
+      },
+      {
+        "url": "https://github.com/anthropics/knowledge-work-plugins/blob/c75fda00ff0e41c8ee331ae312c8a07f1967653b/product-management/skills/competitive-brief/SKILL.md",
+        "finding": "产品/售前简报，仍有 ../../CONNECTORS.md 引用"
+      },
+      {
+        "url": "https://github.com/anthropics/knowledge-work-plugins/blob/c75fda00ff0e41c8ee331ae312c8a07f1967653b/.github/workflows/close-external-prs.yml",
+        "finding": "非成员一般关闭；例外仅现有live插件源的 marketplace 条目增补，本方案不符合"
+      },
+      {
+        "url": "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "finding": "限定观测与辅助恢复的既往证据；非本轮测试"
+      }
+    ],
+    "proposed_action": "先制作并验证团队自有 LazyMind Example；验证通过后再让用户审查是否公开。",
+    "action_classification": {
+      "technical_pr": "不推荐向该上游提交修复；贡献政策不允许本范围",
+      "lazymind_example": "本轮唯一优先推荐，先本地验证",
+      "maintainer_cooperation": "无合作承诺，不联系",
+      "product_listing": "不适用当前问题"
+    },
+    "outreach_channel": "团队自有 LazyMind examples 文档/演示入口（待审）；上游修复PR不开放，新插件另有官方申请表但兼容性未核验",
+    "next_action": "固定输入及模型配置，做原生Skill与依赖齐全Example对照；验收安装、依赖解析、只读状态、失败步骤重试与业务事实；不调用已失败编辑路径。",
+    "validation_requirements": [
+      "保留源commit与文件hash；补齐CONNECTORS后所有本地引用能解析，缺配置必须显式提示。",
+      "隔离测试环境使用同一离线事实卡及尽可能同一模型/预算；各至少3次，不把小样本当稳定性证明。",
+      "分别记录生成/发布、session、external task、各步骤和Artifact的实际状态；辅助重试后保留原失败状态。",
+      "检查来源、事实/推断/未知标签和算术；验收不过则只保留技术观测样例，不发表完整业务成功案例。",
+      "不宣称强制审批、Artifact编辑、全自动交付或实时金融研究。"
+    ],
+    "revisit_after_days": 7,
+    "score": 8,
+    "technical_score": 8,
+    "ecosystem_score": 4,
+    "eligibility_reason": "Scoped capability gate passed; deployment still requires verification",
+    "eligible": true,
+    "recommended_for_validation": true,
+    "promotion_priority": "not_established"
+  },
+  {
+    "schema_version": 2,
+    "run_id": "round2-20261027",
+    "evidence_level": "source_reviewed",
+    "validation_status": "planned",
+    "public_contribution_url": null,
+    "review_status": "not_requested",
+    "outreach_permission": "not_granted",
+    "reply_status": "not_contacted",
+    "trial_status": "not_started",
+    "conversion_evidence": [],
+    "next_follow_up": "2026-11-03T09:00:00Z",
+    "repo": "e2b-dev/awesome-ai-agents",
+    "url": "https://github.com/e2b-dev/awesome-ai-agents",
+    "title": "LazyMind 可观测工作流助手的产品收录备选",
+    "route": "small_project",
+    "domain": [
+      "Agent 开发与开源维护"
+    ],
+    "category": "agent_integration",
+    "status": "analyzed",
+    "support_level": "existing",
+    "capability_ids": [
+      "workflow_observation"
+    ],
+    "capability_evidence": [
+      {
+        "capability_id": "workflow_observation",
+        "source": "references/capabilities.json#workflow_observation",
+        "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+        "sources": [
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+          "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+        ],
+        "last_verified": "2026-10-27",
+        "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。"
+      }
+    ],
+    "runnable_path": "收录范围仅现有可查看步骤和Artifact的工作流助手；沿用已有产品/示例链接，准备一条README条目，无运行时集成。公开安装路径与演示可复现性需补验。",
+    "technical_fit": {
+      "capability_match": 3,
+      "integration_cost": 2,
+      "validation": 1,
+      "recovery_fit": 0
+    },
+    "ecosystem_value": {
+      "user_value": 1,
+      "collaboration": 1,
+      "audience_evidence": 1
+    },
+    "score_evidence": [
+      "A capability_match=3：目录接受AI助手；已有工作流观测行为可做限缩描述，但完整产品类别、公开安装演示未复验。",
+      "A integration_cost=2：README条目或既有表单，不需要新增产品代码。",
+      "A validation=1：既往限定演示存在；当前公众入口/安装验证尚缺。",
+      "A recovery_fit=0：收录无需恢复集成。",
+      "B user_value=1：帮助发现现有助手，未找到该目录用户明确索要LazyMind或对应功能。",
+      "B collaboration=1：README明确欢迎PR/表单；最近5个closed PR均未合并，没有本产品收录承诺。",
+      "B audience_evidence=1：真实公开目录入口；无访问/转化数据。30669 Star不换算分数。"
+    ],
+    "summary": "仅保留低优先级收录备选，A=6低于优先验证阈值；不因高Star推荐立即投稿。",
+    "sources": [
+      {
+        "url": "https://github.com/e2b-dev/awesome-ai-agents/blob/main/README.md",
+        "finding": "欢迎PR/表单，需按分类及字母顺序；只接收助手/Agent，SDK另投其他目录"
+      },
+      {
+        "url": "https://github.com/e2b-dev/awesome-ai-agents/pull/1790",
+        "finding": "closed, merged_at=null；评论要求贡献者CLA"
+      },
+      {
+        "url": "https://github.com/e2b-dev/awesome-ai-agents/pull/1419",
+        "finding": "检索中最新updated的merged PR，merged_at=2026-08-21T18:52:43Z；文档链接修改非近期产品收录"
+      },
+      {
+        "url": "https://github.com/e2b-dev/awesome-ai-agents/issues?q=LazyMind",
+        "finding": "本轮is:pr与is:issue分开搜索均为空，README亦未发现LazyMind；非所有别名的穷尽搜索"
+      }
+    ],
+    "proposed_action": "等待Example真实验证和公开产品安装证据；届时再复查维护活跃度，准备一条事实克制的收录草稿。",
+    "action_classification": {
+      "technical_pr": "不属于技术修复；最多README收录PR",
+      "lazymind_example": "依赖第一项完成",
+      "maintainer_cooperation": "未发现邀请，无需联系",
+      "product_listing": "备选；当前不建议提交"
+    },
+    "outreach_channel": "README给出的PR入口或 https://forms.gle/UXQFCogLYrPFvfoUA；表单未打开/提交",
+    "next_action": "有通过验收的公开Example后才重评；核验公众安装、归类、重复条目和近期实际合并，不自动签CLA或投稿。",
+    "validation_requirements": [
+      "从干净环境验证公开产品安装/演示链接可用。",
+      "描述只覆盖实际可观测工作流能力，并明确助手/Agent类别；不把SDK伪装成助手。",
+      "核实README无重复、全部别名的既有PR、现行贡献要求和实际维护状态。"
+    ],
+    "revisit_after_days": 7,
+    "score": 6,
+    "technical_score": 6,
+    "ecosystem_score": 3,
+    "eligibility_reason": "Scoped capability gate passed; deployment still requires verification",
+    "eligible": true,
+    "recommended_for_validation": false,
+    "promotion_priority": "not_established"
+  },
+  {
+    "schema_version": 2,
+    "run_id": "round2-20261027",
+    "evidence_level": "source_reviewed",
+    "validation_status": "not_run",
+    "public_contribution_url": null,
+    "review_status": "not_requested",
+    "outreach_permission": "not_granted",
+    "reply_status": "not_contacted",
+    "trial_status": "not_started",
+    "conversion_evidence": [],
+    "next_follow_up": "2026-11-26T09:00:00Z",
+    "repo": "xinsuifan-web/tender-assistant-v2.5",
+    "url": "https://github.com/xinsuifan-web/tender-assistant-v2.5",
+    "title": "招投标助手：当前无已证实的轻量合作缺口",
+    "route": "small_project",
+    "domain": [
+      "投标与专业文档"
+    ],
+    "category": "not_fit",
+    "status": "rejected",
+    "support_level": "not_applicable",
+    "capability_ids": [],
+    "capability_evidence": [],
+    "technical_fit": {
+      "capability_match": 1,
+      "integration_cost": 1,
+      "validation": 0,
+      "recovery_fit": 0
+    },
+    "ecosystem_value": {
+      "user_value": 2,
+      "collaboration": 0,
+      "audience_evidence": 0
+    },
+    "score_evidence": [
+      "A=1+1+0+0：只存在通用观测概念重叠；未确认可薄接入的边界和目标验证。",
+      "B=2+0+0：投标场景明确但无维护者合作或用户反馈证据；86 Star不作淘汰条件。"
+    ],
+    "summary": "README已描述Trace/反思/人工确认/审阅与采纳，当前Issue响应为空；不是证明没有痛点，而是本轮未找到现有LazyMind能力能补足的具体缺口。",
+    "sources": [
+      {
+        "url": "https://github.com/xinsuifan-web/Tender-Assistant-V2.5/blob/main/README.md",
+        "finding": "作者明确原型；已有投标流程与Trace；作者自报测试不作为本轮E2E"
+      },
+      {
+        "url": "https://api.github.com/repos/xinsuifan-web/Tender-Assistant-V2.5/issues?state=all&sort=updated&direction=desc&per_page=20&page=1",
+        "finding": "本轮返回0条"
+      }
+    ],
+    "proposed_action": "不推进推广或集成。",
+    "outreach_channel": null,
+    "next_action": "仅有新明确需求或现成适配证据时增量复查。",
+    "validation_requirements": [
+      "先获得具体用户阻塞及非Core薄适配证据，之后才设计验证。"
+    ],
+    "action_classification": {
+      "technical_pr": "无已核实机会",
+      "lazymind_example": "不推荐泛化投标成功案例",
+      "maintainer_cooperation": "无需求证据",
+      "product_listing": "不适用"
+    },
+    "revisit_after_days": 30,
+    "score": 2,
+    "technical_score": 2,
+    "ecosystem_score": 2,
+    "eligibility_reason": "No scoped capability mapping",
+    "eligible": false,
+    "recommended_for_validation": false,
+    "promotion_priority": "not_established"
+  },
+  {
+    "schema_version": 2,
+    "run_id": "round2-20261027",
+    "evidence_level": "source_reviewed",
+    "validation_status": "not_run",
+    "public_contribution_url": null,
+    "review_status": "not_requested",
+    "outreach_permission": "not_granted",
+    "reply_status": "not_contacted",
+    "trial_status": "not_started",
+    "conversion_evidence": [],
+    "next_follow_up": "2026-11-26T09:00:00Z",
+    "repo": "langchain-ai/deepagents",
+    "url": "https://github.com/langchain-ai/deepagents/issues/6122",
+    "title": "MemoryMiddleware旧记忆问题属于上游修复",
+    "route": "issue_analysis",
+    "domain": [
+      "Agent 开发与开源维护"
+    ],
+    "category": "upstream_bug",
+    "status": "rejected",
+    "support_level": "upstream_only",
+    "capability_ids": [],
+    "capability_evidence": [],
+    "technical_fit": {
+      "capability_match": 1,
+      "integration_cost": 0,
+      "validation": 0,
+      "recovery_fit": 0
+    },
+    "ecosystem_value": {
+      "user_value": 3,
+      "collaboration": 0,
+      "audience_evidence": 1
+    },
+    "score_evidence": [
+      "A=1+0+0+0：checkpoint相关名词相近，但LazyMind观测/辅助重试不能修复上游MemoryMiddleware缓存语义。",
+      "B=3+0+1：有真实复现和等待维护者分配的贡献者；无LazyMind合作邀请。30639 Star不能跨越能力门槛。"
+    ],
+    "summary": "上游已有持久化、checkpoint、人工介入和Skill；#6122有明确缓存缺陷及作者修复分支，不应借机推销替代运行时。",
+    "sources": [
+      {
+        "url": "https://github.com/langchain-ai/deepagents/issues/6122",
+        "finding": "真实报告；有修复分支，作者等待assignment；不是LazyMind现成路径"
+      },
+      {
+        "url": "https://github.com/langchain-ai/deepagents/blob/main/README.md",
+        "finding": "已列出原生checkpoint/persistence/HITL/skills"
+      }
+    ],
+    "proposed_action": "排除LazyMind推广；只记录独立上游贡献线索。",
+    "outreach_channel": null,
+    "next_action": "不进入推广watchlist；如单独授权贡献，先查assignment和重复修复。",
+    "validation_requirements": [
+      "独立Contributor任务才复现上游缓存一致性，不当作LazyMind验证。"
+    ],
+    "action_classification": {
+      "technical_pr": "独立上游贡献线索且已有作者推进，当前不推荐重复提交",
+      "lazymind_example": "无可证明增益",
+      "maintainer_cooperation": "无邀请",
+      "product_listing": "不适用"
+    },
+    "revisit_after_days": 30,
+    "score": 1,
+    "technical_score": 1,
+    "ecosystem_score": 4,
+    "eligibility_reason": "No scoped capability mapping",
+    "eligible": false,
+    "recommended_for_validation": false,
+    "promotion_priority": "not_established"
+  },
+  {
+    "schema_version": 2,
+    "run_id": "round2-20261027",
+    "evidence_level": "source_reviewed",
+    "validation_status": "not_run",
+    "public_contribution_url": null,
+    "review_status": "not_requested",
+    "outreach_permission": "not_granted",
+    "reply_status": "not_contacted",
+    "trial_status": "not_started",
+    "conversion_evidence": [],
+    "next_follow_up": "2026-11-26T09:00:00Z",
+    "repo": "punkpeye/awesome-mcp-clients",
+    "url": "https://github.com/punkpeye/awesome-mcp-clients",
+    "title": "MCP客户端目录：缺少LazyMind客户端能力证据",
+    "route": "small_project",
+    "domain": [
+      "Agent 开发与开源维护"
+    ],
+    "category": "not_fit",
+    "status": "rejected",
+    "support_level": "not_applicable",
+    "capability_ids": [],
+    "capability_evidence": [],
+    "technical_fit": {
+      "capability_match": 0,
+      "integration_cost": 1,
+      "validation": 0,
+      "recovery_fit": 0
+    },
+    "ecosystem_value": {
+      "user_value": 2,
+      "collaboration": 0,
+      "audience_evidence": 1
+    },
+    "score_evidence": [
+      "A=0+1+0+0：条目编辑容易，但既有MCP外部工作流工具属于server方向，不能证明LazyMind客户端连接任意server。",
+      "B=2+0+1：目录用途及公开投稿PR明确，未见LazyMind合作/用户信号；6613 Star不计分。"
+    ],
+    "summary": "目录欢迎的是MCP clients；当前事实库无合格客户端证据。只判证据不足，不宣称产品绝对没有该能力。",
+    "sources": [
+      {
+        "url": "https://github.com/punkpeye/awesome-mcp-clients/blob/main/README.md",
+        "finding": "客户端目录，并指向glama.ai/mcp/clients"
+      },
+      {
+        "url": "https://github.com/punkpeye/awesome-mcp-clients/pull/374",
+        "finding": "投稿明确描述连接自定义MCP服务器；open不是已接受"
+      }
+    ],
+    "proposed_action": "不向客户端目录投稿。",
+    "outreach_channel": null,
+    "next_action": "仅当有LazyMind实际连接、发现、调用MCP server的版本化证据后重新评估。",
+    "validation_requirements": [
+      "证明客户端方向的连接/发现/调用与权限行为，再评估目录资格。"
+    ],
+    "action_classification": {
+      "technical_pr": "不适用",
+      "lazymind_example": "当前映射不成立",
+      "maintainer_cooperation": "不推荐",
+      "product_listing": "证据不满足客户端类别"
+    },
+    "revisit_after_days": 30,
+    "score": 1,
+    "technical_score": 1,
+    "ecosystem_score": 3,
+    "eligibility_reason": "No scoped capability mapping",
+    "eligible": false,
+    "recommended_for_validation": false,
+    "promotion_priority": "not_established"
+  }
+]

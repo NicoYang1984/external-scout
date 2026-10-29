@@ -1,0 +1,393 @@
+{
+  "schema_version": 2,
+  "max_age_days": 90,
+  "reviewed_at": "2026-10-27",
+  "capabilities": [
+    {
+      "id": "cap01",
+      "category": 1,
+      "name": "从回答推进到完整交付",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap02",
+      "category": 2,
+      "name": "可观测状态机、人工审批与恢复",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap03",
+      "category": 3,
+      "name": "可编辑 Artifact、版本与局部修改",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap04",
+      "category": 4,
+      "name": "Skill 安装、执行与 Workflow 化",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap05",
+      "category": 5,
+      "name": "知识库、检索与引用",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap06",
+      "category": 6,
+      "name": "外部 Agent 插件与同一任务续跑",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap07",
+      "category": 7,
+      "name": "能力中心和低门槛复用",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap08",
+      "category": 8,
+      "name": "评测驱动的持续改进",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap09",
+      "category": 9,
+      "name": "PPT：从需求到可局部修改的演示文稿",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap10",
+      "category": 10,
+      "name": "AI Image、梗图与动态表情",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap11",
+      "category": 11,
+      "name": "产品方向、竞品、方案、PRD、原型与研发交付",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap12",
+      "category": 12,
+      "name": "调研、评审与学术研究",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap13",
+      "category": 13,
+      "name": "AI Writer 与知识型文档",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "cap14",
+      "category": 14,
+      "name": "投标与专业方案写作",
+      "status": "documented",
+      "version": "LazyMind main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "本条是完整产品叙述；本次仅核对文档，未逐项运行。不能凭原地图中的源码/测试路径判定通过。",
+        "机会必须选用已核验的细粒度能力，或先补本部署版本的实际证据。"
+      ]
+    },
+    {
+      "id": "workflow_observation",
+      "category": 1,
+      "name": "读取步骤状态、Artifact 和失败原因",
+      "status": "e2e_verified",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/AUDIT.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": true,
+      "limitations": [
+        "一次 Competitive Brief 实验的已记录 E2E，不是本轮重新运行 LazyMind。",
+        "只证明观测；不证明自动完成、编辑、人工审批或其他宿主兼容。"
+      ]
+    },
+    {
+      "id": "assisted_retry",
+      "category": 2,
+      "name": "官方 API 对失败步骤重试并续跑同一会话",
+      "status": "e2e_verified",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": true,
+      "limitations": [
+        "辅助恢复 5/5；原 external task 仍 failed。",
+        "非无人干预恢复；HTTP 超时后先查实际状态。"
+      ]
+    },
+    {
+      "id": "artifact_edit",
+      "category": 3,
+      "name": "完成后通过 Artifact/slot PATCH 编辑报告",
+      "status": "known_failure",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "两条路径分别 HTTP 503/500，内容仍 revision 1；根因未确定，不归咎于已审计 main。"
+      ]
+    },
+    {
+      "id": "skill_directory_install",
+      "category": 4,
+      "name": "固定 /tree/<commit>/<directory> Skill 安装",
+      "status": "e2e_verified",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": true,
+      "limitations": [
+        "只验证 Competitive Brief 目录；/blob/ 链接失败，父目录 CONNECTORS 未导入。",
+        "新 Skill 依赖完整性和权限需单独验收；不证明任意 Skill 运行成功。"
+      ]
+    },
+    {
+      "id": "skill_conversion_publish",
+      "category": 4,
+      "name": "模型自动生成并发布五步 Workflow",
+      "status": "e2e_verified",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": true,
+      "limitations": [
+        "一次转换成功，非重复稳定性；仅生成/发布，不包括后续业务运行。",
+        "缺配置可能仅警告；不得将发布成功作为 E2E 自主成功。"
+      ]
+    },
+    {
+      "id": "skill_autonomous_delivery",
+      "category": 4,
+      "name": "转换后自主完成 Competitive Brief",
+      "status": "known_failure",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "2/5 后 objective_incomplete；中间 JSON 被要求满足最终 Markdown 验收的根因仍是假设。",
+        "恢复报告结构/算术通过，groundedness 未完全通过。"
+      ]
+    },
+    {
+      "id": "generated_mandatory_review",
+      "category": 2,
+      "name": "自动转换保证强制人工审批",
+      "status": "unavailable",
+      "version": "PR873 recorded deployment: VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "该生成图所有 requires_approval=false，人工审阅 pending；不等同于平台不存在手工 gate。"
+      ]
+    },
+    {
+      "id": "conversion_preflight",
+      "category": 4,
+      "name": "转换前检查 Skill 可用性及配置",
+      "status": "implemented",
+      "version": "main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/backend/core/workflow/conversion_handlers.go",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/AUDIT.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": true,
+      "limitations": [
+        "已读取源码；warning 可继续转换，父目录引用可能未检出；不证明依赖完整。"
+      ]
+    },
+    {
+      "id": "workflow_sdk_regressions",
+      "category": 6,
+      "name": "Workflow SDK / agent-kit 92 项回归记录",
+      "status": "unit_tested",
+      "version": "main 71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/evidence/checks/"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "引用 PR 中已有测试记录，本轮未复跑这些产品测试。",
+        "测试集合不是可对外承诺的独立运行能力，不能直接作为机会映射。"
+      ]
+    },
+    {
+      "id": "arbitrary_host_lifecycle",
+      "category": 6,
+      "name": "任意外部 Agent 完整生命周期",
+      "status": "unavailable",
+      "version": "no verified version",
+      "sources": [
+        "https://github.com/LazyAGI/LazyMind/blob/71a0e5a829f1ef8d9a5d9e9ce720386ba3c69d0e/README.CN.md"
+      ],
+      "last_verified": "2026-10-27",
+      "runnable": false,
+      "limitations": [
+        "缺少逐宿主实现/实测证据；unavailable 表示不能用于当前承诺，不断言产品永久不支持。"
+      ]
+    }
+  ]
+}

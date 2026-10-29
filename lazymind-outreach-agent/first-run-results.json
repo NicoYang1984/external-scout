@@ -1,0 +1,53 @@
+{
+  "scout_import": {
+    "scout_user_version": 2,
+    "imported_opportunities": 8,
+    "lead_ids": [
+      "8e34863d23bef1d37268e2f8b549a0d3",
+      "fe3a8a25764668ae671ec0e920615f2a",
+      "5cd5976bd326b25efed55576b06665f6",
+      "c38eb0eb390fcb17d3d1fff24bd2803b",
+      "29e5936a4f29afc32fbc3cec35baa27e",
+      "08704988014ef5f6ba23e5a5ee6c34f6",
+      "3807f35ac989f3832c10e30e1e34f0c6",
+      "15369c94a9072b09dfe54271c9426b97"
+    ],
+    "sha256_before": "81cf0053df14cb1e182adbd322c2ea4a8b9285b50f8b24a432eda4e406b49d3b",
+    "sha256_after": "81cf0053df14cb1e182adbd322c2ea4a8b9285b50f8b24a432eda4e406b49d3b",
+    "unchanged": true
+  },
+  "curated_candidates": 11,
+  "drafts": 3,
+  "batch_id": "3c853713-3fa4-4f62-96cf-0095dcd2b5a8",
+  "batch_approval_blockers": {
+    "d723e8d9-762d-4752-89f5-6631c80f223a": [
+      "sender account is not authorized"
+    ],
+    "7c4d0d9b-9023-4618-8417-5d89a26ffb45": [
+      "sender account is not authorized"
+    ],
+    "e52c041e-fc99-4e4c-b6df-83e250b7f3a3": [
+      "sender account is not authorized"
+    ]
+  },
+  "metrics": {
+    "discovered_candidates": 19,
+    "qualified_contact_channels": 7,
+    "approved_drafts": 0,
+    "real_send_successes": 0,
+    "effective_replies": 0,
+    "interested_or_trial": 0,
+    "trials_started": 0,
+    "average_human_review_seconds": 0,
+    "human_seconds_per_effective_lead": null,
+    "status_counts": {
+      "discovered": 9,
+      "qualified": 2,
+      "review_pending": 3,
+      "sent": 2,
+      "suppressed": 3
+    }
+  },
+  "real_messages_sent": 0,
+  "simulated_messages_sent": 0
+}

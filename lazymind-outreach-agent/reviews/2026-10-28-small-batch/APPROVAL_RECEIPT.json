@@ -1,0 +1,54 @@
+{
+  "batch": {
+    "id": "44a1d850-84e5-4503-b0f2-58f356947a7d",
+    "name": "review-2026-10-28-small-01",
+    "sender_account": "lazymind_agent@163.com",
+    "status": "approved",
+    "created_at": "2026-10-28T09:49:30+00:00"
+  },
+  "user_approval": "批准批次 review-2026-10-28-small-01",
+  "source": "explicit user message in current conversation",
+  "review_snapshot": "review-checklist.json",
+  "exact_content_unchanged": true,
+  "min_interval_seconds": 300,
+  "approvals": [
+    {
+      "id": 3,
+      "batch_id": "44a1d850-84e5-4503-b0f2-58f356947a7d",
+      "draft_id": "5359b7f4-95da-4659-96a4-25181ea6055c",
+      "content_hash": "1fec13608d69173b8416a8e572908908ad44c052579fff5d4811a2c079ef675f",
+      "approved_by": "account_owner_explicit_chat_approval:批准批次 review-2026-10-28-small-01",
+      "approved_at": "2026-10-28T09:54:26+00:00",
+      "revoked_at": null,
+      "approval_fingerprint": "b9ae07883ba11477bfea8c032efec57564fed20fda4757b87a127be9946f46d3"
+    },
+    {
+      "id": 2,
+      "batch_id": "44a1d850-84e5-4503-b0f2-58f356947a7d",
+      "draft_id": "7c4d0d9b-9023-4618-8417-5d89a26ffb45",
+      "content_hash": "631d5873e8fd2236944c5db640a62f55fe66f1ca508c161445661625c57a12b8",
+      "approved_by": "account_owner_explicit_chat_approval:批准批次 review-2026-10-28-small-01",
+      "approved_at": "2026-10-28T09:54:26+00:00",
+      "revoked_at": null,
+      "approval_fingerprint": "97febb379a0048eb23dca1e77463fbd9af37f95ae267ae0700181e35d23e985a"
+    },
+    {
+      "id": 1,
+      "batch_id": "44a1d850-84e5-4503-b0f2-58f356947a7d",
+      "draft_id": "850a805f-4c3d-4f83-ae7c-d69564f6a130",
+      "content_hash": "0e640514dc51f644e050921eee0314a2823a4b7eaf1ba029c117529c3631ef9f",
+      "approved_by": "account_owner_explicit_chat_approval:批准批次 review-2026-10-28-small-01",
+      "approved_at": "2026-10-28T09:54:26+00:00",
+      "revoked_at": null,
+      "approval_fingerprint": "fbea04a640996dfa604c0fd2402ca6dadde74bcc2b708588dbdb36bd614f0ba3"
+    }
+  ],
+  "execution_channel": "NetEase163MailAdapter / personal SMTP SSL 465",
+  "credential_source": "macOS Keychain; memory only; no credential in artifact",
+  "regression_tests": {
+    "passed": 45,
+    "failed": 0
+  },
+  "purpose_scope": "Two responses to official editorial invitations and one response to official research collaboration invitation, not a general mailing list.",
+  "human_review_seconds_measured": false
+}

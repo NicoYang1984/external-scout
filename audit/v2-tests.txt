@@ -1,0 +1,44 @@
+test_action_history_and_rename (test_cli.CLITest) ... ok
+test_actual_process_crash_after_claim (test_cli.CLITest) ... ok
+test_cli_checkpoint_requires_token_and_heartbeat (test_cli.CLITest) ... ok
+test_concurrent_fresh_initialization (test_cli.CLITest) ... ok
+test_full_live_adapter_empty_tail_advances (test_cli.CLITest) ... ok
+test_old_database_refused_without_writing (test_cli.CLITest) ... ok
+test_incremental_memory_and_run_deduplication (test_registry.RegistryTest) ... ok
+test_only_current_or_easy_capabilities_become_opportunities (test_registry.RegistryTest) ... ok
+test_catalog_readonly_and_source_schema (test_v2.AdapterTest) ... ok
+test_feedback_requires_authorization (test_v2.AdapterTest) ... ok
+test_full_scan_advances_and_budgeted_scan_preserves_pending (test_v2.AdapterTest) ... ok
+test_github_only_get_rejects_other_hosts (test_v2.AdapterTest) ... ok
+test_portable_paths (test_v2.AdapterTest) ... ok
+test_rate_limit_stops_no_retry (test_v2.AdapterTest) ... ok
+test_snapshot_replay_does_not_advance_live_watermark (test_v2.AdapterTest) ... ok
+test_catalog_has_version_sources_date_and_scoped_failures (test_v2.PolicyTest) ... ok
+test_high_stars_low_fit_never_recommended (test_v2.PolicyTest) ... ok
+test_known_failures_documented_and_unavailable_are_excluded (test_v2.PolicyTest) ... ok
+test_legacy_ready_records_are_not_silently_promoted (test_v2.PolicyTest) ... ok
+test_pr_creation_and_comments_do_not_imply_results (test_v2.PolicyTest) ... ok
+test_ready_requires_actual_validation (test_v2.PolicyTest) ... ok
+test_scores_reject_boolean_and_out_of_range (test_v2.PolicyTest) ... ok
+test_small_project_keeps_collaboration_potential_not_top_channel (test_v2.PolicyTest) ... ok
+test_stale_evidence_requires_refresh (test_v2.PolicyTest) ... ok
+test_claim_and_initial_checkpoint_rollback_together (test_v2.StateTest) ... ok
+test_concurrent_claim_same_run_only_one_wins (test_v2.StateTest) ... ok
+test_crash_before_first_checkpoint_is_resumable (test_v2.StateTest) ... ok
+test_cross_run_active_worker_not_stolen (test_v2.StateTest) ... ok
+test_cross_run_old_updated_issue_reopens_pending (test_v2.StateTest) ... ok
+test_deep_memory_and_coverage_keep_prior_history (test_v2.StateTest) ... ok
+test_different_sources_same_subject_dedup_without_losing_provenance (test_v2.StateTest) ... ok
+test_migration_readonly_source_preserves_history_and_orphan_claim (test_v2.StateTest) ... ok
+test_out_of_order_page_and_failed_batch_roll_back (test_v2.StateTest) ... ok
+test_pages_complete_pending_survives_and_pr_not_issue (test_v2.StateTest) ... ok
+test_pending_cannot_be_removed_without_disposition (test_v2.StateTest) ... ok
+test_rename_keeps_memory_and_same_run_dedup (test_v2.StateTest) ... ok
+test_renamed_repo_rejects_disposition_older_than_observation (test_v2.StateTest) ... ok
+test_supplemental_search_finding_is_pending_without_watermark (test_v2.StateTest) ... ok
+test_unfinished_page_never_advances_cursor (test_v2.StateTest) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 1.226s
+
+OK

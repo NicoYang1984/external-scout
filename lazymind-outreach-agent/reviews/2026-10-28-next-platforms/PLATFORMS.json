@@ -1,0 +1,511 @@
+{
+  "cohort": "new-platforms-2026-10-28",
+  "created_on": "2026-10-28",
+  "scope": "10 additional platforms; excludes the previous 3 sent and prior 少数派/InfoQ contacts",
+  "mode": "research_and_plan_only",
+  "no_external_send_or_submission": true,
+  "leads": [
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "editorial-qbitai",
+      "organization": "量子位",
+      "project_name": "量子位 AI 技术选题投稿",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://www.qbitai.com/联系我们",
+      "contact_channel": "email",
+      "contact_value": "ai@qbitai.com",
+      "permission_status": "official_submission_channel",
+      "allowed_purpose": "AI 技术选题投稿或真实线索；主题需标明【投稿】或【爆料】",
+      "language": "zh-CN",
+      "technical_fit": 8,
+      "ecosystem_value": 9,
+      "tier": "A_email_draft_next",
+      "priority": 1,
+      "pain_point": "官方以 AI 新趋势和技术突破为报道方向。拟提供可核验的 Agent 执行边界案例，而不是功能宣传；这是选题匹配判断，不是编辑已表达兴趣。",
+      "angle": "【投稿】Agent 的演示成功与任务完成之间，缺了哪些验收证据？",
+      "evidence": [
+        {
+          "url": "https://www.qbitai.com/联系我们",
+          "finding": "官方联系页明确投稿/爆料邮箱 ai@qbitai.com 及主题前缀；中文页面是 zh-CN 依据。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "需生成并批准具体邮件；编辑兴趣未确认。",
+        "另一个官方寻求报道页仍列旧 QQ 邮箱；本轮只采用当前联系页的 ai@qbitai.com，不双渠道重复触达。"
+      ],
+      "next_action": "起草简短选题邮件，附固定版本案例；不发新闻通稿或声称新发布。",
+      "recommended_capability": "Skill 转换与任务状态可观测性，明确自主失败和辅助恢复边界",
+      "status": "qualified",
+      "risk_notes": "需生成并批准具体邮件；编辑兴趣未确认。；另一个官方寻求报道页仍列旧 QQ 邮箱；本轮只采用当前联系页的 ai@qbitai.com，不双渠道重复触达。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "editorial-leiphone",
+      "organization": "雷峰网",
+      "project_name": "雷峰网技术案例投稿",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://www.leiphone.com/contribute",
+      "contact_channel": "email",
+      "contact_value": "jinmeiqin@leiphone.com",
+      "permission_status": "official_submission_channel",
+      "allowed_purpose": "官方投稿页对应的投稿联系、选题适配询问；不用于无关广告",
+      "language": "zh-CN",
+      "technical_fit": 8,
+      "ecosystem_value": 8,
+      "tier": "A_email_draft_next",
+      "priority": 2,
+      "pain_point": "官方设有投稿入口。建议面向智能技术产业读者讨论企业 Agent 试点何时需人工介入；读者契合度是本轮判断。",
+      "angle": "Agent 进入业务试点之前，如何分清可自动恢复与必须人工接管的失败？",
+      "evidence": [
+        {
+          "url": "https://www.leiphone.com/contribute",
+          "finding": "官方投稿表单显示姓名、联系方式、标题、内容及 jinmeiqin@leiphone.com。普通网页抓取超时后，实际浏览器成功打开并核对页面。",
+          "verification": "live_browser_accessibility"
+        }
+      ],
+      "blockers": [
+        "需起草并批准选题询问；不能以研究合作口吻误用投稿渠道。",
+        "表单需要真实姓名和联系方式；本轮不填写表单，不从终端用户名推断署名。"
+      ],
+      "next_action": "准备一封投稿用途询问，说明项目关系和失败样本；只选邮件或表单一种路径。",
+      "recommended_capability": "流程步骤、外部任务与产物状态分层，辅助恢复的实际限制",
+      "status": "qualified",
+      "risk_notes": "需起草并批准选题询问；不能以研究合作口吻误用投稿渠道。；表单需要真实姓名和联系方式；本轮不填写表单，不从终端用户名推断署名。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-oschina",
+      "organization": "OSCHINA",
+      "project_name": "OSCHINA 开源项目收录与技术内容",
+      "campaign_type": "developer_collaboration",
+      "source_url": "https://www.oschina.net/question/2918182_2319406?sort=time",
+      "contact_channel": "platform_account",
+      "contact_value": "https://www.oschina.net/question/2918182_2319406?sort=time",
+      "permission_status": "platform_submission_only",
+      "allowed_purpose": "登录后按官方流程投递开源软件或相关技术文章；不代表邮箱营销许可",
+      "language": "zh-CN",
+      "technical_fit": 9,
+      "ecosystem_value": 8,
+      "tier": "B_platform_materials_next",
+      "priority": 3,
+      "pain_point": "官方编辑部鼓励从开发者关心的架构和实现逻辑介绍开源项目。项目材料需让读者判断安装条件与可复现边界。",
+      "angle": "LazyMind Skill Runtime 的架构、运行前提与一份可检查的失败复盘",
+      "evidence": [
+        {
+          "url": "https://www.oschina.net/question/2918182_2319406?sort=time",
+          "finding": "OSCHINA 编辑部指南提供软件收录、新闻和技术博客路线。软件更新新闻须关联软件；指南发表于 2020 年，当前页面仍可读，实际账号界面需再确认。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "授权账号未确认，须站内检查 LazyMind 是否已收录，避免重复条目。",
+        "搜索未得到同项目记录不等于确认未收录。",
+        "需核对许可证、安装说明与版本，不能把待合并案例说成稳定发行。"
+      ],
+      "next_action": "准备软件简介和架构材料；若已收录，改为已有条目的技术内容而非新增。",
+      "recommended_capability": "公开代码、Skill 运行入口与执行观察证据",
+      "status": "discovered",
+      "risk_notes": "授权账号未确认，须站内检查 LazyMind 是否已收录，避免重复条目。；搜索未得到同项目记录不等于确认未收录。；需核对许可证、安装说明与版本，不能把待合并案例说成稳定发行。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-dev-community",
+      "organization": "DEV Community",
+      "project_name": "DEV 开发者技术文章",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://dev.to/guidelines-for-ai-assisted-articles-on-dev",
+      "contact_channel": "platform_account",
+      "contact_value": "https://dev.to/",
+      "permission_status": "platform_submission_only",
+      "allowed_purpose": "通过授权作者账号发布有实际价值的开发者内容，按实际创作方式披露 AI 使用",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 7,
+      "tier": "B_platform_materials_next",
+      "priority": 4,
+      "pain_point": "官方强调原创洞见、准确性与作者责任。适合用代码和状态证据解释开发者遇到的完成判定问题，而非只放产品链接。",
+      "angle": "Why completed workflow steps can still leave an agent task failed",
+      "evidence": [
+        {
+          "url": "https://dev.to/devteam/introducing-ai-disclosure-on-dev-tools-for-nuance-clarity-and-better-feeds-34mk",
+          "finding": "DEV 团队说明人工、AI 辅助、全自动三类披露；质量及透明要求仍适用。英文官方页面作为语言依据。",
+          "verification": "web_full_page"
+        },
+        {
+          "url": "https://dev.to/guidelines-for-ai-assisted-articles-on-dev",
+          "finding": "禁止以索财、SEO 反向链接或抄袭为主要目的的内容。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "授权账号未确认；完整技术文章未写。",
+        "需要按实际创作过程选择 AI 披露，而非仅为通过审核选择标签。"
+      ],
+      "next_action": "准备英文状态模型复盘，附真实日志/版本引用和项目关系说明；不把客服邮箱当投稿邮箱。",
+      "recommended_capability": "artifact / session / task 三层验收及恢复边界",
+      "status": "discovered",
+      "risk_notes": "授权账号未确认；完整技术文章未写。；需要按实际创作过程选择 AI 披露，而非仅为通过审核选择标签。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-v2ex-create",
+      "organization": "V2EX",
+      "project_name": "V2EX 分享创造",
+      "campaign_type": "developer_collaboration",
+      "source_url": "https://www.v2ex.com/go/create",
+      "contact_channel": "platform_account",
+      "contact_value": "https://www.v2ex.com/go/create",
+      "permission_status": "platform_submission_only",
+      "allowed_purpose": "在分享创造节点按账号规则介绍本人/项目团队真实作品并参与技术讨论",
+      "language": "zh-CN",
+      "technical_fit": 8,
+      "ecosystem_value": 7,
+      "tier": "B_platform_materials_next",
+      "priority": 5,
+      "pain_point": "官方节点邀请发布自己的作品。建议提供可亲自尝试的最小示例和失败边界，邀请开发者复现，而不是只贴报名或广告链接。",
+      "angle": "把一个 Skill 放进可观察工作流：公开一次成功到哪里、失败在哪里的实验",
+      "evidence": [
+        {
+          "url": "https://www.v2ex.com/go/create",
+          "finding": "分享创造节点当前可读，明确欢迎发布自己的最新作品；页面主体为中文。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "需确认授权账号与真实项目关系，不冒充原作者。",
+        "需核对当前发帖权限、节点及 AI 内容要求；不重复刷帖或私信成员。",
+        "最小复现入口、安装环境和所需模型配置要先整理。"
+      ],
+      "next_action": "准备简短作品展示及问题清单；账号条件确认后单独审核发布。",
+      "recommended_capability": "公开运行材料和可复现反馈入口",
+      "status": "discovered",
+      "risk_notes": "需确认授权账号与真实项目关系，不冒充原作者。；需核对当前发帖权限、节点及 AI 内容要求；不重复刷帖或私信成员。；最小复现入口、安装环境和所需模型配置要先整理。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-woshipm",
+      "organization": "人人都是产品经理",
+      "project_name": "人人都是产品经理 业务验收方法文章",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://www.woshipm.com/tougao",
+      "contact_channel": "platform_account",
+      "contact_value": "https://www.woshipm.com/tougao",
+      "permission_status": "platform_submission_only",
+      "allowed_purpose": "原创产品、运营、经验或项目总结文章；不接受软文、工具推荐或代码教程",
+      "language": "zh-CN",
+      "technical_fit": 7,
+      "ecosystem_value": 8,
+      "tier": "B_platform_materials_next",
+      "priority": 6,
+      "pain_point": "官方征稿偏产品运营与案例分析。可帮助产品经理定义 AI 任务验收，而不是向该受众推销一个开发工具。",
+      "angle": "验收表比 Demo 更重要：产品经理如何定义 AI 任务真的完成了",
+      "evidence": [
+        {
+          "url": "https://www.woshipm.com/tougao",
+          "finding": "需登录账号发布并经编辑审核；正文需原创及作者信息，不接受软文/新闻稿、工具推荐和代码型技术稿。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "需完整方法论文章和真实作者信息；账号尚未确认。",
+        "不能把上一批产品邮件稍作修改当成正式稿。",
+        "引用 LazyMind 只用于真实案例，不作工具推荐或夸大业务成果。"
+      ],
+      "next_action": "准备不含代码的业务验收清单与案例分析，交用户确认署名和发布权限。",
+      "recommended_capability": "从产物到业务结果的分层验收材料",
+      "status": "discovered",
+      "risk_notes": "需完整方法论文章和真实作者信息；账号尚未确认。；不能把上一批产品邮件稍作修改当成正式稿。；引用 LazyMind 只用于真实案例，不作工具推荐或夸大业务成果。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-hackernoon",
+      "organization": "HackerNoon",
+      "project_name": "HackerNoon 技术经验稿",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://help.hackernoon.com/how-do-i-get-published",
+      "contact_channel": "platform_account",
+      "contact_value": "https://app.hackernoon.com/",
+      "permission_status": "platform_submission_only",
+      "allowed_purpose": "站内作者完整技术稿送审，遵守利益关系、转载和品牌作者规则",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 7,
+      "tier": "C_requirements_first",
+      "priority": 7,
+      "pain_point": "官方要求完整且有技术价值的故事，项目相关作者要披露利益关系。适合有依据的失败复盘，不适合只提交品牌简介。",
+      "angle": "What a bounded recovery experiment reveals about agent completion criteria",
+      "evidence": [
+        {
+          "url": "https://help.hackernoon.com/how-do-i-get-published",
+          "finding": "登录 Start Writing 后提交完整内容给编辑审核；不保证刊发。",
+          "verification": "web_full_page"
+        },
+        {
+          "url": "https://help.hackernoon.com/why-was-my-story-rejected",
+          "finding": "利益关联须披露，转载填 First Seen At；品牌作者需品牌域名邮箱，不应直接使用个人 163 地址冒充品牌认证。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "需确认真实个人作者还是品牌账号路径；现有 163 不能满足品牌域名验证。",
+        "需核对具体 AI 写作及品牌/推广规则，未生成正式投稿稿。",
+        "不授权购买赞助或假装与项目无关。"
+      ],
+      "next_action": "先确定作者身份和合规发布路径，再写完整英文案例；不支付赞助。",
+      "recommended_capability": "公开实测、失败分析与可核验参考资料",
+      "status": "discovered",
+      "risk_notes": "需确认真实个人作者还是品牌账号路径；现有 163 不能满足品牌域名验证。；需核对具体 AI 写作及品牌/推广规则，未生成正式投稿稿。；不授权购买赞助或假装与项目无关。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-jiqizhixin",
+      "organization": "机器之心",
+      "project_name": "机器之心机构服务与案例投稿",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://jigou.jiqizhixin.com/signin",
+      "contact_channel": "platform_account",
+      "contact_value": "https://jigou.jiqizhixin.com/signin",
+      "permission_status": "requires_institution_account",
+      "allowed_purpose": "经机构入驻后提交产品、案例、新闻稿或报道合作需求",
+      "language": "zh-CN",
+      "technical_fit": 8,
+      "ecosystem_value": 9,
+      "tier": "C_requirements_first",
+      "priority": 8,
+      "pain_point": "官方机构服务希望结构化呈现技术、产品和案例。LazyMind 可准备能力证据包，但不能用未经确认的机构身份申请。",
+      "angle": "Skill 生态适配的证据包：输入版本、运行状态与已知失败边界",
+      "evidence": [
+        {
+          "url": "https://jigou.jiqizhixin.com/signin",
+          "finding": "机构系统开放产品/案例和投稿合作提交；需要机构账号。页面 support@jiqizhixin.com 明确用于重置密码，不作为本轮投稿邮箱。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "机构身份、申请人授权和账号均未确认。",
+        "不把密码恢复邮箱改作营销邮箱。",
+        "不虚构公司、机构或产业落地案例。"
+      ],
+      "next_action": "准备机构信息缺项表及公开产品证据，待真实主体与入驻授权明确后再推进。",
+      "recommended_capability": "结构化产品材料和案例证据",
+      "status": "discovered",
+      "risk_notes": "机构身份、申请人授权和账号均未确认。；不把密码恢复邮箱改作营销邮箱。；不虚构公司、机构或产业落地案例。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-producthunt",
+      "organization": "Product Hunt",
+      "project_name": "Product Hunt 产品发布",
+      "campaign_type": "developer_collaboration",
+      "source_url": "https://help.producthunt.com/en/articles/479557-how-to-post-a-product",
+      "contact_channel": "platform_account",
+      "contact_value": "https://www.producthunt.com/",
+      "permission_status": "platform_submission_only",
+      "allowed_purpose": "完成 onboarding 的真实个人账号发布产品，并与自愿评论者交流；不是对成员发推广邮件的许可",
+      "language": "en",
+      "technical_fit": 7,
+      "ecosystem_value": 8,
+      "tier": "C_requirements_first",
+      "priority": 9,
+      "pain_point": "官方发布流程需要可理解、可体验的产品介绍。现有失败复盘不等于成熟的首发体验，需先收敛实际可用场景。",
+      "angle": "面向知识工作者的可观察 Skill 工作流，清楚展示可用范围与人工介入点",
+      "evidence": [
+        {
+          "url": "https://help.producthunt.com/en/articles/479557-how-to-post-a-product",
+          "finding": "发布需个人账号及 onboarding，提供产品链接、描述和展示素材；公司账号不能直接发布。",
+          "verification": "web_full_page"
+        },
+        {
+          "url": "https://help.producthunt.com/en/articles/2690626-how-do-i-share-my-post",
+          "finding": "禁止群发拉票、奖励换票及组织投票。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "授权个人账号、可运行 Demo、截图与产品介绍未齐备。",
+        "需站内确认是否已有 LazyMind 条目或历史发布；搜索未命中不足以证明没有。",
+        "不承诺曝光或排名，不购买票或发拉票私信。"
+      ],
+      "next_action": "先做低门槛体验包和发布素材，再决定是否 launch；本轮不发布或购买服务。",
+      "recommended_capability": "可观察运行体验；不声称稳定无人值守",
+      "status": "discovered",
+      "risk_notes": "授权个人账号、可运行 Demo、截图与产品介绍未齐备。；需站内确认是否已有 LazyMind 条目或历史发布；搜索未命中不足以证明没有。；不承诺曝光或排名，不购买票或发拉票私信。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "id": "platform-show-hn",
+      "organization": "Hacker News",
+      "project_name": "Show HN 产品技术展示",
+      "campaign_type": "developer_collaboration",
+      "source_url": "https://news.ycombinator.com/showhn.html",
+      "contact_channel": "platform_account",
+      "contact_value": "https://news.ycombinator.com/showhn.html",
+      "permission_status": "human_submission_only",
+      "allowed_purpose": "真实参与开发者手写并亲自发布可运行作品展示，参与技术问答",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 8,
+      "tier": "C_requirements_first",
+      "priority": 10,
+      "pain_point": "Show HN 要求别人能够实际尝试的作品及创作者参与讨论。仅有博文、等待名单或案例报告不符合该入口。",
+      "angle": "先备好可运行的最小 Skill 工作流，再由真实开发参与者介绍取舍并答疑",
+      "evidence": [
+        {
+          "url": "https://news.ycombinator.com/showhn.html",
+          "finding": "须是本人参与且他人可以实际体验的作品，不能只发博文或注册页，不拉票。",
+          "verification": "web_full_page"
+        },
+        {
+          "url": "https://news.ycombinator.com/newsguidelines.html",
+          "finding": "HN 明确要求自行写文字，不发布生成文本，也不自动化发帖。保留在候选中，但走人工发布路径。",
+          "verification": "web_full_page"
+        }
+      ],
+      "blockers": [
+        "需要真实开发参与者、可运行 Demo 和人工撰写/发布；当前均未确认。",
+        "本候选不进入 AI 自动拟稿或发送队列，也不当成永久排除平台。"
+      ],
+      "next_action": "仅准备事实清单、复现条件和限制清单；正式帖子由真实参与者本人撰写与发布。",
+      "recommended_capability": "公开可运行的工作流示例及技术取舍讨论",
+      "status": "discovered",
+      "risk_notes": "需要真实开发参与者、可运行 Demo 和人工撰写/发布；当前均未确认。；本候选不进入 AI 自动拟稿或发送队列，也不当成永久排除平台。",
+      "score_basis": "0–10 analyst fit assessment, not a factual claim or platform endorsement",
+      "language_basis": "Official linked contact/policy page's working language; no personal nationality inferred",
+      "personalization_is_inference": true,
+      "sending_approved": false
+    }
+  ],
+  "counts": {
+    "total": 10,
+    "email_draft_candidates": 2,
+    "platform_material_candidates": 4,
+    "requirements_first": 4,
+    "email_channels": 2,
+    "platform_only_channels": 8
+  },
+  "existing_platforms_excluded": [
+    "汇智网",
+    "AI中国网",
+    "OpenEng Labs",
+    "少数派",
+    "InfoQ 中文站"
+  ],
+  "rejected_research_alternatives": [
+    {
+      "platform": "51CTO",
+      "reason": "本轮未核实足够明确的当前投稿路径，旧 PDF/普通用户博客不作为发送依据。"
+    },
+    {
+      "platform": "Unite.AI / AI Time Journal",
+      "reason": "未获得足够可读的官方投稿条件，不凑入十家。"
+    }
+  ],
+  "original_permissions_policy": "Existing Scout and Outreach permission records remain unchanged. A platform submission route does not grant email marketing permission."
+}

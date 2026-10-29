@@ -1,0 +1,177 @@
+{
+  "checked_at": "2026-10-29",
+  "batch_name": "review-2026-10-29-direct-outreach-02",
+  "sender_account": "lazymind_agent@163.com",
+  "min_interval_seconds": 300,
+  "mode": "review_only",
+  "leads": [
+    {
+      "id": "collab-restate",
+      "organization": "Restate",
+      "project_name": "Restate and LazyMind durable workflow state compatibility",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://restate.dev/contact",
+      "pain_point": "Restate provides durable execution and consistent state for resilient applications. A bounded compatibility test can clarify ownership of LazyMind workflow identifiers, review pauses, artifacts and completion state across a Restate restart.",
+      "evidence": [
+        {"url": "https://github.com/restatedev/restate", "finding": "The active public repository provides durable execution for resilient applications and has current Issues and Discussions."},
+        {"url": "https://restate.dev/contact", "finding": "The official contact page invites questions and community connection and publishes info@restate.dev."}
+      ],
+      "contact_channel": "email",
+      "contact_value": "info@restate.dev",
+      "allowed_purpose": "technical interoperability and open-source collaboration inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 9,
+      "recommended_capability": "map LazyMind workflow identity, review pauses and artifacts to Restate durable state",
+      "case_links": ["https://github.com/LazyAGI/LazyMind", "https://github.com/LazyAGI/LazyMind/tree/main/examples"],
+      "risk_notes": "No prior contact or suppression. This is a proposed compatibility experiment, not an existing Restate integration or durability claim.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-agent-swarm",
+      "organization": "Desplega Labs / Agent Swarm",
+      "project_name": "Agent Swarm and LazyMind workflow state compatibility",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://www.agent-swarm.dev/contact",
+      "pain_point": "Agent Swarm coordinates agent tasks, workflow runs, approvals and Codex integrations. A small test can examine how a LazyMind workflow's review and artifact state should appear in Agent Swarm's run tree and retry model.",
+      "evidence": [
+        {"url": "https://github.com/desplega-ai/agent-swarm", "finding": "The active MIT repository includes workflows, approvals, MCP tooling and Codex support; v2.6.0 was released on 2026-10-26."},
+        {"url": "https://www.agent-swarm.dev/contact", "finding": "The authoritative official contact page explicitly accepts partnership and integration inquiries at contact@desplega.sh."}
+      ],
+      "contact_channel": "email",
+      "contact_value": "contact@desplega.sh",
+      "allowed_purpose": "open-source workflow integration and partnership inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 8,
+      "recommended_capability": "map workflow steps, review checkpoints and artifacts into Agent Swarm task and run-tree state",
+      "case_links": ["https://github.com/LazyAGI/LazyMind", "https://github.com/LazyAGI/LazyMind/tree/main/examples"],
+      "risk_notes": "No prior contact or suppression. Do not claim an existing adapter, retry guarantee or duplicate-free execution.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-bot-relay-mcp",
+      "organization": "Lumiere Ventures / bot-relay-mcp",
+      "project_name": "bot-relay-mcp and LazyMind workflow coordination compatibility",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_github",
+      "source_url": "https://github.com/Maxlumiere/bot-relay-mcp",
+      "pain_point": "bot-relay-mcp provides durable task queues, inboxes and wakeups across MCP and HTTP clients. A compatibility test can determine how LazyMind stage, review and artifact state should cross that coordination boundary.",
+      "evidence": [
+        {"url": "https://github.com/Maxlumiere/bot-relay-mcp", "finding": "The actively maintained MIT repository documents durable inboxes, task queues, MCP/HTTP transports, cross-process wakeups and a public team email."},
+        {"url": "https://github.com/Maxlumiere/bot-relay-mcp#feedback--questions", "finding": "The README invites feedback about unlisted clients and publishes contact@lumiereventures.co."}
+      ],
+      "contact_channel": "email",
+      "contact_value": "contact@lumiereventures.co",
+      "allowed_purpose": "MCP client compatibility and open-source technical collaboration",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 6,
+      "recommended_capability": "coordinate LazyMind workflow transitions and artifact references through relay tasks and messages",
+      "case_links": ["https://github.com/LazyAGI/LazyMind", "https://github.com/LazyAGI/LazyMind/tree/main/examples"],
+      "risk_notes": "No prior contact or suppression. The repository is early-stage; propose a narrow test and avoid scale or reliability claims.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-e2b-runtime",
+      "organization": "E2B",
+      "project_name": "E2B Runtime and LazyMind workflow lifecycle compatibility",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://e2b.dev/resources/introducing-e2b-embed",
+      "pain_point": "E2B sandboxes support isolated execution, pause/resume, snapshots and artifacts. A bounded test can separate sandbox lifecycle from LazyMind workflow review, artifact and completion state.",
+      "evidence": [
+        {"url": "https://github.com/e2b-dev/runtime", "finding": "The Apache-2.0 runtime repository is actively maintained, with a public commit on 2026-10-29."},
+        {"url": "https://e2b.dev/resources/introducing-e2b-embed", "finding": "The official E2B Embed announcement documents self-hosted runtime, local logs and filesystem artifacts and welcomes contributions."},
+        {"url": "https://e2b.dev/resources/e2b-sandboxes-are-now-available-through-stripe-projects", "finding": "The official article invites platform integrations at hello@e2b.dev."}
+      ],
+      "contact_channel": "email",
+      "contact_value": "hello@e2b.dev",
+      "allowed_purpose": "open-source platform integration inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 9,
+      "recommended_capability": "separate sandbox pause/resume and snapshots from LazyMind workflow checkpoints and artifacts",
+      "case_links": ["https://github.com/LazyAGI/LazyMind", "https://github.com/LazyAGI/LazyMind/tree/main/examples"],
+      "risk_notes": "No prior contact or suppression. No E2B adapter exists; do not claim sandbox persistence produces workflow recovery automatically.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-agenteng",
+      "organization": "Superagentic AI / AgentEng",
+      "project_name": "AgentEng and LazyMind workflow event compatibility",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://super-agentic.ai/contact/",
+      "pain_point": "AgentEng exposes CLI, MCP, A2A and coding-agent integrations. A small public-data experiment can test how LazyMind steps, review checkpoints and artifact references map to AgentEng events and tool outputs.",
+      "evidence": [
+        {"url": "https://github.com/SuperagenticAI/agenteng", "finding": "The Apache-2.0 repository documents CLI, MCP, A2A, coding-agent integrations and public contribution paths; its public commit feed updated on 2026-10-18."},
+        {"url": "https://super-agentic.ai/contact/", "finding": "The official organization contact page publishes research@super-agentic.ai for research and open-source discussion."}
+      ],
+      "contact_channel": "email",
+      "contact_value": "research@super-agentic.ai",
+      "allowed_purpose": "research and open-source interoperability discussion",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 7,
+      "recommended_capability": "map workflow stages, review decisions and artifact references into AgentEng events and MCP outputs",
+      "case_links": ["https://github.com/LazyAGI/LazyMind", "https://github.com/LazyAGI/LazyMind/tree/main/examples"],
+      "risk_notes": "No prior contact or suppression. This is a proposed event mapping, not an existing AgentEng integration or evaluated performance result.",
+      "status": "qualified",
+      "last_contact_at": null
+    }
+  ],
+  "drafts": [
+    {
+      "lead_id": "collab-restate",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: LazyMind workflow state on Restate",
+      "body": "Hello Restate team,\n\nRestate gives applications durable execution and consistent state across infrastructure failures. A practical interoperability question for us is where a Restate service's state should end and a LazyMind workflow's step, review, artifact, and completion state should begin.\n\nWe propose a small test using public or synthetic inputs: invoke one fixed LazyMind workflow from a Restate service, persist its workflow identifier and stage transitions, pause once for human review, and resume after one controlled interruption. We would compare both state records and document which system owns each transition. This is a compatibility proposal, not an existing Restate integration or a durability claim.\n\nRestate: https://github.com/restatedev/restate\nLazyMind: https://github.com/LazyAGI/LazyMind\nExamples: https://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would your team be open to reviewing a one-page state-mapping plan before any implementation?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-agent-swarm",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: LazyMind workflows in Agent Swarm run trees",
+      "body": "Hello Agent Swarm team,\n\nAgent Swarm already coordinates agent tasks, workflow runs, approvals, and Codex-based workers. The overlap with LazyMind raises a concrete state question: how should a skill workflow's review checkpoint and versioned artifacts appear in Agent Swarm's task and run tree without reporting completion too early?\n\nWe propose a small test with public or synthetic inputs: run one LazyMind workflow as an Agent Swarm task, map its stages and artifact references into the run tree, pause for one review decision, and observe one controlled rerun. The output would be a short interoperability note describing state ownership and possible adapter boundaries. This is a collaboration idea, not an existing adapter or a retry guarantee.\n\nAgent Swarm: https://github.com/desplega-ai/agent-swarm\nLazyMind: https://github.com/LazyAGI/LazyMind\nExamples: https://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would you be open to reviewing a one-page test plan?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-bot-relay-mcp",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility test: LazyMind workflow state over bot-relay-mcp",
+      "body": "Hello bot-relay-mcp team,\n\nbot-relay-mcp provides durable inboxes, task queues, and wakeups across MCP and HTTP clients. For a multi-stage LazyMind workflow, the key interoperability issue is how relay task state should relate to workflow stages, review pauses, and artifact references when an agent process restarts.\n\nWe propose a narrow local test: use a relay task to start one public LazyMind example, post stage transitions and artifact references back through the relay, pause once for review, then restart one client before resuming. We would document the minimum message and task fields needed to avoid contradictory pending and completed states. This is only a proposed compatibility study; no integration or recovery result is being claimed.\n\nbot-relay-mcp: https://github.com/Maxlumiere/bot-relay-mcp\nLazyMind: https://github.com/LazyAGI/LazyMind\nExamples: https://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would you be interested in reviewing the test outline?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-e2b-runtime",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: LazyMind workflow checkpoints in E2B sandboxes",
+      "body": "Hello E2B team,\n\nE2B gives agents isolated machines with lifecycle controls, files, snapshots, and pause/resume support. For long-running LazyMind work, an important boundary is distinguishing the sandbox lifecycle from the workflow's own review checkpoint, artifact, and completion state.\n\nWe propose a small public-data test using the open-source E2B Runtime or Embed: start one LazyMind example inside a sandbox, record the workflow identifier and artifact paths, pause at a human review point, then snapshot or pause the sandbox and resume it once. We would document which state belongs in E2B and which remains in LazyMind. This is a proposed experiment, not an existing E2B adapter or a workflow-recovery claim.\n\nE2B Runtime: https://github.com/e2b-dev/runtime\nLazyMind: https://github.com/LazyAGI/LazyMind\nExamples: https://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would your team review a one-page compatibility plan before implementation?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-agenteng",
+      "channel": "email",
+      "language": "en",
+      "subject": "Open-source compatibility idea: AgentEng events and LazyMind workflows",
+      "body": "Hello AgentEng team,\n\nAgentEng brings CLI, MCP, A2A, and coding-agent integrations into one open-source surface. A useful interoperability question is how a LazyMind workflow's step, review, and artifact state should be represented in AgentEng events and tool outputs without reducing the whole workflow to one agent session.\n\nWe propose one small experiment with public or synthetic inputs: expose a fixed LazyMind workflow through an AgentEng-compatible operation, emit its stage transitions and artifact references, pause for one review decision, and resume after one controlled tool failure. The result would be a concise event-mapping note and, only if both sides find it useful, a follow-up implementation proposal. No AgentEng integration or performance result is being claimed.\n\nAgentEng: https://github.com/SuperagenticAI/agenteng\nLazyMind: https://github.com/LazyAGI/LazyMind\nExamples: https://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would this fit an initial open-source technical review?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    }
+  ]
+}

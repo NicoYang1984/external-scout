@@ -1,0 +1,51 @@
+{
+  "source_url": "https://github.com",
+  "version": "explicit-curated-public-directories-2026-10-27",
+  "items": [
+    {
+      "source_id": "1234056436",
+      "kind": "skill_directory",
+      "url": "https://github.com/TheStreamCode/agentic-rd-skill",
+      "canonical_url": "https://github.com/TheStreamCode/agentic-rd-skill",
+      "repository_id": 1234056436,
+      "repo": "thestreamcode/agentic-rd-skill",
+      "title": "Portable multi-agent research workflow skill for Codex, Claude Code, GitHub Copilot, Gemini CLI and OpenCode",
+      "observed_at": "2026-10-27T08:28:45.341Z",
+      "updated_at": "2026-10-25T09:05:43Z",
+      "provenance": {
+        "directory_url": "https://github.com/TheStreamCode/agentic-rd-skill",
+        "commit": "c8b5f521572a3036149a9cdb491d25c1d0cd9fc3"
+      }
+    },
+    {
+      "source_id": "1179157119",
+      "kind": "skill_directory",
+      "url": "https://github.com/sensein/agent_skills",
+      "canonical_url": "https://github.com/sensein/agent_skills",
+      "repository_id": 1179157119,
+      "repo": "sensein/agent_skills",
+      "title": "Reusable skills, tools, and workflows for building capable AI agents.",
+      "observed_at": "2026-10-27T08:28:45.455Z",
+      "updated_at": "2026-10-22T15:45:03Z",
+      "provenance": {
+        "directory_url": "https://github.com/sensein/agent_skills",
+        "commit": "1dafcb10cb0e44930d35a6ab8c8534320e65514f"
+      }
+    },
+    {
+      "source_id": "1079084637",
+      "kind": "skill_directory",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "canonical_url": "https://github.com/alirezarezvani/claude-skills",
+      "repository_id": 1079084637,
+      "repo": "alirezarezvani/claude-skills",
+      "title": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "observed_at": "2026-10-27T08:28:45.295Z",
+      "updated_at": "2026-10-27T07:47:31Z",
+      "provenance": {
+        "directory_url": "https://github.com/alirezarezvani/claude-skills",
+        "commit": "5434623a788ec3105d238328cfe554e1e2242ff7"
+      }
+    }
+  ]
+}

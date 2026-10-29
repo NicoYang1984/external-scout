@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "url": "https://github.com/TheStreamCode/agentic-rd-skill",
+  "repo": "thestreamcode/agentic-rd-skill",
+  "title": "TheStreamCode/agentic-rd-skill bounded assessment",
+  "domain": "Agent 开发与开源维护",
+  "route": "small_project",
+  "category": "workflow_gap",
+  "status": "verification_pending",
+  "evidence_level": "source_reviewed",
+  "support_level": "easy_extension",
+  "capability_ids": [
+    "workflow_observation"
+  ],
+  "capability_evidence": [
+    {
+      "source": "references/capabilities.json#workflow_observation",
+      "finding": "限定事实；目标项目尚未实际运行"
+    }
+  ],
+  "runnable_path": "读取已授权 Workflow session 的 projection/steps/artifacts；新项目适配待验证",
+  "technical_fit": {
+    "capability_match": 2,
+    "integration_cost": 2,
+    "validation": 1,
+    "recovery_fit": 1
+  },
+  "ecosystem_value": {
+    "user_value": 2,
+    "collaboration": 2,
+    "audience_evidence": 0
+  },
+  "score_evidence": [
+    {
+      "source": "https://github.com/TheStreamCode/agentic-rd-skill/blob/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3/README.md",
+      "finding": "已有八阶段流程、可验证状态和人工审阅记录，不能假设缺少运行层；仅保留 LazyMind 状态观测薄适配的待证实合作假设。"
+    },
+    {
+      "source": "https://github.com/TheStreamCode/agentic-rd-skill/blob/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3/CONTRIBUTING.md",
+      "finding": "贡献规则已读取"
+    }
+  ],
+  "summary": "已有八阶段流程、可验证状态和人工审阅记录，不能假设缺少运行层；仅保留 LazyMind 状态观测薄适配的待证实合作假设。",
+  "sources": [
+    {
+      "url": "https://github.com/TheStreamCode/agentic-rd-skill",
+      "finding": "公开元数据、README 和有界 Issue/PR 枚举",
+      "commit": "c8b5f521572a3036149a9cdb491d25c1d0cd9fc3",
+      "checked_at": "2026-10-27"
+    }
+  ],
+  "stars": 1,
+  "proposed_action": "先定义相对原 CLI 的新增价值与固定输入验收；非文档代码改动前需按贡献规则讨论 Issue。",
+  "validation_status": "planned",
+  "public_contribution_url": null,
+  "review_status": "not_requested",
+  "outreach_channel": "GitHub, only if subsequently authorized",
+  "outreach_permission": "not_granted",
+  "reply_status": "not_contacted",
+  "trial_status": "not_started",
+  "conversion_evidence": [],
+  "next_follow_up": null,
+  "next_action": "先定义相对原 CLI 的新增价值与固定输入验收；非文档代码改动前需按贡献规则讨论 Issue。"
+}

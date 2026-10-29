@@ -1,0 +1,24 @@
+{
+  "crash_without_checkpoint": {
+    "action": "skip_this_run",
+    "previous": null
+  },
+  "unfinished_pagination_cursor": {
+    "last_issue_number": 200,
+    "pending_issue_numbers": []
+  },
+  "latest_memory": {
+    "nested": {
+      "b": 2
+    },
+    "decisions": [
+      "second"
+    ]
+  },
+  "latest_coverage": {
+    "reviewed_urls": [],
+    "page_cursor": "still-unfinished"
+  },
+  "history_count": 2,
+  "personal_project_root": "/Users/cuishaoting/Documents/LazyMind"
+}

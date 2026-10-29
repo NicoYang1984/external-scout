@@ -1,0 +1,8 @@
+Derived from Anthropic anthropics/knowledge-work-plugins, commit c75fda00ff0e41c8ee331ae312c8a07f1967653b.
+Original Skill: marketing/skills/competitive-brief/SKILL.md
+Dependency: marketing/CONNECTORS.md
+The upstream LICENSE is copied byte-for-byte, including its trailing text.
+Local modifications: marketing-specific name/trigger, dependency link and this notice.
+No other upstream instructions changed. No affiliation or endorsement claimed.
+CONNECTORS describes categories; copying it does not provision any connector.
+This is a portable example package, not a fix to any official installer.

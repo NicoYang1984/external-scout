@@ -1,0 +1,167 @@
+{
+  "source": "https://api.github.com/repos/sensein/agent_skills/contents/",
+  "retrieved_at": "2026-10-27T08:28:45.261Z",
+  "transport": "authorized GitHub connector GET",
+  "response": [
+    {
+      "name": ".github",
+      "path": ".github",
+      "sha": "f69ce39a4feff421de1510e28a5b28d2a85e59bd",
+      "size": 0,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/.github?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/tree/main/.github",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/trees/f69ce39a4feff421de1510e28a5b28d2a85e59bd",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/.github?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/trees/f69ce39a4feff421de1510e28a5b28d2a85e59bd",
+        "html": "https://github.com/sensein/agent_skills/tree/main/.github"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "1f57344acb33716e8a4dcadd32e52d5fa78b7995",
+      "size": 4985,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/.gitignore?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/blob/main/.gitignore",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/blobs/1f57344acb33716e8a4dcadd32e52d5fa78b7995",
+      "download_url": "https://raw.githubusercontent.com/sensein/agent_skills/main/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/.gitignore?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/blobs/1f57344acb33716e8a4dcadd32e52d5fa78b7995",
+        "html": "https://github.com/sensein/agent_skills/blob/main/.gitignore"
+      }
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/LICENSE?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/blob/main/LICENSE",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "download_url": "https://raw.githubusercontent.com/sensein/agent_skills/main/LICENSE",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/LICENSE?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "html": "https://github.com/sensein/agent_skills/blob/main/LICENSE"
+      }
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha": "080bbf4afc998987a59aef8ed81b14b4a6a4a7ee",
+      "size": 6646,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/README.md?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/blob/main/README.md",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/blobs/080bbf4afc998987a59aef8ed81b14b4a6a4a7ee",
+      "download_url": "https://raw.githubusercontent.com/sensein/agent_skills/main/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/README.md?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/blobs/080bbf4afc998987a59aef8ed81b14b4a6a4a7ee",
+        "html": "https://github.com/sensein/agent_skills/blob/main/README.md"
+      }
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "sha": "b187902cced3b4a60c5e45fd75025315f4ae4a0d",
+      "size": 0,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/docs?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/tree/main/docs",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/trees/b187902cced3b4a60c5e45fd75025315f4ae4a0d",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/docs?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/trees/b187902cced3b4a60c5e45fd75025315f4ae4a0d",
+        "html": "https://github.com/sensein/agent_skills/tree/main/docs"
+      }
+    },
+    {
+      "name": "pyproject.toml",
+      "path": "pyproject.toml",
+      "sha": "1e2ad7d932873719b193c47f769bfdda5c2f13f9",
+      "size": 77,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/pyproject.toml?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/blob/main/pyproject.toml",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/blobs/1e2ad7d932873719b193c47f769bfdda5c2f13f9",
+      "download_url": "https://raw.githubusercontent.com/sensein/agent_skills/main/pyproject.toml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/pyproject.toml?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/blobs/1e2ad7d932873719b193c47f769bfdda5c2f13f9",
+        "html": "https://github.com/sensein/agent_skills/blob/main/pyproject.toml"
+      }
+    },
+    {
+      "name": "scripts",
+      "path": "scripts",
+      "sha": "56b66c9c574338362cd30b72983ebf95b83ff877",
+      "size": 0,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/scripts?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/tree/main/scripts",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/trees/56b66c9c574338362cd30b72983ebf95b83ff877",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/scripts?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/trees/56b66c9c574338362cd30b72983ebf95b83ff877",
+        "html": "https://github.com/sensein/agent_skills/tree/main/scripts"
+      }
+    },
+    {
+      "name": "skills",
+      "path": "skills",
+      "sha": "399b466975a1731914a29a921d99261d658c4a19",
+      "size": 0,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/skills?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/tree/main/skills",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/trees/399b466975a1731914a29a921d99261d658c4a19",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/skills?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/trees/399b466975a1731914a29a921d99261d658c4a19",
+        "html": "https://github.com/sensein/agent_skills/tree/main/skills"
+      }
+    },
+    {
+      "name": "tests",
+      "path": "tests",
+      "sha": "03aada837ace5957958b0ee83d6b42f6708780df",
+      "size": 0,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/tests?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/tree/main/tests",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/trees/03aada837ace5957958b0ee83d6b42f6708780df",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/tests?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/trees/03aada837ace5957958b0ee83d6b42f6708780df",
+        "html": "https://github.com/sensein/agent_skills/tree/main/tests"
+      }
+    },
+    {
+      "name": "uv.lock",
+      "path": "uv.lock",
+      "sha": "adaaa3611ec54435f8f789b9f406e4ce0ed72b04",
+      "size": 132,
+      "url": "https://api.github.com/repos/sensein/agent_skills/contents/uv.lock?ref=main",
+      "html_url": "https://github.com/sensein/agent_skills/blob/main/uv.lock",
+      "git_url": "https://api.github.com/repos/sensein/agent_skills/git/blobs/adaaa3611ec54435f8f789b9f406e4ce0ed72b04",
+      "download_url": "https://raw.githubusercontent.com/sensein/agent_skills/main/uv.lock",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/sensein/agent_skills/contents/uv.lock?ref=main",
+        "git": "https://api.github.com/repos/sensein/agent_skills/git/blobs/adaaa3611ec54435f8f789b9f406e4ce0ed72b04",
+        "html": "https://github.com/sensein/agent_skills/blob/main/uv.lock"
+      }
+    }
+  ]
+}

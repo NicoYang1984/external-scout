@@ -1,0 +1,48 @@
+# macOS and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local state: recreate databases instead of publishing live accounts or approvals
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-*
+*.sqlite3-*
+*.db-*
+/lazymind-outreach-agent/data/
+/lazymind-ecosystem-scout/data/
+/lazymind-ecosystem-scout/team-scout-data/
+/first-run/isolated-data/
+/audit/first-run-attempt/isolated-data/
+
+# Generated packages; their source and provenance remain available
+*.zip
+*.tar.gz
+*.tgz

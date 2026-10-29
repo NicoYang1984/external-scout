@@ -1,0 +1,146 @@
+{
+  "batch_name": "review-2026-10-28-small-01",
+  "sender_account": "lazymind_agent@163.com",
+  "min_interval_seconds": 300,
+  "mode": "review_only",
+  "leads": [
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "contact_channel": "email",
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "status": "qualified",
+      "id": "editorial-hubwiz",
+      "organization": "汇智网",
+      "project_name": "汇智网 Software 2.0 技术投稿",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://www.hubwiz.com/blog/contribute/",
+      "pain_point": "官方征稿要求 Agent/MCP/自动化方向的真实实验和判断，而非工具清单或无实测软文。读者需要区分工作流运行、报告生成与端到端成功；后者是基于征稿范围提出的选题判断，不是媒体已提出的需求。",
+      "evidence": [
+        {
+          "url": "https://www.hubwiz.com/blog/contribute/",
+          "finding": "2026-10-28 读取官方投稿页；更新时间 2026-10-13。接收 Agent/MCP/自动化技术投稿；指定 support@hubwiz.com，邮件附标题、大纲、样稿或链接；不接受纯软文和纯 AI 生成且无实测内容；已公开素材及一稿多投需说明。中文页面作为 zh-CN 依据。"
+        }
+      ],
+      "contact_value": "support@hubwiz.com",
+      "allowed_purpose": "Agent/自动化方向的实测技术文章选题投稿；不用于无关产品广告",
+      "permission_status": "official_submission_channel",
+      "language": "zh-CN",
+      "technical_fit": 9,
+      "ecosystem_value": 7,
+      "recommended_capability": "Skill 到工作流转换的实测记录、步骤/产物状态观察、辅助重试的失败边界",
+      "risk_notes": "这是选题询问，非已完成长文。正式文章需另行确认作者署名/主页及实测复现信息；不承诺采用、付费或独家。素材已公开，邮件披露另有不同角度提案计划。无收件方拒联记录；不代表已核验全部法律/服务商要求。"
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "contact_channel": "email",
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "status": "qualified",
+      "id": "editorial-cnaiplus",
+      "organization": "AI中国网",
+      "project_name": "AI中国网 产品与案例投稿",
+      "campaign_type": "editorial_pitch",
+      "source_url": "https://www.cnaiplus.com/about/contribute/",
+      "pain_point": "该站接收产品与案例稿，并刊载 Agent 执行授权相关内容。行业读者需要能解释试点验收边界的具体案例；这是基于栏目与公开报道提出的编辑角度，并非对方主动需求或试用意愿。",
+      "evidence": [
+        {
+          "url": "https://www.cnaiplus.com/about/contribute/",
+          "finding": "2026-10-28 官方媒体合作页明确产品/案例/新闻投稿，唯一指定 editor@cnaiplus.com；选择性刊登，企业会员优先，不等于普通投稿必须购买会员。专栏注册是另一流程。中文页面作为 zh-CN 依据。"
+        },
+        {
+          "url": "https://www.cnaiplus.com/a/news/8917358.html",
+          "finding": "2026-08-23 刊载 Agent 执行授权话题文章，2026-10-28 页面可读；只用来佐证栏目关注点，不据此认定本站原创研究或存在某项产品缺陷。"
+        }
+      ],
+      "contact_value": "editor@cnaiplus.com",
+      "allowed_purpose": "产品/案例编辑投稿和是否适合栏目的一次询问；不是活动赞助或专栏注册申请",
+      "permission_status": "official_submission_channel",
+      "language": "zh-CN",
+      "technical_fit": 7,
+      "ecosystem_value": 6,
+      "recommended_capability": "竞争简报案例中的分层验收：产物、会话步骤和外部任务状态分别记录",
+      "risk_notes": "次优先级：受众较广，实际编辑兴趣未确认。未见该页面明确 AI 规则，不能据此推定所有内容均被允许；如编辑提出限制再调整。不是客户成功故事，不能声称已落地企业、节省成本或具备经验证的人工审批强制机制。"
+    },
+    {
+      "source_kind": "official_web",
+      "scout_source_id": null,
+      "contact_channel": "email",
+      "permission_verified_at": "2026-10-28",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md"
+      ],
+      "last_contact_at": null,
+      "status": "qualified",
+      "id": "collab-openeng",
+      "organization": "OpenEng Labs",
+      "project_name": "OpenEng governed-execution research collaboration",
+      "campaign_type": "developer_collaboration",
+      "source_url": "https://openeng.ai/contact",
+      "pain_point": "官方明确邀请 agentic systems / governed execution 研究合作，要求说明问题、现有材料、系统、结果、数据边界和时间。以会话恢复与外部任务状态分离为研究问题；不推定 OpenEng 存在同样故障。",
+      "evidence": [
+        {
+          "url": "https://openeng.ai/contact",
+          "finding": "2026-10-28 重核官方 Research collaboration 入口 hello@openeng.ai，范围含 agentic systems 与 governed execution，建议主题 Research collaboration。英文页面作为 en 依据。"
+        }
+      ],
+      "contact_value": "hello@openeng.ai",
+      "allowed_purpose": "research collaboration on agentic systems and governed execution",
+      "permission_status": "official_collaboration_channel",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 6,
+      "recommended_capability": "workflow observation, bounded assisted retry and explicit artifact/session/task-state reporting",
+      "risk_notes": "保留原有官方合作渠道许可，未提升历史权限。只邀请审阅小型测试矩阵；不承诺集成、Linux/AEL 兼容或上游认可。日期需双方协商，未承诺开发排期。"
+    }
+  ],
+  "drafts": [
+    {
+      "lead_id": "editorial-hubwiz",
+      "language": "zh-CN",
+      "subject": "选题投稿｜报告生成了，Agent 就算跑完了吗？一次 Skill 工作流实测",
+      "body": "编辑您好，\n\n贵站征稿里强调 Agent 自动化要有真实实验和取舍判断。我想提一个开发者容易遇到、却常被演示略过的问题：报告已经生成，工作流也显示跑完，是否就能把这次任务算作成功？\n\n文章可以围绕一次竞争简报 Skill 转工作流的实测展开，沿着输入、步骤状态、报告验收和外部任务状态逐层检查。拟定三个部分：固定 Skill 版本与输入；复盘首次只完成 2/5 步以及辅助恢复过程；给出一张“哪些证据才足以判定成功”的检查表。重点是工程踩坑，不做产品功能罗列。\n\n我在为 LazyMind 整理对外技术交流材料，这封邮件与该项目有直接推广关联。现有公开记录显示：安装、转换和发布曾成功完成；首次自主运行失败，之后经人工介入重试及推进，会话达到 5/5，但原外部任务仍是 failed。恢复产物仍有事实依据问题，不能据此宣称稳定无人值守或效果优于原 Skill。\n\n实测记录：\nhttps://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md\n开源项目：\nhttps://github.com/LazyAGI/LazyMind\n\n实验素材已在 GitHub 公开；同一实验的行业验收角度也计划向另一家媒体提议，并非独家投稿。这次先请您判断选题，尚不是完整文章；正式稿的作者署名、复现细节和篇幅可再按编辑要求确认。\n\n这个角度适合贵站吗？如果不合适，直接回复不适合即可，我不会继续催稿。\n\nLazyMind 技术交流\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "editorial-cnaiplus",
+      "language": "zh-CN",
+      "subject": "案例选题｜Agent 做出了简报，为什么还不能算业务任务完成？",
+      "body": "编辑您好，\n\n看到贵站刊载了 Agent 执行授权相关话题，也开放产品与案例投稿。我想补一个更接近试点验收的例子：业务人员拿到一份像样的竞争简报后，还需要检查什么，才能判断这次自动化真正完成了任务？\n\n拟议案例会把验收拆成三层：报告本身是否有依据，执行步骤是否完成，外部任务是否确认成功。用一次公开实测把三种状态并列展示，再整理出业务负责人可以和技术团队一起使用的验收清单，而不是把“生成了内容”直接写成“获得了业务成果”。\n\n这封邮件是 LazyMind 的项目交流与推广询问，并非独立第三方测评。LazyMind 的公开竞争简报实验可以提供具体材料：首次自主执行在 2/5 步后失败；辅助恢复后会话显示 5/5，但原外部任务仍失败，报告也存在事实依据不足的问题。这是带失败边界的实验案例，不是客户成功故事；没有经验证的收益、节时数据或客户背书。\n\n案例与结果：\nhttps://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md\n开源项目：\nhttps://github.com/LazyAGI/LazyMind\n\n底层材料已公开；另有面向开发者的不同角度选题计划，因此不作为独家素材。这里先提交案例摘要供编辑判断，不申请专栏或活动合作，也不附带付费宣传要求。\n\n如果适合产品/案例栏目，您更希望重点解释业务验收，还是失败后的人工介入？不适合的话请直接告知，我们不再跟进。\n\nLazyMind 技术交流\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-openeng",
+      "existing_draft_id": "7c4d0d9b-9023-4618-8417-5d89a26ffb45",
+      "language": "en",
+      "subject": "Research collaboration: when a recovered agent session still leaves a failed task",
+      "body": "Hello OpenEng team,\n\nYour research invitation explicitly includes governed execution. One question from a LazyMind experiment seems relevant: what evidence should count as recovery when an agent session completes its steps but the originating task still reports failure?\n\nWould a small, public test matrix be useful to discuss? It would separate artifact validity, session completion and task status, with explicit pass/fail criteria. The first step would be reviewing that matrix, not integrating our systems or requesting a joint endorsement.\n\nI coordinate outreach discussions around LazyMind; this is a project-related inquiry, not an independent assessment. Our current evidence comes from converting the marketing competitive-brief Skill into a hosted LazyMind workflow. Installation, conversion and publication succeeded in that run, but autonomous execution failed after 2/5 steps. Assisted recovery reached 5/5 in the same session while the original task remained failed. The resulting report still had grounding issues, so this does not establish reliable unattended execution.\n\nPublic evaluation:\nhttps://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md\nOpen-source runtime:\nhttps://github.com/LazyAGI/LazyMind\n\nThe proposed scope would use public or synthetic inputs only, with no production access or credentials exchanged. There is no existing OpenEng integration or claim that your system has this issue. Timing would be agreed after you assess the scope; this note makes no engineering-delivery commitment.\n\nWould reviewing a one-page matrix fit your research interests? If not, a brief “not relevant” is enough and I will not follow up.\n\nLazyMind outreach coordination\nlazymind_agent@163.com"
+    }
+  ],
+  "research_notes": {
+    "verified_on": "2026-10-28",
+    "case_public": true,
+    "case_verification": "Fixed-commit EVALUATION.md read through GitHub connector; repository metadata confirmed public. Web fetch of GitHub blob had cache miss, not treated as proof of inaccessibility.",
+    "case_pr": "https://github.com/LazyAGI/LazyMind/pull/873",
+    "case_pr_state": "open, draft, not merged when checked",
+    "protected_history": "少数派和 InfoQ 已联系，排除本批；OpenEng 保留原权限；Scout 导入线索许可不变。",
+    "ai_policy_followup": "按用户最新要求保留有 AI 条款媒体作为考察候选；逐项区分选题询问与正式稿件及允许范围。本轮不把原 suppressed/许可不足记录自动解封，不将泛化要求当作精确外发批准。",
+    "hold_candidates": [
+      "IEEE Spectrum：待核对具体作者/稿件要求与本次可接受联系范围",
+      "TechRadar Pro、DZone、IAPP：保留考察记录，需重新核验规则及可接受联系形式；不得把禁止内容伪装成人工原创",
+      "OpenSource.net：会员/投稿流程待用户身份与注册选择确认",
+      "Composio：官方合作路径与发件身份不匹配，继续 identity_hold"
+    ],
+    "no_github_personal_email_collection": true,
+    "no_business_trial_without_opt_in": true
+  }
+}

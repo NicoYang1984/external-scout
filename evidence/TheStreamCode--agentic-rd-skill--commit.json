@@ -1,0 +1,66 @@
+{
+  "source": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/commits/main",
+  "retrieved_at": "2026-10-27T08:37:55.329Z",
+  "transport": "authorized GitHub connector GET",
+  "response": {
+    "sha": "c8b5f521572a3036149a9cdb491d25c1d0cd9fc3",
+    "node_id": "C_kwDOSY409NoAKGM4YjVmNTIxNTcyYTMwMzYxNDlhOWNkYjQ5MWQyNWMxZDBjZDlmYzM",
+    "commit": {
+      "author": {
+        "name": "Michael Gasperini",
+        "email": "michael@mikesoft.it",
+        "date": "2026-10-25T09:05:39Z"
+      },
+      "committer": {
+        "name": "Michael Gasperini",
+        "email": "michael@mikesoft.it",
+        "date": "2026-10-25T09:05:39Z"
+      },
+      "message": "chore(governance): scope code ownership to first-party sources\n\nThe catch-all CODEOWNERS pattern made GitHub request a code-owner review on every pull request, including Dependabot updates, which produced review-request email noise. Own the source and documentation paths only; dependency manifests, lockfiles and GitHub automation stay unowned.",
+      "tree": {
+        "sha": "a2227552c96a4c511515a7892f647ee1c11ddd25",
+        "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/trees/a2227552c96a4c511515a7892f647ee1c11ddd25"
+      },
+      "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/git/commits/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/commits/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3",
+    "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/commit/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3",
+    "comments_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/commits/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "9ecfeaec697d7a62ea8edde16db7145933130874",
+        "url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/commits/9ecfeaec697d7a62ea8edde16db7145933130874",
+        "html_url": "https://github.com/TheStreamCode/agentic-rd-skill/commit/9ecfeaec697d7a62ea8edde16db7145933130874"
+      }
+    ],
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "36f3f433a801a3ac1494229cb157e470062319d7",
+        "filename": ".github/CODEOWNERS",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 2,
+        "changes": 9,
+        "blob_url": "https://github.com/TheStreamCode/agentic-rd-skill/blob/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3/.github%2FCODEOWNERS",
+        "raw_url": "https://github.com/TheStreamCode/agentic-rd-skill/raw/c8b5f521572a3036149a9cdb491d25c1d0cd9fc3/.github%2FCODEOWNERS",
+        "contents_url": "https://api.github.com/repos/TheStreamCode/agentic-rd-skill/contents/.github%2FCODEOWNERS?ref=c8b5f521572a3036149a9cdb491d25c1d0cd9fc3",
+        "patch": "@@ -1,2 +1,7 @@\n-# The maintainer owns the complete repository, including this policy file.\n-* @TheStreamCode\n+# Ownership of first-party sources and documentation.\n+# Dependency manifests, lockfiles and GitHub workflows are intentionally unowned so\n+# Dependabot pull requests do not request a maintainer review on every update.\n+/evals/ @TheStreamCode\n+/scripts/ @TheStreamCode\n+/skills/ @TheStreamCode\n+/tests/ @TheStreamCode"
+      }
+    ]
+  }
+}

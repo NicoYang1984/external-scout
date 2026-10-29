@@ -1,0 +1,54 @@
+{
+  "source": "https://api.github.com/repos/sensein/agent_skills/issues/35/comments",
+  "retrieved_at": "2026-10-27T08:37:55.172Z",
+  "transport": "authorized GitHub connector GET",
+  "response": [
+    {
+      "url": "https://api.github.com/repos/sensein/agent_skills/issues/comments/6106060343",
+      "html_url": "https://github.com/sensein/agent_skills/issues/35#issuecomment-6106060343",
+      "issue_url": "https://api.github.com/repos/sensein/agent_skills/issues/35",
+      "id": 6106060343,
+      "node_id": "IC_kwDORkiCf88AAAABa_MWNw",
+      "user": {
+        "login": "RashiTinkX",
+        "id": 88199539,
+        "node_id": "MDQ6VXNlcjg4MTk5NTM5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/88199539?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/RashiTinkX",
+        "html_url": "https://github.com/RashiTinkX",
+        "followers_url": "https://api.github.com/users/RashiTinkX/followers",
+        "following_url": "https://api.github.com/users/RashiTinkX/following{/other_user}",
+        "gists_url": "https://api.github.com/users/RashiTinkX/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/RashiTinkX/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/RashiTinkX/subscriptions",
+        "organizations_url": "https://api.github.com/users/RashiTinkX/orgs",
+        "repos_url": "https://api.github.com/users/RashiTinkX/repos",
+        "events_url": "https://api.github.com/users/RashiTinkX/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/RashiTinkX/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2026-10-11T06:01:55Z",
+      "updated_at": "2026-10-11T06:01:55Z",
+      "body": "@tekrajchhetri done, please take a look - https://github.com/sensein/agent_skills/pull/36",
+      "author_association": "NONE",
+      "pin": null,
+      "reactions": {
+        "url": "https://api.github.com/repos/sensein/agent_skills/issues/comments/6106060343/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null,
+      "minimized": null
+    }
+  ]
+}

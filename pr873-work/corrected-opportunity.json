@@ -1,0 +1,195 @@
+{
+  "schema_version": 2,
+  "run_id": "pr873-source-correction-20261027",
+  "evidence_level": "source_reviewed",
+  "validation_status": "planned",
+  "public_contribution_url": "https://github.com/LazyAGI/LazyMind/pull/873",
+  "review_status": "not_requested",
+  "outreach_permission": "not_granted",
+  "reply_status": "not_contacted",
+  "trial_status": "not_started",
+  "conversion_evidence": [],
+  "next_follow_up": "2026-11-03T09:00:00Z",
+  "repo": "anthropics/knowledge-work-plugins",
+  "url": "https://github.com/anthropics/knowledge-work-plugins/issues/1381",
+  "title": "继续现有 PR #873：marketing Competitive Brief 独立依赖包与记录回放",
+  "route": "issue_analysis",
+  "domain": [
+    "营销和运营",
+    "产品方案与竞品分析"
+  ],
+  "category": "skill_reliability",
+  "status": "verification_pending",
+  "support_level": "easy_extension",
+  "capability_ids": [
+    "skill_directory_install",
+    "workflow_observation",
+    "assisted_retry"
+  ],
+  "capability_evidence": [
+    {
+      "capability_id": "skill_directory_install",
+      "source": "references/capabilities.json#skill_directory_install",
+      "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。",
+      "evidence_subject": {
+        "repository": "anthropics/knowledge-work-plugins",
+        "commit": "c75fda00ff0e41c8ee331ae312c8a07f1967653b",
+        "path": "marketing/skills/competitive-brief/SKILL.md",
+        "git_blob": "1a7df218996ed350c67e6899a60321f205bb69d6",
+        "connector_path": "marketing/CONNECTORS.md",
+        "connector_git_blob": "f4d375273c56cfeb923022556ac5ec60e4c818ff"
+      }
+    },
+    {
+      "capability_id": "workflow_observation",
+      "source": "references/capabilities.json#workflow_observation",
+      "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。",
+      "evidence_subject": {
+        "repository": "anthropics/knowledge-work-plugins",
+        "commit": "c75fda00ff0e41c8ee331ae312c8a07f1967653b",
+        "path": "marketing/skills/competitive-brief/SKILL.md",
+        "git_blob": "1a7df218996ed350c67e6899a60321f205bb69d6",
+        "connector_path": "marketing/CONNECTORS.md",
+        "connector_git_blob": "f4d375273c56cfeb923022556ac5ec60e4c818ff"
+      }
+    },
+    {
+      "capability_id": "assisted_retry",
+      "source": "references/capabilities.json#assisted_retry",
+      "version": "PR873 recorded deployment; source VCS unknown; workflow revision 617f74c8-30fc-42da-84a6-0893f8fda218",
+      "sources": [
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+        "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/ISSUES.md"
+      ],
+      "last_verified": "2026-10-27",
+      "limitation": "只继承限定实验的能力证据，本轮未运行新目标 E2E。",
+      "evidence_subject": {
+        "repository": "anthropics/knowledge-work-plugins",
+        "commit": "c75fda00ff0e41c8ee331ae312c8a07f1967653b",
+        "path": "marketing/skills/competitive-brief/SKILL.md",
+        "git_blob": "1a7df218996ed350c67e6899a60321f205bb69d6",
+        "connector_path": "marketing/CONNECTORS.md",
+        "connector_git_blob": "f4d375273c56cfeb923022556ac5ec60e4c818ff"
+      }
+    }
+  ],
+  "runnable_path": "基于已运行的 marketing Skill，在现有 examples/competitive-brief-skill2workflow 内生成固定哈希独立包，内置 marketing CONNECTORS，修正链接与别名。目录安装/观测/辅助恢复证据仍仅属原实验；新ZIP只通过本地依赖解析及可复现测试。",
+  "technical_fit": {
+    "capability_match": 4,
+    "integration_cost": 2,
+    "validation": 1,
+    "recovery_fit": 1
+  },
+  "ecosystem_value": {
+    "user_value": 3,
+    "collaboration": 0,
+    "audience_evidence": 1
+  },
+  "score_evidence": [
+    "A capability_match=4只对应已实测的marketing版本；产品管理版本未测。业务题目面向PM不改变源Skill身份。",
+    "A integration_cost=2：已在原Example完成独立打包，未改Core/Runtime；不是创建另一个Example。",
+    "A validation=1：15项本地打包和既有记录回放通过；新包未经过托管导入/模型执行，不能给2。",
+    "A recovery_fit=1：辅助重试已有证据；external task 仍 failed，不能给完全恢复分。",
+    "B user_value=3：#1381 真实报告跨插件父目录依赖丢失，当前 competitive-brief 仍有该引用；业务简报支持产品/售前。",
+    "B collaboration=0：PR1389 closed且merged=false；当前自动关闭策略不允许本类型外部改动，无维护者合作承诺。",
+    "B audience_evidence=1：公开问题有实际报告者，未证明触达规模；33313 Star 不计分。"
+  ],
+  "summary": "纠正第二轮同名来源混淆；PR873实际运行marketing版本，product-management版本仅静态查阅。已补现有Example并通过本地打包/记录回放；托管新包E2E未执行，继续Draft。",
+  "sources": [
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins/issues/1381",
+      "finding": "open；独立安装缺少插件根 CONNECTORS；无评论"
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins/pull/1389",
+      "finding": "closed, merged=false；类似修复被关闭，不能推断已解决"
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/c75fda00ff0e41c8ee331ae312c8a07f1967653b/product-management/skills/competitive-brief/SKILL.md",
+      "finding": "同名但不同Skill，仅静态证据；PR873运行结果不适用于它。"
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/c75fda00ff0e41c8ee331ae312c8a07f1967653b/.github/workflows/close-external-prs.yml",
+      "finding": "非成员一般关闭；例外仅现有live插件源的 marketplace 条目增补，本方案不符合"
+    },
+    {
+      "url": "https://github.com/NicoYang1984/LazyMind/blob/fde2e68437caffa8dc6d706271dabc6073183938/examples/competitive-brief-skill2workflow/EVALUATION.md",
+      "finding": "限定观测与辅助恢复的既往证据；非本轮测试"
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins/blob/c75fda00ff0e41c8ee331ae312c8a07f1967653b/marketing/skills/competitive-brief/SKILL.md",
+      "finding": "PR873实际输入，marketing blob 1a7df218996ed350c67e6899a60321f205bb69d6"
+    },
+    {
+      "url": "https://github.com/NicoYang1984/LazyMind/blob/bc27d44e447fc9ffba09b0f6a3a656569ef01f41/examples/competitive-brief-skill2workflow/source-lock.json",
+      "finding": "两种同名Skill、对应CONNECTORS和固定版本的身份锁定"
+    },
+    {
+      "url": "https://github.com/LazyAGI/LazyMind/pull/873",
+      "finding": "现有Example，不应重复创建；本轮更新后仍Draft"
+    }
+  ],
+  "proposed_action": "继续同一 PR #873，不重新创建Example；现已提交源身份锁定、独立打包、15项测试及证据精简。",
+  "action_classification": {
+    "technical_pr": "无新增Anthropic修复PR；更新同一LazyMind PR873",
+    "lazymind_example": "原Example已存在，仅补齐依赖和验证",
+    "maintainer_cooperation": "未联系Anthropic维护者",
+    "product_listing": "待产品真实验收后再评估"
+  },
+  "outreach_channel": "仅用户授权的现有 LazyMind PR873 更新；不联系/发布到Anthropic",
+  "next_action": "审查同一PR的补充实现；新包托管导入/执行仍未验证，保留自主失败、事实依据缺陷、503/500编辑失败与审核缺口。",
+  "validation_requirements": [
+    "保留源commit与文件hash；补齐CONNECTORS后所有本地引用能解析，缺配置必须显式提示。",
+    "隔离测试环境使用同一离线事实卡及尽可能同一模型/预算；各至少3次，不把小样本当稳定性证明。",
+    "分别记录生成/发布、session、external task、各步骤和Artifact的实际状态；辅助重试后保留原失败状态。",
+    "检查来源、事实/推断/未知标签和算术；验收不过则只保留技术观测样例，不发表完整业务成功案例。",
+    "不宣称强制审批、Artifact编辑、全自动交付或实时金融研究。"
+  ],
+  "revisit_after_days": 7,
+  "score": 8,
+  "technical_score": 8,
+  "ecosystem_score": 4,
+  "eligibility_reason": "Scoped capability gate passed; deployment still requires verification",
+  "eligible": true,
+  "recommended_for_validation": true,
+  "promotion_priority": "not_established",
+  "skill_source": {
+    "repository": "anthropics/knowledge-work-plugins",
+    "commit": "c75fda00ff0e41c8ee331ae312c8a07f1967653b",
+    "path": "marketing/skills/competitive-brief/SKILL.md",
+    "git_blob": "1a7df218996ed350c67e6899a60321f205bb69d6",
+    "connector_path": "marketing/CONNECTORS.md",
+    "connector_git_blob": "f4d375273c56cfeb923022556ac5ec60e4c818ff"
+  },
+  "pull_request_state": "draft",
+  "pull_request_head": "bc27d44e447fc9ffba09b0f6a3a656569ef01f41",
+  "packaging_validation": {
+    "status": "passed",
+    "scope": "local package and recorded-recovery replay only",
+    "tests": 15,
+    "source": "https://github.com/NicoYang1984/LazyMind/blob/bc27d44e447fc9ffba09b0f6a3a656569ef01f41/examples/competitive-brief-skill2workflow/evidence/checks/supplement-tests.txt",
+    "checked_at": "2026-10-27T12:11:26.485Z",
+    "new_live_runs": 0
+  },
+  "source_correction": {
+    "supersedes_run_id": "round2-20261027",
+    "reason": "marketing recorded E2E was incorrectly mapped to product-management homonym",
+    "excluded_identity": {
+      "path": "product-management/skills/competitive-brief/SKILL.md",
+      "git_blob": "05ca7ec4314ec1a73a882562a364726870944cff",
+      "e2e_verified": false
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "checked_at": "2026-10-29",
+  "batch_name": "review-2026-10-29-next-direct-outreach-01",
+  "sender_account": "lazymind_agent@163.com",
+  "min_interval_seconds": 300,
+  "mode": "review_only",
+  "leads": [
+    {
+      "id": "collab-humanlayer",
+      "organization": "HumanLayer",
+      "project_name": "HumanLayer and LazyMind skill/workflow interoperability",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://www.humanlayer.dev/blog/open-sourcing-humanlayer",
+      "pain_point": "HumanLayer has opened its task, session, plan, comment and RPI workflow stack and is working on bring-your-own skills and workflows. A bounded test can examine how a LazyMind workflow's plan, review and artifact state maps into a HumanLayer task without claiming an existing integration.",
+      "evidence": [
+        {
+          "url": "https://www.humanlayer.dev/blog/open-sourcing-humanlayer",
+          "finding": "The official October 23, 2026 announcement opens HumanLayer core, including task/session/plan/comment data, RPI skills and agent integrations, and invites contributors."
+        },
+        {
+          "url": "https://www.humanlayer.dev/",
+          "finding": "The official site describes human-agent collaboration on artifacts, says bring-your-own skills/workflows are being developed, and publishes contact@humanlayer.dev."
+        },
+        {
+          "url": "https://github.com/humanlayer/humanlayer",
+          "finding": "The public Apache-2.0 repository is current, has open Issues and documents Claude Code and Codex support."
+        }
+      ],
+      "contact_channel": "email",
+      "contact_value": "contact@humanlayer.dev",
+      "allowed_purpose": "open-source skills and workflow interoperability discussion",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 9,
+      "recommended_capability": "map workflow steps, review points and artifacts into HumanLayer task, plan and session state",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/LazyAGI/LazyMind/tree/main/examples"
+      ],
+      "risk_notes": "No prior contact, send request or suppression. This is a proposed compatibility test, not an existing HumanLayer integration or company-authorized partnership.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-inngest",
+      "organization": "Inngest",
+      "project_name": "Inngest and LazyMind durable workflow compatibility",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://www.inngest.com/get-in-touch",
+      "pain_point": "Inngest provides durable execution and visibility for AI workflows. A fixed compatibility study can compare Inngest run events with LazyMind step and artifact state across one controlled failure and retry.",
+      "evidence": [
+        {
+          "url": "https://www.inngest.com/get-in-touch",
+          "finding": "The official contact page invites partnerships and integrations from teams interested in building with or alongside Inngest and publishes partnerships@inngest.com."
+        },
+        {
+          "url": "https://github.com/inngest/inngest",
+          "finding": "The public repository describes stateful step functions and AI workflows across serverless, servers and edge environments."
+        }
+      ],
+      "contact_channel": "email",
+      "contact_value": "partnerships@inngest.com",
+      "allowed_purpose": "partnership and integration compatibility inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 9,
+      "ecosystem_value": 9,
+      "recommended_capability": "compare durable run events with workflow steps, artifacts, review boundaries and retry state",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/LazyAGI/LazyMind/tree/main/examples"
+      ],
+      "risk_notes": "No prior contact, send request or suppression. Do not claim an existing Inngest adapter, duplicate-safe execution or performance improvement.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-arize-phoenix",
+      "organization": "Arize AI / Phoenix",
+      "project_name": "Phoenix observability for LazyMind workflow state",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://arize.com/partners/",
+      "pain_point": "Phoenix traces and evaluates agent behavior, while LazyMind records workflow steps, artifacts and review state. A bounded study can test a proposed trace mapping and whether failure, retry and human-review transitions remain truthful.",
+      "evidence": [
+        {
+          "url": "https://arize.com/partners/",
+          "finding": "The official partner page invites integrations and partnerships and publishes partnerships@arize.com."
+        },
+        {
+          "url": "https://github.com/Arize-ai/phoenix",
+          "finding": "The active open-source Phoenix repository covers AI observability and evaluation, has Discussions enabled and documents agent-focused integrations."
+        }
+      ],
+      "contact_channel": "email",
+      "contact_value": "partnerships@arize.com",
+      "allowed_purpose": "AI observability integration and partnership inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 9,
+      "recommended_capability": "proposed mapping of workflow steps, review transitions, artifact references and retries into Phoenix traces",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/LazyAGI/LazyMind/tree/main/examples"
+      ],
+      "risk_notes": "No prior contact, send request or suppression. The proposed trace mapping has not been implemented or validated and must be described only as a collaboration idea.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-pydantic-ai",
+      "organization": "Pydantic AI",
+      "project_name": "Pydantic AI Harness and LazyMind workflow interoperability",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://pydantic.dev/contact",
+      "pain_point": "Pydantic AI Harness packages planning, memory, sub-agents and persistence as capabilities, while LazyMind packages skills into visible workflows and artifacts. A small test can clarify the state boundary between a Harness capability and a LazyMind workflow.",
+      "evidence": [
+        {
+          "url": "https://pydantic.dev/contact",
+          "finding": "The official contact page assigns hello@pydantic.dev to partnerships and general inquiries without imposing the sales form's work-email requirement."
+        },
+        {
+          "url": "https://pydantic.dev/docs/ai/overview/",
+          "finding": "Official documentation describes Pydantic AI Harness capabilities, MCP, human approval, persistence and durable execution."
+        },
+        {
+          "url": "https://github.com/pydantic/pydantic-ai",
+          "finding": "The active open-source repository is current and covers agents, harness engineering and long-running work."
+        }
+      ],
+      "contact_channel": "email",
+      "contact_value": "hello@pydantic.dev",
+      "allowed_purpose": "partnership and technical interoperability inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 9,
+      "recommended_capability": "map typed tool results and Harness capability state to workflow checkpoints and artifacts",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/LazyAGI/LazyMind/tree/main/examples"
+      ],
+      "risk_notes": "No prior contact, send request or suppression. Pydantic AI already has mature durable-execution integrations; ask about a narrow state-boundary experiment and do not claim improvement or an existing adapter.",
+      "status": "qualified",
+      "last_contact_at": null
+    },
+    {
+      "id": "collab-temporal-ai",
+      "organization": "Temporal",
+      "project_name": "Temporal AI Partner feasibility for LazyMind workflows",
+      "campaign_type": "developer_collaboration",
+      "source_kind": "official_web",
+      "source_url": "https://temporal.io/partners/ai",
+      "pain_point": "Temporal provides durable execution for long-running AI applications. Before building an integration, a small feasibility test can determine whether LazyMind workflow identifiers, review pauses and artifact state can be coordinated through a Temporal workflow without duplicate execution.",
+      "evidence": [
+        {
+          "url": "https://temporal.io/partners/ai",
+          "finding": "The official AI Partner Ecosystem invites AI tool integrations, provides an integrator path and publishes aipartners@temporal.io for questions."
+        },
+        {
+          "url": "https://github.com/temporalio/temporal",
+          "finding": "The active MIT-licensed Temporal service repository is current, not archived and has Discussions enabled."
+        }
+      ],
+      "contact_channel": "email",
+      "contact_value": "aipartners@temporal.io",
+      "allowed_purpose": "AI partner integration feasibility inquiry",
+      "permission_status": "official_collaboration_channel",
+      "permission_verified_at": "2026-10-29",
+      "language": "en",
+      "technical_fit": 8,
+      "ecosystem_value": 10,
+      "recommended_capability": "coordinate workflow identity, review pause/resume and artifact state through a proposed Temporal activity boundary",
+      "case_links": [
+        "https://github.com/LazyAGI/LazyMind",
+        "https://github.com/LazyAGI/LazyMind/tree/main/examples"
+      ],
+      "risk_notes": "No prior contact, send request or suppression. Temporal's partner path expects an integration; this first message asks for feasibility review before implementation and makes no durability or idempotency claim.",
+      "status": "qualified",
+      "last_contact_at": null
+    }
+  ],
+  "drafts": [
+    {
+      "lead_id": "collab-humanlayer",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: LazyMind skills in HumanLayer task workflows",
+      "body": "Hello HumanLayer team,\n\nYour newly open-sourced core includes tasks, sessions, plans, comments, RPI skills, and integrations with coding agents. You also note that teams already have their own skills and workflows and that broader bring-your-own support is in progress.\n\nWe would like to propose a small local compatibility test: start one public LazyMind workflow from a HumanLayer task, map its plan, review checkpoint, and artifacts into HumanLayer task/session state, then continue after one controlled failure. The goal would be to identify a clean state boundary, not to claim an existing integration.\n\nLazyMind is an open-source Skill Runtime with visible workflow steps, review checkpoints, editable and versioned artifacts, and retry and rewind controls:\nhttps://github.com/LazyAGI/LazyMind\nhttps://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would your team be open to reviewing a one-page interoperability plan before any implementation?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-inngest",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: LazyMind workflow state on Inngest",
+      "body": "Hello Inngest partnerships team,\n\nInngest provides durable execution and run visibility for stateful functions and AI workflows. A practical interoperability question is whether an Inngest run and a LazyMind workflow can report the same step, review, artifact, and completion state across a failure.\n\nWe propose a small test with public or synthetic inputs: trigger one fixed LazyMind workflow from Inngest, record the workflow identifier and stage transitions, pause once for review, and observe one controlled retry. We would compare the two systems' status records and check whether completed work is invoked twice. This is a collaboration proposal, not an existing Inngest adapter or a reliability claim.\n\nLazyMind is an open-source Skill Runtime with visible workflow steps, review checkpoints, editable and versioned artifacts, and retry and rewind controls:\nhttps://github.com/LazyAGI/LazyMind\nhttps://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. If this fits your partnerships and integrations route, would your team review a one-page compatibility plan?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-arize-phoenix",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: tracing LazyMind workflow state in Phoenix",
+      "body": "Hello Arize partnerships team,\n\nPhoenix focuses on tracing and evaluating agent behavior, while long-running workflows also need truthful step, review, artifact, and retry state. A useful compatibility question is how those workflow transitions should appear in a Phoenix trace without treating an agent session as the whole task.\n\nWe propose a small public-data study: define a trace mapping for one LazyMind workflow, represent each step and review transition, attach artifact references, and record one controlled failure and retry. We would review whether the trace makes pending, failed, resumed, and completed states distinguishable. This is a proposed experiment; no Phoenix integration has been implemented.\n\nLazyMind is an open-source Skill Runtime with visible workflow steps, review checkpoints, editable and versioned artifacts, and retry and rewind controls:\nhttps://github.com/LazyAGI/LazyMind\nhttps://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would your team be open to reviewing a one-page trace mapping before any implementation?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-pydantic-ai",
+      "channel": "email",
+      "language": "en",
+      "subject": "Compatibility idea: Pydantic AI Harness and LazyMind workflows",
+      "body": "Hello Pydantic team,\n\nPydantic AI Harness packages planning, memory, sub-agents, and persistence as composable capabilities, while its durable-execution integrations already cover long-running agent work. A narrow interoperability question is where a Harness capability's typed state should meet a LazyMind workflow's step and artifact state.\n\nWe propose one public or synthetic task: invoke a single Harness capability alongside a LazyMind workflow, map its typed tool result to a versioned artifact, pause at one review checkpoint, and observe a controlled retry. The purpose would be to document the state boundary, not to replace Pydantic AI's execution model or claim an existing adapter.\n\nLazyMind is an open-source Skill Runtime with visible workflow steps, review checkpoints, editable and versioned artifacts, and retry and rewind controls:\nhttps://github.com/LazyAGI/LazyMind\nhttps://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would this be suitable for an initial one-page technical review?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    },
+    {
+      "lead_id": "collab-temporal-ai",
+      "channel": "email",
+      "language": "en",
+      "subject": "Feasibility question: LazyMind workflows and Temporal durable execution",
+      "body": "Hello Temporal AI partnerships team,\n\nTemporal's AI Partner Ecosystem asks integration teams to build and submit durable AI integrations for technical review. Before building one, we would like to test whether LazyMind workflow identity, review pauses, and artifact state can be coordinated cleanly through a Temporal workflow.\n\nThe proposed proof of concept would use synthetic data: a Temporal activity starts one LazyMind workflow, records its workflow identifier, waits at a review checkpoint, and resumes after one controlled interruption. We would compare both state records and look specifically for duplicate execution or contradictory completion status. This is only a feasibility proposal; no Temporal integration or durability result is being claimed.\n\nLazyMind is an open-source Skill Runtime with visible workflow steps, review checkpoints, editable and versioned artifacts, and retry and rewind controls:\nhttps://github.com/LazyAGI/LazyMind\nhttps://github.com/LazyAGI/LazyMind/tree/main/examples\n\nI contribute to the open-source LazyMind project; I am not an authorized company representative. Would your team review a one-page test plan before we decide whether an integration is justified?\n\nBest,\nLazyMind open-source contributor\nlazymind_agent@163.com"
+    }
+  ]
+}

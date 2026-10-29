@@ -1,0 +1,147 @@
+{
+  "name": "LazyMind 第一轮增长 KPI",
+  "as_of": "2026-10-28",
+  "target_type": "proposed pilot targets, not forecasts or guaranteed results",
+  "scope": {
+    "new_platform_cohort": "new-platforms-2026-10-28",
+    "new_platform_count": 10,
+    "prior_verified_send_batch": "review-2026-10-28-small-01",
+    "prior_verified_sent_organizations": 3,
+    "historical_sspai_infoq": "Excluded from new-target counts and repeat outreach; historical timing is unknown.",
+    "outcome_cohort": "New 10 plus the prior verified 3; deduplicate by organization/person as specified."
+  },
+  "baseline": {
+    "new_selected_platforms": 10,
+    "new_email_draft_candidates": 2,
+    "new_platform_material_candidates": 4,
+    "new_requirements_first_candidates": 4,
+    "new_exact_approvals": 0,
+    "new_external_submissions": 0,
+    "previous_batch": {
+      "smtp_accepted": 3,
+      "sent_copy_verified": 3,
+      "final_delivery_confirmed": 0,
+      "delivery_unknown": 3,
+      "matched_replies": 0,
+      "reply_observation_at": "2026-10-28T12:29:38+00:00",
+      "reply_scope": "Only correlated Message-IDs and exact expected senders; not a fresh mailbox scan this turn."
+    },
+    "explicit_interested_organizations": 0,
+    "trials_started": 0,
+    "human_review_minutes_measured": null,
+    "time_per_effective_lead_minutes": null
+  },
+  "kpis": [
+    {
+      "metric": "新增平台筛选",
+      "target": 10,
+      "deadline": "2026-10-28",
+      "current": 10,
+      "type": "controllable",
+      "acceptance": "10 个去重平台，每个有官方入口、用途、语言、专属角度和前置条件；不把条件未齐的平台算成已可外发。"
+    },
+    {
+      "metric": "完整待审材料",
+      "target": 6,
+      "deadline": "2026-10-30",
+      "current": 0,
+      "type": "controllable",
+      "acceptance": "量子位/雷峰网 2 封完整邮件；OSCHINA/DEV/V2EX/人人都是产品经理各 1 份对应材料；有来源与案例限制，邮件附精确指纹。仅规划，当前未生成这些正式稿。"
+    },
+    {
+      "metric": "新增平台真实提交",
+      "target": 5,
+      "deadline": "2026-11-04",
+      "current": 0,
+      "type": "conditional_execution",
+      "acceptance": "仅在具体内容和账号授权通过后，完成最多 2 个邮件入口及至少 3 个站内入口；每个平台只计一次，待审草稿和表单打开不计数。邮件以 SMTP 接受+Message-ID 记提交，站内以提交确认或发布 URL 记提交；最终投递/编辑接受另计。"
+    },
+    {
+      "metric": "实质交流对象",
+      "target": 2,
+      "deadline": "2026-11-11",
+      "current": 0,
+      "type": "exploratory_outcome",
+      "acceptance": "收到具体问题、约定评估、选题讨论或复现反馈；自动回执、点赞、浏览、Nice/Thanks 均不计；同组织多个线程只计一个对象。"
+    },
+    {
+      "metric": "明确合作或试用意向",
+      "target": 1,
+      "deadline": "2026-11-11",
+      "current": 0,
+      "type": "exploratory_outcome",
+      "acceptance": "对方明确同意下一步评估、联合复现、合作讨论或主动申请试用，留存其原始回复/表单凭据。"
+    },
+    {
+      "metric": "实际开始试用",
+      "target": 1,
+      "deadline": "2026-11-11",
+      "current": 0,
+      "type": "stretch_outcome",
+      "acceptance": "至少 1 位外部自愿参与者实际启动约定场景，留存经其同意记录的 run ID、开始时间或可核验运行证据；不是打开链接、邮件回复、预约或账号所有者自测。"
+    },
+    {
+      "metric": "人工审核时间",
+      "target_minutes_per_six_asset_review_round": 45,
+      "deadline": "2026-11-04",
+      "current": null,
+      "type": "efficiency_hypothesis",
+      "acceptance": "计时记录人工实际审核分钟；不把等待邮箱冷却、未知值或数据库默认 0 当人工耗时。超过目标先改材料清晰度，不削减必要审核。"
+    },
+    {
+      "metric": "单个有效线索时间成本",
+      "target": "建立真实基线",
+      "deadline": "2026-11-11",
+      "current": null,
+      "type": "measurement",
+      "formula": "用于本轮筛选、核验、起草、审核及沟通的主动工作分钟 ÷ 明确意向的去重组织数；分别记人工分钟和 Agent 主动工作分钟，分母为 0 时为 null。"
+    }
+  ],
+  "guardrail_kpis": {
+    "unapproved_external_submissions_target": 0,
+    "duplicate_org_contacts_target": 0,
+    "contact_after_decline_target": 0,
+    "provider_limit_bypasses_target": 0,
+    "source_and_purpose_checks_before_submission": "100%",
+    "exact_content_approval_before_external_action": "100%",
+    "trial_interest_inferred_from_public_profile_target": 0
+  },
+  "schedule": [
+    {
+      "window": "2026-10-29 至 2026-10-30",
+      "owner": "Agent 起草；用户集中审核",
+      "actions": [
+        "优先准备量子位与雷峰网两封不同选题邮件，沿用真实已验证案例。",
+        "准备 OSCHINA 收录包、DEV 技术复盘、V2EX 复现展示及人人都是产品经理验收方法稿。",
+        "一次集中确认真实署名、可使用的既有账号、案例发布权限；未确认不创建账号或冒充项目作者。"
+      ]
+    },
+    {
+      "window": "2026-10-31 至 2026-11-04",
+      "owner": "授权执行方",
+      "actions": [
+        "按已批准的具体材料完成 5 个新平台提交；没有账号或不符合要求时保留未完成，不凑数。",
+        "邮箱仍每封至少间隔 300 秒；站内按各平台节奏与规则，不复制粘贴同一广告。",
+        "每次提交保存 Message-ID 或平台确认/发布 URL；平台提交与采用分开统计。"
+      ]
+    },
+    {
+      "window": "2026-11-05 至 2026-11-11",
+      "owner": "Agent 准备技术答复；用户审核承诺",
+      "actions": [
+        "在获得相应读取授权的运行中处理实质回复；不自动催促未回复对象。",
+        "对自愿参与者约定单一场景、验收条件和退出方式；形成实际运行证据后才记 trial_started。",
+        "检查结果不佳的环节是选题、账号/身份、可体验性还是受众匹配，不用增加群发弥补。"
+      ]
+    }
+  ],
+  "next_recommended_action": "先做两封新邮件和四份平台材料的审核包；不把本计划或前一批批准视为新外发授权。",
+  "tracking_rules": [
+    "KPI 数字是试验目标。现有样本只有三次邮件提交，没有历史回复率支持转化预测。",
+    "站内发布能力目前不是 SMTP Adapter 的功能；需独立授权的人工/浏览器流程，不能声称已有十平台自动发布器。",
+    "社区流量、Star、点赞、阅读量单独记录，仅作辅助观察，不算有效线索或试用。",
+    "渠道规则禁止 UTM 时不加追踪参数；用发布 URL、引用来源和自愿来源填写做归因，不使用隐形追踪像素。",
+    "平台账号与注册选择是必要前置；本轮只做发现、记录和方案，未注册、未发布、未发邮件、未创建定时监控。",
+    "保留有 AI 条款的平台作为条件候选，按实际规则选择披露、人工创作或编辑预先同意路径，不伪造人类作者身份。"
+  ]
+}

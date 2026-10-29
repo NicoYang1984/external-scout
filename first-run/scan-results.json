@@ -1,0 +1,104 @@
+{
+  "results": [
+    {
+      "repo": "thestreamcode/agentic-rd-skill",
+      "count": 14,
+      "pagination_terminal": true,
+      "cursor_advanced": false,
+      "snapshot_replay": true,
+      "scan_id": "1592f92f4f014520aa80447f0a9968a0",
+      "status": "partial"
+    },
+    {
+      "repo": "sensein/agent_skills",
+      "count": 51,
+      "pagination_terminal": true,
+      "cursor_advanced": false,
+      "snapshot_replay": true,
+      "scan_id": "3b25f4abfae4454b9484e09397182978",
+      "status": "partial"
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "count": 100,
+      "pagination_terminal": false,
+      "cursor_advanced": false,
+      "snapshot_replay": true,
+      "scan_id": "bdb59c7ef2cd4b5bbc0fd31408dfb69f",
+      "status": "partial"
+    }
+  ],
+  "counts": {
+    "source_items": 168,
+    "source_observations": 168,
+    "repositories": 3,
+    "repository_history": 9
+  },
+  "cursors": {
+    "TheStreamCode/agentic-rd-skill": {
+      "last_issue_number": 0,
+      "pending_issue_numbers": []
+    },
+    "sensein/agent_skills": {
+      "last_issue_number": 0,
+      "pending_issue_numbers": [
+        9,
+        35
+      ]
+    },
+    "alirezarezvani/claude-skills": {
+      "last_issue_number": 0,
+      "pending_issue_numbers": [
+        3,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        34,
+        36,
+        41,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ]
+    }
+  }
+}

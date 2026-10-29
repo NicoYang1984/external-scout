@@ -1,0 +1,68 @@
+{
+  "schema_version": 2,
+  "url": "https://github.com/alirezarezvani/claude-skills",
+  "repo": "alirezarezvani/claude-skills",
+  "title": "alirezarezvani/claude-skills bounded assessment",
+  "domain": "营销和运营",
+  "route": "small_project",
+  "category": "workflow_gap",
+  "status": "blocked",
+  "evidence_level": "source_reviewed",
+  "support_level": "needs_product_work",
+  "capability_ids": [
+    "skill_autonomous_delivery"
+  ],
+  "capability_evidence": [
+    {
+      "source": "references/capabilities.json#skill_autonomous_delivery",
+      "finding": "限定事实；目标项目尚未实际运行"
+    }
+  ],
+  "runnable_path": "固定 commit 的单 Skill 目录安装及 preflight；不承诺完整业务执行",
+  "technical_fit": {
+    "capability_match": 1,
+    "integration_cost": 1,
+    "validation": 1,
+    "recovery_fit": 0
+  },
+  "ecosystem_value": {
+    "user_value": 3,
+    "collaboration": 0,
+    "audience_evidence": 1
+  },
+  "score_evidence": [
+    {
+      "source": "https://github.com/alirezarezvani/claude-skills/blob/5434623a788ec3105d238328cfe554e1e2242ff7/README.md",
+      "finding": "Star 高、场景广，但自动转换后的业务交付未获验证；README 第三方推广链接明确禁止，不应作为现成宣传机会。"
+    },
+    {
+      "source": "https://github.com/alirezarezvani/claude-skills/blob/5434623a788ec3105d238328cfe554e1e2242ff7/CONTRIBUTING.md",
+      "finding": "贡献规则已读取"
+    },
+    {
+      "source": "https://github.com/alirezarezvani/claude-skills",
+      "finding": "公开目录覆盖多个领域；Star 仅背景，没有目标用户触达/转化证据，audience 限 1"
+    }
+  ],
+  "summary": "Star 高、场景广，但自动转换后的业务交付未获验证；README 第三方推广链接明确禁止，不应作为现成宣传机会。",
+  "sources": [
+    {
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "finding": "公开元数据、README 和有界 Issue/PR 枚举",
+      "commit": "5434623a788ec3105d238328cfe554e1e2242ff7",
+      "checked_at": "2026-10-27"
+    }
+  ],
+  "stars": 28795,
+  "proposed_action": "保留只读线索；先独立证明单 Skill 业务路径。不得提出 README 推广 PR。",
+  "validation_status": "planned",
+  "public_contribution_url": null,
+  "review_status": "not_requested",
+  "outreach_channel": "GitHub, only if subsequently authorized",
+  "outreach_permission": "not_granted",
+  "reply_status": "not_contacted",
+  "trial_status": "not_started",
+  "conversion_evidence": [],
+  "next_follow_up": null,
+  "next_action": "保留只读线索；先独立证明单 Skill 业务路径。不得提出 README 推广 PR。"
+}

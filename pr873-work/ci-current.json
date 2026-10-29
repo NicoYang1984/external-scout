@@ -1,0 +1,133 @@
+{
+  "head": "bc27d44e447fc9ffba09b0f6a3a656569ef01f41",
+  "checked_at": "2026-10-27T12:11:58.859Z",
+  "total_count": 21,
+  "checks": [
+    {
+      "name": "Test channel gateway (sqlite)",
+      "status": "queued",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446993"
+    },
+    {
+      "name": "Test algorithm (windows-2025)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446917"
+    },
+    {
+      "name": "Test algorithm (ubuntu-latest)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446899"
+    },
+    {
+      "name": "Test frontend application (shard 2/4)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446890"
+    },
+    {
+      "name": "Test frontend application (shard 1/4)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446876"
+    },
+    {
+      "name": "Test local runtime (macos-15)",
+      "status": "queued",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446854"
+    },
+    {
+      "name": "Test algorithm (macos-15)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446850"
+    },
+    {
+      "name": "Test frontend application (shard 4/4)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446849"
+    },
+    {
+      "name": "test-evo-cli",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446832"
+    },
+    {
+      "name": "Test desktop shell (macos-15)",
+      "status": "queued",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446814"
+    },
+    {
+      "name": "test-backend-core",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446812"
+    },
+    {
+      "name": "Test frontend application (shard 3/4)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446788"
+    },
+    {
+      "name": "Test channel gateway (postgres)",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446770"
+    },
+    {
+      "name": "Test desktop shell (windows-2025)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446732"
+    },
+    {
+      "name": "Test local runtime (windows-2025)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446662"
+    },
+    {
+      "name": "test-auth-service",
+      "status": "queued",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446643"
+    },
+    {
+      "name": "Test local runtime (ubuntu-latest)",
+      "status": "in_progress",
+      "conclusion": null,
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446633"
+    },
+    {
+      "name": "test-frontend",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122180446594"
+    },
+    {
+      "name": "doc_check",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122179290500"
+    },
+    {
+      "name": "verify-skill-lock",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122179290363"
+    },
+    {
+      "name": "lint",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/LazyAGI/LazyMind/actions/runs/40501279318/job/122179290171"
+    }
+  ]
+}
