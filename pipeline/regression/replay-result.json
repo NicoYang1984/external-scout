@@ -1,0 +1,116 @@
+{
+  "mode": "historical_snapshot_replay",
+  "captured_at": "2026-10-29T09:07:50.766Z",
+  "new_external_prs": 0,
+  "new_merges": 0,
+  "cases": [
+    {
+      "opportunity_id": "opp_52399133d652c9425537462c",
+      "campaign_type": "native_skill_fix",
+      "provenance": "new_candidate",
+      "gate": {
+        "decision": "NO-GO",
+        "reasons": [
+          "no_duplicate: fail",
+          "Scout status is not ready"
+        ],
+        "campaign_type": "native_skill_fix",
+        "next_action": "Review/follow existing PR #914 and its regression coverage. No new implementation or PR while this duplicate remains open."
+      },
+      "outcome": {
+        "status": "blocked_duplicate",
+        "existing_fix": [
+          {
+            "number": 914,
+            "url": "https://github.com/coreyhaines31/marketingskills/pull/914",
+            "state": "open",
+            "title": "fix(conversion-tracking): arm generic-ajax-form on cancelled submits, don't recount thank-you page refreshes (2.13.10)"
+          }
+        ]
+      },
+      "outreach_candidate": null
+    },
+    {
+      "opportunity_id": "opp_1be5f8e79f0a57c3a332ce80",
+      "campaign_type": "product_integration",
+      "provenance": "historical_import",
+      "gate": {
+        "decision": "NO-GO",
+        "reasons": [
+          "Existing contribution: track only; never submit again",
+          "no_duplicate: fail"
+        ],
+        "campaign_type": "product_integration",
+        "next_action": "Query Actions after maintainer approval and follow review; do not treat action_required as a test failure."
+      },
+      "outcome": {
+        "pr_url": "https://github.com/coreyhaines31/marketingskills/pull/916",
+        "number": 916,
+        "commit": "f5d70c5b5b5edda4ea7e1b06c21c0c74de412ca4",
+        "status": "ci_action_required",
+        "states": [
+          "submitted",
+          "ci_action_required",
+          "review_pending"
+        ],
+        "ci": "action_required",
+        "review": "pending",
+        "merged_at": null,
+        "merge_commit": "fab084fd7e43bf25ba1e375eabeecb026a3d7dba",
+        "closed_at": null,
+        "updated_at": "2026-10-29T08:02:28Z",
+        "checks": [],
+        "workflow_runs": [
+          {
+            "id": 40839332628,
+            "status": "completed",
+            "conclusion": "action_required"
+          }
+        ],
+        "reviews": [],
+        "commit_statuses": [],
+        "query_source": "Captured GitHub REST API snapshot",
+        "required_checks_verified": false
+      },
+      "outreach_candidate": null
+    },
+    {
+      "opportunity_id": "opp_96dbecec0e237c960802ab2f",
+      "campaign_type": "resource_listing",
+      "provenance": "historical_import",
+      "gate": {
+        "decision": "NO-GO",
+        "reasons": [
+          "Existing contribution: track only; never submit again",
+          "no_duplicate: fail"
+        ],
+        "campaign_type": "resource_listing",
+        "next_action": "Retain merged result as historical evidence; do not resubmit or infer outreach permission."
+      },
+      "outcome": {
+        "pr_url": "https://github.com/kyrolabs/awesome-agents/pull/895",
+        "number": 895,
+        "commit": "88a9ff57656c3f627ae5adf66e178d113e12ba1f",
+        "status": "merged",
+        "states": [
+          "submitted",
+          "review_pending",
+          "merged"
+        ],
+        "ci": "unknown",
+        "review": "pending",
+        "merged_at": "2026-10-27T10:54:08Z",
+        "merge_commit": "2304cbd10a02de1dcd53258842e9e7a7eeda5aa8",
+        "closed_at": "2026-10-27T10:54:08Z",
+        "updated_at": "2026-10-27T10:54:08Z",
+        "checks": [],
+        "workflow_runs": [],
+        "reviews": [],
+        "commit_statuses": [],
+        "query_source": "Captured GitHub REST API snapshot",
+        "required_checks_verified": false
+      },
+      "outreach_candidate": null
+    }
+  ]
+}

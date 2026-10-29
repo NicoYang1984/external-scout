@@ -5,6 +5,14 @@ description: 为 LazyMind 搜索当前产品已经能解决或只需轻量适配
 
 # LazyMind 生态机会流水线 V2
 
+## 独立贡献 Campaign 扩展
+
+当任务是 Scout → Contributor → PR → Outreach 时，先显式选择 `resource_listing`、`native_skill_fix` 或 `product_integration`，按 [Pipeline 使用说明](../pipeline/README.md) 和 [OpportunitySpec](../pipeline/schemas/opportunity.schema.json) 生成交接包，再用 `registry.py handoff --file PATH` 保存。Scout 只负责发现、证据与交接，不修改目标仓库。
+
+下文的 LazyMind capability policy、support_level 和两轴评分继续适用于 **product_integration 及旧 V2 产品机会接口**。`resource_listing` 独立核实收录规则、产品类别、重复条目和入口；`native_skill_fix` 独立核实真实缺陷、最小修复、回归测试与贡献规则，不强制能力匹配，也不把 `upstream_only` 伪装成产品机会。两者使用新交接接口，不改变旧 `put` 的语义。所有 Campaign 均要求证据、贡献政策和去重通过，未验证或有重复就 NO-GO。
+
+已有 PR 用 `existing_pr`，既有成果用 `provenance.kind=historical_import` 与 `status=historical`；只跟踪真实 CI/Review/merge，不再次提交。Contributor 使用 `pipeline.py`，Codex 执行，Python 管理确定性状态。外部 PR 的发布必须有具体授权和验收回执；Outreach 仅在明确合适渠道存在时生成待审核候选，沿用现有发送审批。
+
 默认运行一轮分析，调度由调用方负责。用户当前选择：仅手动运行，未开启定时。不得因调用本 Skill 自动创建定时任务。
 
 ## 启动与持久化

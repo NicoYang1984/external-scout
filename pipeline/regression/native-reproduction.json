@@ -1,0 +1,12 @@
+{
+  "source_commit": "0cd9b3a0ef4c411a1d690419ce843f2a1da32cce",
+  "initial": 1,
+  "reload": 1,
+  "back_forward": 1,
+  "expected": {
+    "initial": 1,
+    "reload": 0,
+    "back_forward": 0
+  },
+  "defect_reproduced": true
+}

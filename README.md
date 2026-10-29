@@ -2,6 +2,8 @@
 
 LazyMind 的生态机会发现与外联工作区，包含两个独立的 Python 组件、测试、参考资料和历史审计记录。
 
+新增 [可恢复贡献 Pipeline](pipeline/README.md)：Scout → Contributor（Codex）→ GitHub PR → Outreach。三种 Campaign 分别验证资源收录、原生 Skill 修复和产品集成；沿用已有 SQLite 与脚本，历史贡献单独标识。[真实回归和升级结果](pipeline/REGRESSION.md)。
+
 - **Ecosystem Scout**：从 GitHub 与显式目录清单收集机会，维护证据、评分、分页检查点和处理历史。
 - **Outreach Agent**：只读导入 Scout 机会，管理联系渠道、草稿、批次审核、模拟发送与受控的网易 163 邮件接口。
 
@@ -13,6 +15,7 @@ LazyMind 的生态机会发现与外联工作区，包含两个独立的 Python 
 | --- | --- |
 | [`lazymind-ecosystem-scout/`](lazymind-ecosystem-scout/) | 当前 Scout 源码、Skill 入口、参考资料与回归测试 |
 | [`lazymind-outreach-agent/`](lazymind-outreach-agent/) | 当前 Outreach 源码、测试、操作说明与审核材料 |
+| [`pipeline/`](pipeline/) | 统一交接契约、三条真实路线示例、使用说明与回归证据 |
 | [`original/`](original/) | 原始 Scout 版本，供审计与行为对照 |
 | [`audit/`](audit/) | 原版问题复现和升级验证记录 |
 | [`evidence/`](evidence/) | 来源证据、仓库快照和评估记录 |

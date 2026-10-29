@@ -39,6 +39,7 @@ secrets.json
 /lazymind-outreach-agent/data/
 /lazymind-ecosystem-scout/data/
 /lazymind-ecosystem-scout/team-scout-data/
+/pipeline/data/
 /first-run/isolated-data/
 /audit/first-run-attempt/isolated-data/
 

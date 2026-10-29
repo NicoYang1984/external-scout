@@ -99,7 +99,7 @@ def connect(root, allow_upgrade=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=["init", "put", "list", "due", "history", "log", "runs",
-                                            "repo-check", "repo-start", "repo-memory", "repo-put", "repos", "repo-history", "repo-identify", "repo-heartbeat", "dispose"])
+                                            "repo-check", "repo-start", "repo-memory", "repo-put", "repos", "repo-history", "repo-identify", "repo-heartbeat", "dispose", "handoff", "handoffs"])
     parser.add_argument("--data-dir", type=Path, default=state.data_dir())
     parser.add_argument("--file", type=Path)
     parser.add_argument("--repo")
@@ -111,6 +111,17 @@ def main():
     args = parser.parse_args()
     data = None
     try:
+        if args.command in {"handoff", "handoffs"}:
+            from pipeline_store import Store
+            store = Store(args.data_dir)
+            try:
+                if args.command == "handoff" and not args.file:
+                    raise ValueError("--file is required")
+                result = store.put(json.loads(args.file.read_text())) if args.command == "handoff" else store.list()
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+            finally:
+                store.close()
+            return
         if args.command in {"put", "log", "repo-put", "dispose"}:
             if not args.file:
                 raise ValueError("--file is required")

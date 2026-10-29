@@ -1,0 +1,120 @@
+{
+  "schema_version": "opportunity/v1",
+  "source_repo": {
+    "full_name": "coreyhaines31/marketingskills",
+    "repository_id": 1135212071,
+    "base_branch": "main",
+    "commit": "0cd9b3a0ef4c411a1d690419ce843f2a1da32cce"
+  },
+  "target_issue": null,
+  "subject": "https://github.com/LazyAGI/LazyMind",
+  "campaign_type": "product_integration",
+  "evidence": [
+    {
+      "id": "pr",
+      "source": "https://github.com/coreyhaines31/marketingskills/pull/916",
+      "finding": "Existing contribution observed through GitHub API; do not count as a new submission.",
+      "checked_at": "2026-10-29T09:07:50.766Z",
+      "revision": "f5d70c5b5b5edda4ea7e1b06c21c0c74de412ca4"
+    },
+    {
+      "id": "policy",
+      "source": "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/CONTRIBUTING.md",
+      "finding": "Minimal focused changes, local tests, appropriate PR template and disclosure/alternatives for tool mentions.",
+      "checked_at": "2026-10-29T09:07:50.766Z"
+    }
+  ],
+  "contribution_policy": {
+    "verdict": "allowed",
+    "sources": [
+      "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/CONTRIBUTING.md"
+    ],
+    "requirements": [
+      "Preserve alternatives and disclose affiliation; focused changes and local validation."
+    ],
+    "prerequisites_met": true
+  },
+  "proposed_change": {
+    "title": "docs(tools): add read-only LazyMind delivery checks",
+    "summary": "Historical read-only LazyMind CLI and integration guide; follow CI and review without creating another PR.",
+    "files": [
+      "tools/clis/lazymind.js",
+      "tests/clis/lazymind.test.cjs",
+      "tools/integrations/lazymind.md",
+      "tools/REGISTRY.md"
+    ],
+    "max_changed_lines": 400
+  },
+  "environment_requirements": {
+    "executables": [
+      "git",
+      "node"
+    ],
+    "required_env": [],
+    "notes": "Historical tracking uses GitHub API only; these implementation requirements are recorded, not executed this round."
+  },
+  "validation_plan": [
+    {
+      "argv": [
+        "node",
+        "--test",
+        "tests/clis/lazymind.test.cjs"
+      ],
+      "purpose": "Recorded contribution validation; not claimed to have rerun in this upgrade.",
+      "timeout_seconds": 120
+    }
+  ],
+  "expected_user_value": "Let marketing reviewers distinguish generated text from an actually completed workflow deliverable.",
+  "next_action": "Query Actions after maintainer approval and follow review; do not treat action_required as a test failure.",
+  "status": "historical",
+  "checks": {
+    "technical_adaptation": {
+      "result": "pass",
+      "evidence_ids": [
+        "pr",
+        "policy"
+      ]
+    },
+    "integration_validation": {
+      "result": "pass",
+      "evidence_ids": [
+        "pr"
+      ]
+    },
+    "no_duplicate": {
+      "result": "fail",
+      "evidence_ids": [
+        "pr"
+      ]
+    }
+  },
+  "provenance": {
+    "kind": "historical_import",
+    "recorded_at": "2026-10-29T09:07:50.766Z",
+    "source": "https://github.com/coreyhaines31/marketingskills/pull/916"
+  },
+  "existing_pr": "https://github.com/coreyhaines31/marketingskills/pull/916",
+  "outreach_channel": null,
+  "capability_context": {
+    "support_level": "easy_extension",
+    "capability_ids": [
+      "workflow_observation"
+    ],
+    "runnable_path": "Read existing task status and selected artifact metadata via authenticated external-agent/workflow-tasks endpoints; no task mutation.",
+    "capability_evidence": [
+      {
+        "source": "https://github.com/coreyhaines31/marketingskills/pull/916",
+        "finding": "Historical PR records bounded status/result reads; no general autonomous delivery claim."
+      }
+    ],
+    "technical_fit": {
+      "capability_match": 4,
+      "integration_cost": 2,
+      "validation": 2,
+      "recovery_fit": 0
+    },
+    "score_evidence": [
+      "Existing read-only API surface and 15 recorded CLI contract tests in historical PR; no new validation claimed."
+    ]
+  }
+}

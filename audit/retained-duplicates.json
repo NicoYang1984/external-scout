@@ -1,0 +1,20 @@
+{
+  "reason": "Byte-identical historical logs deduplicated during pipeline upgrade; retained files are historical, not current test results.",
+  "files": [
+    {
+      "removed": "audit/baseline-tests.txt",
+      "retained": "lazymind-ecosystem-scout/validation/baseline-tests.txt",
+      "sha256": "40afa432e18beb11af6dad6be92f407ee8ca5b33af6e4420a4a522e8abc47852"
+    },
+    {
+      "removed": "audit/v2-tests.txt",
+      "retained": "lazymind-ecosystem-scout/validation/v2-tests.txt",
+      "sha256": "64a051d1f73096d068454a12f488c23dd4e06e0b2d4b15027b80e62145896740"
+    },
+    {
+      "removed": "audit/skill-validation.txt",
+      "retained": "lazymind-ecosystem-scout/validation/skill-validation.txt",
+      "sha256": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "opportunity/v1"
+    },
+    "opportunity_id": {
+      "type": "string",
+      "pattern": "^opp_[0-9a-f]{24}$"
+    },
+    "source_repo": {
+      "type": "object",
+      "properties": {
+        "full_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repository_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "base_branch": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      },
+      "required": [
+        "full_name",
+        "repository_id",
+        "base_branch",
+        "commit"
+      ],
+      "additionalProperties": false
+    },
+    "target_issue": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "campaign_type": {
+      "enum": [
+        "resource_listing",
+        "native_skill_fix",
+        "product_integration"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "finding": {
+            "type": "string",
+            "minLength": 1
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "source",
+          "finding",
+          "checked_at"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "contribution_policy": {
+      "type": "object",
+      "properties": {
+        "verdict": {
+          "enum": [
+            "allowed",
+            "blocked",
+            "unknown"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "prerequisites_met": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "verdict",
+        "sources",
+        "requirements",
+        "prerequisites_met"
+      ],
+      "additionalProperties": false
+    },
+    "proposed_change": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "max_changed_lines": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 2000
+        }
+      },
+      "required": [
+        "title",
+        "summary",
+        "files",
+        "max_changed_lines"
+      ],
+      "additionalProperties": false
+    },
+    "environment_requirements": {
+      "type": "object",
+      "properties": {
+        "executables": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "required_env": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "executables",
+        "required_env",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "validation_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "argv": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "timeout_seconds": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1800
+          }
+        },
+        "required": [
+          "argv",
+          "purpose",
+          "timeout_seconds"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "expected_user_value": {
+      "type": "string",
+      "minLength": 1
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "discovered",
+        "verification_pending",
+        "ready",
+        "blocked",
+        "historical"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "enum": [
+              "pass",
+              "fail",
+              "unknown"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "result",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "capability_context": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "new_candidate",
+            "historical_import"
+          ]
+        },
+        "recorded_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "recorded_at",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "existing_pr": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "outreach_channel": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "email",
+            "form",
+            "discussion"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "suitable": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "kind",
+        "value",
+        "purpose",
+        "evidence_ids",
+        "verified_at",
+        "suitable"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_repo",
+    "target_issue",
+    "subject",
+    "campaign_type",
+    "evidence",
+    "contribution_policy",
+    "proposed_change",
+    "environment_requirements",
+    "validation_plan",
+    "expected_user_value",
+    "next_action",
+    "status",
+    "checks",
+    "provenance"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/NicoYang1984/external-scout/blob/main/pipeline/schemas/opportunity.schema.json",
+  "title": "OpportunitySpec"
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "opportunity/v1",
+  "source_repo": {
+    "full_name": "coreyhaines31/marketingskills",
+    "repository_id": 1135212071,
+    "base_branch": "main",
+    "commit": "0cd9b3a0ef4c411a1d690419ce843f2a1da32cce"
+  },
+  "target_issue": "https://github.com/coreyhaines31/marketingskills/issues/913",
+  "subject": "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/skills/conversion-tracking/assets/snippets/thank-you-page.js",
+  "campaign_type": "native_skill_fix",
+  "evidence": [
+    {
+      "id": "issue",
+      "source": "https://github.com/coreyhaines31/marketingskills/issues/913",
+      "finding": "Confirmed page refresh and Back navigation count another conversion; reproduced against pinned source.",
+      "checked_at": "2026-10-29T09:07:50.766Z",
+      "revision": "0cd9b3a0ef4c411a1d690419ce843f2a1da32cce"
+    },
+    {
+      "id": "duplicate",
+      "source": "https://github.com/coreyhaines31/marketingskills/pull/914",
+      "finding": "Open PR #914 already fixes #913 and #912; do not duplicate or take over.",
+      "checked_at": "2026-10-29T09:07:50.766Z"
+    },
+    {
+      "id": "policy",
+      "source": "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/CONTRIBUTING.md",
+      "finding": "Read skill, keep fix focused, test locally and update relevant versions.",
+      "checked_at": "2026-10-29T09:07:50.766Z"
+    }
+  ],
+  "contribution_policy": {
+    "verdict": "allowed",
+    "sources": [
+      "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/CONTRIBUTING.md"
+    ],
+    "requirements": [
+      "Preserve alternatives and disclose affiliation; focused changes and local validation."
+    ],
+    "prerequisites_met": true
+  },
+  "proposed_change": {
+    "title": "Fix native confirmation-page conversion deduplication",
+    "summary": "Native JavaScript defect, unrelated to LazyMind. Existing PR #914 owns the fix; next task is read-only regression review and status follow-up.",
+    "files": [
+      "skills/conversion-tracking/assets/snippets/thank-you-page.js",
+      "tests/assets/thank-you-page.test.cjs"
+    ],
+    "max_changed_lines": 180
+  },
+  "environment_requirements": {
+    "executables": [
+      "git",
+      "node"
+    ],
+    "required_env": [],
+    "notes": "Dependency-free Node VM reproduction; a browser integration run remains separate."
+  },
+  "validation_plan": [
+    {
+      "argv": [
+        "node",
+        "--test",
+        "tests/assets/thank-you-page.test.cjs"
+      ],
+      "purpose": "For a future authorized fix: initial arrival, refresh, back/forward, fresh second conversion, SPA and opt-in every-view cases. Exact test filename must be reconciled with #914.",
+      "timeout_seconds": 120
+    }
+  ],
+  "expected_user_value": "Prevent duplicate conversion counts on page reload and back navigation without dropping a genuine later conversion.",
+  "next_action": "Review/follow existing PR #914 and its regression coverage. No new implementation or PR while this duplicate remains open.",
+  "status": "blocked",
+  "checks": {
+    "real_defect": {
+      "result": "pass",
+      "evidence_ids": [
+        "issue"
+      ]
+    },
+    "minimal_fix": {
+      "result": "pass",
+      "evidence_ids": [
+        "issue"
+      ]
+    },
+    "regression_test": {
+      "result": "pass",
+      "evidence_ids": [
+        "issue",
+        "duplicate"
+      ]
+    },
+    "no_duplicate": {
+      "result": "fail",
+      "evidence_ids": [
+        "duplicate"
+      ]
+    }
+  },
+  "provenance": {
+    "kind": "new_candidate",
+    "recorded_at": "2026-10-29T09:07:50.766Z",
+    "source": "https://github.com/coreyhaines31/marketingskills/issues/913"
+  },
+  "existing_pr": null,
+  "outreach_channel": null
+}

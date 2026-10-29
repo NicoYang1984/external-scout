@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-29T09:27:46.002Z",
+  "source": "Live GitHub connector REST reads; separate from offline replay",
+  "cases": [
+    {
+      "source": "https://api.github.com/repos/kyrolabs/awesome-agents/pulls/895",
+      "state": "closed",
+      "merged_at": "2026-10-27T10:54:08Z",
+      "commit": "88a9ff57656c3f627ae5adf66e178d113e12ba1f"
+    },
+    {
+      "source": "https://api.github.com/repos/coreyhaines31/marketingskills/pulls/916",
+      "state": "open",
+      "merged_at": null,
+      "commit": "f5d70c5b5b5edda4ea7e1b06c21c0c74de412ca4"
+    },
+    {
+      "source": "https://api.github.com/repos/coreyhaines31/marketingskills/pulls/914",
+      "state": "open",
+      "merged_at": null,
+      "commit": "fe4c3b76c95a00f4e0406dd08d5423a98ef736d4"
+    },
+    {
+      "source": "https://api.github.com/repos/coreyhaines31/marketingskills/commits/main",
+      "state": null,
+      "merged_at": null,
+      "commit": "0cd9b3a0ef4c411a1d690419ce843f2a1da32cce"
+    }
+  ],
+  "integration_workflows": [
+    {
+      "source": "https://github.com/coreyhaines31/marketingskills/actions/runs/40839332628",
+      "head_sha": "f5d70c5b5b5edda4ea7e1b06c21c0c74de412ca4",
+      "status": "completed",
+      "conclusion": "action_required"
+    }
+  ],
+  "cli_anonymous_query": {
+    "status": "blocked",
+    "http_status": 403,
+    "previous_observation_preserved": true,
+    "required_next_step": "Supply GITHUB_TOKEN with appropriate permissions; no credential was extracted from another application."
+  }
+}

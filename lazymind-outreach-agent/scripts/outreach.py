@@ -10,6 +10,7 @@ from pathlib import Path
 from adapters import MockMailAdapter
 from outreach_core import OutreachStore
 from scout_adapter import export_outcomes, import_scout
+from pipeline_adapter import import_pipeline
 
 
 def emit(value: object) -> None:
@@ -23,6 +24,8 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("init")
     imp = sub.add_parser("import-scout")
     imp.add_argument("--scout-db", type=Path, required=True)
+    pipeline = sub.add_parser("import-pipeline")
+    pipeline.add_argument("--file", type=Path, required=True)
     load = sub.add_parser("load-leads")
     load.add_argument("--file", type=Path, required=True)
     batch = sub.add_parser("create-batch")
@@ -52,6 +55,8 @@ def main() -> int:
             emit({"database": str(args.db), "initialized": True, "dry_run": True})
         elif args.command == "import-scout":
             emit(import_scout(store, args.scout_db))
+        elif args.command == "import-pipeline":
+            emit(import_pipeline(store, args.file))
         elif args.command == "load-leads":
             payload = json.loads(args.file.read_text(encoding="utf-8"))
             emit({"lead_ids": [store.upsert_lead(item) for item in payload["leads"]]})

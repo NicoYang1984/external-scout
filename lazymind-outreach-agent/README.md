@@ -92,3 +92,6 @@ python3 scripts/netease_cli.py --db data/outreach.sqlite3 --account lazymind_age
 - 不对无回复对象自动连续催促。
 - 不把模拟结果、邮件投递、简单回复或试用分别混成同一个“转化”指标。
 - 不直接改 Scout 数据库；需要回传时只生成显式 outcome JSON，由 Scout 侧另行审核导入。
+# Pipeline 贡献候选入口
+
+`outreach.py --db PATH import-pipeline --file CANDIDATES.json` 接收贡献 Pipeline 明确筛选的渠道候选。它保留源 Campaign、PR URL 和真实状态，导入时不给发送权限、不创建草稿、不覆盖已有抑制或联系状态。完整流程见 [Pipeline 使用说明](../pipeline/README.md) 和 [真实回归](../pipeline/REGRESSION.md)。原 `import-scout` 接口保留。

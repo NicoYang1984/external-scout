@@ -1,0 +1,12 @@
+{
+  "mode": "real_codex_cli_synthetic_smoke",
+  "result": {
+    "decision": "ready",
+    "reason": "value.txt now contains exactly \"fixed\\n\"; byte-level verification succeeded."
+  },
+  "byte_verification_passed": true,
+  "value_sha256": "0c3071418e6356e614898c84ed064ca95e88551bc0811b534bdf1952ecdae534",
+  "external_writes": false,
+  "target": "Temporary synthetic repository; no upstream contribution executed",
+  "scope": "Noninteractive workspace-write, JSON events, output-schema and final-message artifact; not a full live target-repository run."
+}

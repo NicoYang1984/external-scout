@@ -1,0 +1,102 @@
+{
+  "schema_version": "opportunity/v1",
+  "source_repo": {
+    "full_name": "kyrolabs/awesome-agents",
+    "repository_id": 661283123,
+    "base_branch": "main",
+    "commit": "1c896ce92780416ce937c330d8205ee52a78d112"
+  },
+  "target_issue": null,
+  "subject": "https://github.com/LazyAGI/LazyMind",
+  "campaign_type": "resource_listing",
+  "evidence": [
+    {
+      "id": "pr",
+      "source": "https://github.com/kyrolabs/awesome-agents/pull/895",
+      "finding": "Existing contribution observed through GitHub API; do not count as a new submission.",
+      "checked_at": "2026-10-29T09:07:50.766Z",
+      "revision": "88a9ff57656c3f627ae5adf66e178d113e12ba1f"
+    },
+    {
+      "id": "policy",
+      "source": "https://github.com/kyrolabs/awesome-agents/blob/1c896ce92780416ce937c330d8205ee52a78d112/CONTRIBUTING.md",
+      "finding": "Requires maintained open-source agent projects, category fit and bottom-of-list placement.",
+      "checked_at": "2026-10-29T09:07:50.766Z"
+    }
+  ],
+  "contribution_policy": {
+    "verdict": "allowed",
+    "sources": [
+      "https://github.com/kyrolabs/awesome-agents/blob/1c896ce92780416ce937c330d8205ee52a78d112/CONTRIBUTING.md"
+    ],
+    "requirements": [
+      "Open source, maintained, demonstrated traction, English description, bottom of category."
+    ],
+    "prerequisites_met": true
+  },
+  "proposed_change": {
+    "title": "Add LazyMind to Automation",
+    "summary": "Historical one-line LazyMind entry in Automation; verify merge only.",
+    "files": [
+      "README.md"
+    ],
+    "max_changed_lines": 5
+  },
+  "environment_requirements": {
+    "executables": [
+      "git"
+    ],
+    "required_env": [],
+    "notes": "Historical tracking uses GitHub API only; these implementation requirements are recorded, not executed this round."
+  },
+  "validation_plan": [
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "purpose": "Recorded contribution validation; not claimed to have rerun in this upgrade.",
+      "timeout_seconds": 120
+    }
+  ],
+  "expected_user_value": "Help users discover an existing open-source agent runtime in the correct category.",
+  "next_action": "Retain merged result as historical evidence; do not resubmit or infer outreach permission.",
+  "status": "historical",
+  "checks": {
+    "listing_rules": {
+      "result": "pass",
+      "evidence_ids": [
+        "pr",
+        "policy"
+      ]
+    },
+    "category_fit": {
+      "result": "pass",
+      "evidence_ids": [
+        "pr",
+        "policy"
+      ]
+    },
+    "project_entry": {
+      "result": "pass",
+      "evidence_ids": [
+        "pr",
+        "policy"
+      ]
+    },
+    "no_duplicate": {
+      "result": "fail",
+      "evidence_ids": [
+        "pr"
+      ]
+    }
+  },
+  "provenance": {
+    "kind": "historical_import",
+    "recorded_at": "2026-10-29T09:07:50.766Z",
+    "source": "https://github.com/kyrolabs/awesome-agents/pull/895"
+  },
+  "existing_pr": "https://github.com/kyrolabs/awesome-agents/pull/895",
+  "outreach_channel": null
+}
