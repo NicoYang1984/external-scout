@@ -329,7 +329,7 @@ class ExecutionTests(unittest.TestCase):
         self.store.close()
         self.temp.cleanup()
 
-    def execute(self, failing=False):
+    def execute(self, failing=False, dossier=None, inspect_prompt=None):
         calls = []
         real_git = contributor.git
         def local_git(cwd, *args):
@@ -338,15 +338,42 @@ class ExecutionTests(unittest.TestCase):
             return real_git(cwd, *args)
         def agent(spec, worktree, folder, task, prompt, read_only=False):
             calls.append(task)
+            if inspect_prompt:
+                inspect_prompt(prompt, folder)
             if not read_only:
                 (worktree / 'value.txt').write_text('bad\n' if failing else 'fixed\n')
             return {'decision': 'ready', 'reason': 'Synthetic agent boundary; tests run for real.',
                     'pr_body': '## Upstream fixture template\n\nRepair the native behavior.'}
         with patch.object(contributor, 'preflight', return_value=self.checkout), \
-             patch.object(contributor, 'dossier', return_value=evidence(self.spec)), \
+             patch.object(contributor, 'dossier', return_value=dossier or evidence(self.spec)), \
              patch.object(contributor, 'git', side_effect=local_git):
             result = contributor.run(self.store, None, self.oid, self.checkout, resume=True, agent=agent)
         return result, calls
+
+    def test_large_pr_history_uses_complete_file_within_codex_input_limit(self):
+        dossier = evidence(self.spec)
+        dossier['pull_requests'] = [
+            {'number': i, 'head': f'other:branch-{i}', 'title': 'Unrelated change',
+             'body': 'Long historical PR evidence. ' * 60, 'url': f'https://github.com/owner/repo/pull/{i}'}
+            for i in range(1000, 2000)]
+        self.assertGreater(len(json.dumps(dossier)), 1048576)
+        def inspect(prompt, folder):
+            self.assertLess(len(prompt), 1048576)
+            self.assertIn(str(folder / 'preflight.json'), prompt)
+            self.assertEqual(json.loads((folder / 'preflight.json').read_text()), dossier)
+        result, calls = self.execute(dossier=dossier, inspect_prompt=inspect)
+        self.assertEqual(calls, ['audit', 'implementation'])
+        self.assertEqual(result['stage'], 'validated')
+        self.assertEqual(result['preflight_hash'], digest(dossier))
+
+    def test_large_history_tail_duplicate_still_blocks_before_agent(self):
+        dossier = evidence(self.spec)
+        dossier['pull_requests'] = [
+            {'head': 'other:history', 'title': 'Unrelated', 'body': 'x' * 1100000, 'url': 'old'},
+            {'head': 'other:fix', 'title': 'Fixes #7', 'body': '', 'url': 'existing-fix'}]
+        with self.assertRaisesRegex(ValueError, 'existing-fix'):
+            self.execute(dossier=dossier, inspect_prompt=lambda *a: self.fail('Duplicate reached agent'))
+        self.assertEqual(self.store.progress(self.oid)['stage'], 'blocked')
 
     def test_real_worktree_target_tests_commit_and_repeat(self):
         result, calls = self.execute()

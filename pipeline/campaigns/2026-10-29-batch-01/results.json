@@ -1,0 +1,143 @@
+{
+  "campaign_id": "2026-10-29-batch-01",
+  "completed_at": "2026-10-29T16:36:53.568545+00:00",
+  "baseline": "efc0693db1832c473340ed2523938e42da57b0aa",
+  "discovered_repository_names": 30,
+  "complete_low_cost_inspections": 26,
+  "partial_acquisitions": 2,
+  "unavailable_identities": 2,
+  "go": 1,
+  "no_go_or_skip": 29,
+  "detailed_handoffs": 5,
+  "validated": 1,
+  "new_prs": 1,
+  "new_merged": 0,
+  "maintainer_feedback_observed": 0,
+  "actual_user_trials_observed": 0,
+  "native_personal_contributions": 0,
+  "results": [
+    {
+      "opportunity_id": "opp_b1c0713e868eb4a99145b5e0",
+      "repo": "jenqyang/awesome-ai-agents",
+      "campaign": "resource_listing",
+      "base_commit": "48f18893af7353c7139c4b420c3eb2a3594b592e",
+      "attempt": 2,
+      "stage": "submitted",
+      "spec_status": "ready",
+      "commit": "664a0c8b2b4e12a1b32d1e66a3029cbec00e0e27",
+      "pr_url": "https://github.com/Jenqyang/Awesome-AI-Agents/pull/693",
+      "ci": "unknown",
+      "review": "pending",
+      "merged_at": null,
+      "last_checked_at": "2026-10-29T16:31:03.889163+00:00",
+      "last_query_error": null,
+      "validation": [
+        {
+          "purpose": "Verify exact entry uniqueness, section/format, whitespace; Jenqyang also runs upstream site generator on a temporary copy without credentials. Official source links checked through GitHub API before handoff.",
+          "exit_code": 0,
+          "log_sha256": "39170d78bd1f330d2c505242409e7ce68cc4496a1750bc045cc1da937de5618d"
+        }
+      ],
+      "changed_files": [
+        "README.md"
+      ]
+    },
+    {
+      "opportunity_id": "opp_73c183eb0581c1b33721289c",
+      "repo": "e2b-dev/awesome-ai-agents",
+      "campaign": "resource_listing",
+      "base_commit": "9596ab1e69fbbb6c95291141c8dab5c181083216",
+      "attempt": 2,
+      "stage": "imported",
+      "spec_status": "blocked",
+      "commit": null,
+      "pr_url": null,
+      "ci": "unqueried",
+      "review": "unqueried",
+      "merged_at": null,
+      "last_checked_at": null,
+      "last_query_error": null,
+      "validation": [],
+      "changed_files": []
+    },
+    {
+      "opportunity_id": "opp_f2ea4b9265d6ea0eb3f4e37f",
+      "repo": "anthropics/skills",
+      "campaign": "native_skill_fix",
+      "base_commit": "ca45fc496a3436251f191354091d557da31c15b5",
+      "attempt": 1,
+      "stage": null,
+      "spec_status": "blocked",
+      "commit": null,
+      "pr_url": null,
+      "ci": "unqueried",
+      "review": "unqueried",
+      "merged_at": null,
+      "last_checked_at": null,
+      "last_query_error": null,
+      "validation": [],
+      "changed_files": []
+    },
+    {
+      "opportunity_id": "opp_da124884b86e604bd14efb2d",
+      "repo": "davila7/claude-code-templates",
+      "campaign": "native_skill_fix",
+      "base_commit": "52701d8578f88b15c9c18e4894201d531279809a",
+      "attempt": 1,
+      "stage": null,
+      "spec_status": "blocked",
+      "commit": null,
+      "pr_url": null,
+      "ci": "unqueried",
+      "review": "unqueried",
+      "merged_at": null,
+      "last_checked_at": null,
+      "last_query_error": null,
+      "validation": [],
+      "changed_files": []
+    },
+    {
+      "opportunity_id": "opp_cdc9b5df6196309f568b5bf2",
+      "repo": "langgenius/dify",
+      "campaign": "product_integration",
+      "base_commit": "bda335a0aca22c02900e7485f4ce0ee1ce189ac6",
+      "attempt": 1,
+      "stage": null,
+      "spec_status": "blocked",
+      "commit": null,
+      "pr_url": null,
+      "ci": "unqueried",
+      "review": "unqueried",
+      "merged_at": null,
+      "last_checked_at": null,
+      "last_query_error": null,
+      "validation": [],
+      "changed_files": []
+    }
+  ],
+  "framework_change": "Only move full preflight evidence out of the Codex input into the already-persisted JSON file, preserving complete duplicate/publication checks. Two targeted regressions added.",
+  "test_results": {
+    "pipeline": {
+      "passed": 36,
+      "total": 36
+    },
+    "scout_final": {
+      "passed": 75,
+      "total": 75
+    },
+    "outreach": {
+      "passed": 49,
+      "total": 49
+    },
+    "original": {
+      "passed": 2,
+      "total": 2
+    },
+    "initial_scout_run": "74/75: existing test_concurrent_fresh_initialization raced on database version; CLI suite and full Scout reruns passed. Registry/state code unchanged."
+  },
+  "historical_excluded": [
+    "kyrolabs/awesome-agents#895",
+    "coreyhaines31/marketingskills#916",
+    "coreyhaines31/marketingskills#914"
+  ]
+}

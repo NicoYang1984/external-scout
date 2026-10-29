@@ -1,0 +1,457 @@
+[
+  {
+    "repo": "e2b-dev/awesome-ai-agents",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Independent execution audit rejected initial GO: README explicitly accepts assistants/agents only and redirects runtimes/tools elsewhere. No implementation or PR; original attempt retained.",
+    "observed_at": "2026-10-29T16:30:47.912715+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "9596ab1e69fbbb6c95291141c8dab5c181083216",
+    "sources": [
+      "https://github.com/e2b-dev/awesome-ai-agents",
+      "https://github.com/e2b-dev/awesome-ai-agents/pulls",
+      "https://github.com/e2b-dev/awesome-ai-agents/blob/9596ab1e69fbbb6c95291141c8dab5c181083216/README.md"
+    ]
+  },
+  {
+    "repo": "e2b-dev/awesome-ai-sdks",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Canonical identity of awesome-sdks-for-ai-agents (repository ID 675073310). July 2026 commits only add UTM links; preceding README content commits February 2025. Latest 100 PR sample has no merges. No current substantive curation evidence; no PoC.",
+    "observed_at": "2026-10-29T16:30:47.919293+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "7c55394afb3e27d755c89bb29f1c35a55888fcd4",
+    "sources": [
+      "https://github.com/e2b-dev/awesome-ai-sdks",
+      "https://github.com/e2b-dev/awesome-ai-sdks/pulls",
+      "https://github.com/e2b-dev/awesome-ai-sdks/blob/7c55394afb3e27d755c89bb29f1c35a55888fcd4/README.md"
+    ]
+  },
+  {
+    "repo": "Jenqyang/Awesome-AI-Agents",
+    "campaign": "resource_listing",
+    "decision": "GO",
+    "reason": "Final audit checked 606 all-state PRs and applicable policies; standalone deployment/license verified. One-line Platforms/API entry validated, committed and published as PR #693; review pending, no CI checks reported.",
+    "observed_at": "2026-10-29T16:30:47.928155+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "48f18893af7353c7139c4b420c3eb2a3594b592e",
+    "sources": [
+      "https://github.com/Jenqyang/Awesome-AI-Agents",
+      "https://github.com/Jenqyang/Awesome-AI-Agents/pulls",
+      "https://github.com/Jenqyang/Awesome-AI-Agents/blob/48f18893af7353c7139c4b420c3eb2a3594b592e/.github/pull_request_template.md",
+      "https://github.com/Jenqyang/Awesome-AI-Agents/blob/48f18893af7353c7139c4b420c3eb2a3594b592e/CONTRIBUTING.md",
+      "https://github.com/Jenqyang/Awesome-AI-Agents/blob/48f18893af7353c7139c4b420c3eb2a3594b592e/README.md"
+    ],
+    "pr_url": "https://github.com/Jenqyang/Awesome-AI-Agents/pull/693"
+  },
+  {
+    "repo": "slavakurilyak/awesome-ai-agents",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Current rules require Go forge verification and contribution-credit commands; acquisition incomplete. Not certified for execution this round.",
+    "observed_at": "2026-10-29T16:30:47.928827+00:00",
+    "acquisition": "partial_or_unavailable",
+    "commit": null,
+    "sources": [
+      "https://github.com/slavakurilyak/awesome-ai-agents",
+      "https://github.com/slavakurilyak/awesome-ai-agents/pulls"
+    ]
+  },
+  {
+    "repo": "jim-schwoebel/awesome_ai_agents",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Last push 2026-03-28; no current maintenance evidence within six months. No PoC.",
+    "observed_at": "2026-10-29T16:30:47.937301+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "51b1a7ebc7ad9bfa91632ef77a315faca0bb8356",
+    "sources": [
+      "https://github.com/jim-schwoebel/awesome_ai_agents",
+      "https://github.com/jim-schwoebel/awesome_ai_agents/pulls",
+      "https://github.com/jim-schwoebel/awesome_ai_agents/blob/51b1a7ebc7ad9bfa91632ef77a315faca0bb8356/README.md"
+    ]
+  },
+  {
+    "repo": "caramaschiHG/awesome-ai-agents-2026",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Listing format possible, but last push June 10 and long open submission backlog; current curation and full validation not established. No PoC.",
+    "observed_at": "2026-10-29T16:30:47.943838+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "781b695139b8dfa231c0db5fd9cba02ccd518e84",
+    "sources": [
+      "https://github.com/caramaschiHG/awesome-ai-agents-2026",
+      "https://github.com/caramaschiHG/awesome-ai-agents-2026/pulls",
+      "https://github.com/caramaschiHG/awesome-ai-agents-2026/blob/781b695139b8dfa231c0db5fd9cba02ccd518e84/CONTRIBUTING.md",
+      "https://github.com/caramaschiHG/awesome-ai-agents-2026/blob/781b695139b8dfa231c0db5fd9cba02ccd518e84/README.md"
+    ]
+  },
+  {
+    "repo": "VoltAgent/awesome-agent-skills",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Catalog requires a working skill with real community adoption. LazyMind runtime listing alone does not meet the skill-entry requirement.",
+    "observed_at": "2026-10-29T16:30:47.950765+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "a6f9992ceaef05841a9b92e6849d90004a61710c",
+    "sources": [
+      "https://github.com/VoltAgent/awesome-agent-skills",
+      "https://github.com/VoltAgent/awesome-agent-skills/pulls",
+      "https://github.com/VoltAgent/awesome-agent-skills/blob/a6f9992ceaef05841a9b92e6849d90004a61710c/CONTRIBUTING.md",
+      "https://github.com/VoltAgent/awesome-agent-skills/blob/a6f9992ceaef05841a9b92e6849d90004a61710c/README.md"
+    ]
+  },
+  {
+    "repo": "heilcheng/awesome-agent-skills",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "AGENTS requires a specific standalone Skill with SKILL.md and demonstrated usage, not a general runtime/marketplace entry. No tested skill submission selected.",
+    "observed_at": "2026-10-29T16:30:47.957506+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "d6660b8e0f9d83885a77469fd8f9968d8461cba6",
+    "sources": [
+      "https://github.com/heilcheng/awesome-agent-skills",
+      "https://github.com/heilcheng/awesome-agent-skills/pulls",
+      "https://github.com/heilcheng/awesome-agent-skills/blob/d6660b8e0f9d83885a77469fd8f9968d8461cba6/.github/PULL_REQUEST_TEMPLATE.md",
+      "https://github.com/heilcheng/awesome-agent-skills/blob/d6660b8e0f9d83885a77469fd8f9968d8461cba6/AGENTS.md",
+      "https://github.com/heilcheng/awesome-agent-skills/blob/d6660b8e0f9d83885a77469fd8f9968d8461cba6/CONTRIBUTING.md",
+      "https://github.com/heilcheng/awesome-agent-skills/blob/d6660b8e0f9d83885a77469fd8f9968d8461cba6/README.md"
+    ]
+  },
+  {
+    "repo": "kyrolabs/awesome-agents",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "Historical LazyMind PR #895 already merged; no duplicate.",
+    "observed_at": "2026-10-29T16:30:47.963110+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "2da9bb931f6a24bee27591b5406bf348938e5fc8",
+    "sources": [
+      "https://github.com/kyrolabs/awesome-agents",
+      "https://github.com/kyrolabs/awesome-agents/pulls",
+      "https://github.com/kyrolabs/awesome-agents/blob/2da9bb931f6a24bee27591b5406bf348938e5fc8/CONTRIBUTING.md",
+      "https://github.com/kyrolabs/awesome-agents/blob/2da9bb931f6a24bee27591b5406bf348938e5fc8/README.md"
+    ]
+  },
+  {
+    "repo": "travisvn/awesome-claude-skills",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "CONTRIBUTING explicitly prohibits AI-assisted/generated submissions. No changes made.",
+    "observed_at": "2026-10-29T16:30:47.967883+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "1da55aa810f206d3fe2005e7e3989b15a275d942",
+    "sources": [
+      "https://github.com/travisvn/awesome-claude-skills",
+      "https://github.com/travisvn/awesome-claude-skills/pulls",
+      "https://github.com/travisvn/awesome-claude-skills/blob/1da55aa810f206d3fe2005e7e3989b15a275d942/CONTRIBUTING.md",
+      "https://github.com/travisvn/awesome-claude-skills/blob/1da55aa810f206d3fe2005e7e3989b15a275d942/README.md"
+    ]
+  },
+  {
+    "repo": "hesreallyhim/awesome-claude-code",
+    "campaign": "resource_listing",
+    "decision": "NO-GO",
+    "reason": "HTTP response incomplete during bounded acquisition; policy and duplicate coverage not certified. No PoC.",
+    "observed_at": "2026-10-29T16:30:47.968120+00:00",
+    "acquisition": "partial_or_unavailable",
+    "commit": null,
+    "sources": [
+      "https://github.com/hesreallyhim/awesome-claude-code",
+      "https://github.com/hesreallyhim/awesome-claude-code/pulls"
+    ]
+  },
+  {
+    "repo": "anthropics/skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "GIF Issue #2070 already claimed and addressed by open PR #2071; several other defects already have PRs. #1957 references init_skill.py absent from current upstream path, so not reproduced on current commit.",
+    "observed_at": "2026-10-29T16:30:47.972889+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+    "sources": [
+      "https://github.com/anthropics/skills",
+      "https://github.com/anthropics/skills/pulls",
+      "https://github.com/anthropics/skills/blob/ca45fc496a3436251f191354091d557da31c15b5/README.md"
+    ]
+  },
+  {
+    "repo": "obra/superpowers",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "AGENTS rejects agent-written fixes for others’ issues without explicit maintainer request and requires human-authored summary/diff review. Prerequisites not met.",
+    "observed_at": "2026-10-29T16:30:47.982476+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+    "sources": [
+      "https://github.com/obra/superpowers",
+      "https://github.com/obra/superpowers/pulls",
+      "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/.github/PULL_REQUEST_TEMPLATE.md",
+      "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/AGENTS.md",
+      "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md"
+    ]
+  },
+  {
+    "repo": "openai/skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Authenticated repository acquisition returned HTTP 404; not treated as inspected or eligible.",
+    "observed_at": "2026-10-29T16:30:47.983244+00:00",
+    "acquisition": "partial_or_unavailable",
+    "commit": null,
+    "sources": [
+      "https://github.com/openai/skills",
+      "https://github.com/openai/skills/pulls"
+    ]
+  },
+  {
+    "repo": "K-Dense-AI/scientific-skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Repository identity lookup returned HTTP 404; cannot assume a similarly named repository is identical.",
+    "observed_at": "2026-10-29T16:30:47.983274+00:00",
+    "acquisition": "partial_or_unavailable",
+    "commit": null,
+    "sources": [
+      "https://github.com/K-Dense-AI/scientific-skills",
+      "https://github.com/K-Dense-AI/scientific-skills/pulls"
+    ]
+  },
+  {
+    "repo": "alirezarezvani/claude-skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Current open-issue query empty; no concrete reproducible unclaimed defect selected. Policy requires dev and stdlib-only changes.",
+    "observed_at": "2026-10-29T16:30:47.990599+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "0496583603e56cdd5022dd61c823bd784a80a752",
+    "sources": [
+      "https://github.com/alirezarezvani/claude-skills",
+      "https://github.com/alirezarezvani/claude-skills/pulls",
+      "https://github.com/alirezarezvani/claude-skills/blob/0496583603e56cdd5022dd61c823bd784a80a752/.github/PULL_REQUEST_TEMPLATE.md",
+      "https://github.com/alirezarezvani/claude-skills/blob/0496583603e56cdd5022dd61c823bd784a80a752/CONTRIBUTING.md",
+      "https://github.com/alirezarezvani/claude-skills/blob/0496583603e56cdd5022dd61c823bd784a80a752/README.md"
+    ]
+  },
+  {
+    "repo": "ComposioHQ/awesome-claude-skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Recent submission issues report PRs restricted to collaborators; no confirmed native defect selected. Do not bypass channel restrictions.",
+    "observed_at": "2026-10-29T16:30:47.997032+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "be2a406907dbc61b73e6827ded415c96139d13a2",
+    "sources": [
+      "https://github.com/ComposioHQ/awesome-claude-skills",
+      "https://github.com/ComposioHQ/awesome-claude-skills/pulls",
+      "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/CONTRIBUTING.md",
+      "https://github.com/ComposioHQ/awesome-claude-skills/blob/be2a406907dbc61b73e6827ded415c96139d13a2/README.md"
+    ]
+  },
+  {
+    "repo": "vercel-labs/skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Candidate #2613 requires Windows long-path reproduction; macOS environment does not establish that failure. Other current requests are catalog administration or broader installer behavior.",
+    "observed_at": "2026-10-29T16:30:48.002308+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8",
+    "sources": [
+      "https://github.com/vercel-labs/skills",
+      "https://github.com/vercel-labs/skills/pulls",
+      "https://github.com/vercel-labs/skills/blob/92a9a34ac3bf88e695e468b90c7bf32f163d32c8/AGENTS.md",
+      "https://github.com/vercel-labs/skills/blob/92a9a34ac3bf88e695e468b90c7bf32f163d32c8/README.md"
+    ]
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Historical integration #916 remains action_required; native #913 has #914. No duplicate PR.",
+    "observed_at": "2026-10-29T16:30:48.007633+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "0cd9b3a0ef4c411a1d690419ce843f2a1da32cce",
+    "sources": [
+      "https://github.com/coreyhaines31/marketingskills",
+      "https://github.com/coreyhaines31/marketingskills/pulls",
+      "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/AGENTS.md",
+      "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/CONTRIBUTING.md",
+      "https://github.com/coreyhaines31/marketingskills/blob/0cd9b3a0ef4c411a1d690419ce843f2a1da32cce/README.md"
+    ]
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "campaign": "product_integration",
+    "decision": "NO-GO",
+    "reason": "CONTRIBUTING accepts issues only, no unsolicited external PRs or new vendor integrations.",
+    "observed_at": "2026-10-29T16:30:48.014284+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "194cc86e3ae6400958555bd4116849d822d69263",
+    "sources": [
+      "https://github.com/modelcontextprotocol/servers",
+      "https://github.com/modelcontextprotocol/servers/pulls",
+      "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/.github/pull_request_template.md",
+      "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/AGENTS.md",
+      "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/CONTRIBUTING.md",
+      "https://github.com/modelcontextprotocol/servers/blob/194cc86e3ae6400958555bd4116849d822d69263/README.md"
+    ]
+  },
+  {
+    "repo": "activepieces/activepieces",
+    "campaign": "product_integration",
+    "decision": "NO-GO",
+    "reason": "CONTRIBUTING temporarily pauses unsolicited external PRs; prior discussed customer exception not established.",
+    "observed_at": "2026-10-29T16:30:48.031874+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "a95445a19ad913108abd972a46d8c204ca334cae",
+    "sources": [
+      "https://github.com/activepieces/activepieces",
+      "https://github.com/activepieces/activepieces/pulls",
+      "https://github.com/activepieces/activepieces/blob/a95445a19ad913108abd972a46d8c204ca334cae/.github/pull_request_template.md",
+      "https://github.com/activepieces/activepieces/blob/a95445a19ad913108abd972a46d8c204ca334cae/AGENTS.md",
+      "https://github.com/activepieces/activepieces/blob/a95445a19ad913108abd972a46d8c204ca334cae/CONTRIBUTING.md",
+      "https://github.com/activepieces/activepieces/blob/a95445a19ad913108abd972a46d8c204ca334cae/README.md"
+    ]
+  },
+  {
+    "repo": "continuedev/continue",
+    "campaign": "product_integration",
+    "decision": "NO-GO",
+    "reason": "No demonstrated LazyMind-to-Continue runnable integration or specific unmet need. Generic MCP support alone is insufficient capability evidence.",
+    "observed_at": "2026-10-29T16:30:48.038823+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+    "sources": [
+      "https://github.com/continuedev/continue",
+      "https://github.com/continuedev/continue/pulls",
+      "https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/.github/pull_request_template.md",
+      "https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/CONTRIBUTING.md",
+      "https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/README.md"
+    ]
+  },
+  {
+    "repo": "CherryHQ/cherry-studio",
+    "campaign": "product_integration",
+    "decision": "NO-GO",
+    "reason": "No verified LazyMind-host adaptation or functional tests; contributor signoff and needs-ok-to-test workflow also apply. No speculative adapter.",
+    "observed_at": "2026-10-29T16:30:48.047596+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "4637aa0b5674d26df13fae5e0de8a85e42f7b54e",
+    "sources": [
+      "https://github.com/CherryHQ/cherry-studio",
+      "https://github.com/CherryHQ/cherry-studio/pulls",
+      "https://github.com/CherryHQ/cherry-studio/blob/4637aa0b5674d26df13fae5e0de8a85e42f7b54e/.github/pull_request_template.md",
+      "https://github.com/CherryHQ/cherry-studio/blob/4637aa0b5674d26df13fae5e0de8a85e42f7b54e/AGENTS.md",
+      "https://github.com/CherryHQ/cherry-studio/blob/4637aa0b5674d26df13fae5e0de8a85e42f7b54e/CONTRIBUTING.md",
+      "https://github.com/CherryHQ/cherry-studio/blob/4637aa0b5674d26df13fae5e0de8a85e42f7b54e/README.md"
+    ]
+  },
+  {
+    "repo": "langgenius/dify",
+    "campaign": "product_integration",
+    "decision": "NO-GO",
+    "reason": "Integration contributions belong in plugin repo and require prior issue discussion. No approved issue or runnable Dify adapter evidence.",
+    "observed_at": "2026-10-29T16:30:48.058676+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "bda335a0aca22c02900e7485f4ce0ee1ce189ac6",
+    "sources": [
+      "https://github.com/langgenius/dify",
+      "https://github.com/langgenius/dify/pulls",
+      "https://github.com/langgenius/dify/blob/bda335a0aca22c02900e7485f4ce0ee1ce189ac6/.github/pull_request_template.md",
+      "https://github.com/langgenius/dify/blob/bda335a0aca22c02900e7485f4ce0ee1ce189ac6/AGENTS.md",
+      "https://github.com/langgenius/dify/blob/bda335a0aca22c02900e7485f4ce0ee1ce189ac6/CONTRIBUTING.md",
+      "https://github.com/langgenius/dify/blob/bda335a0aca22c02900e7485f4ce0ee1ce189ac6/README.md"
+    ]
+  },
+  {
+    "repo": "FlowiseAI/Flowise",
+    "campaign": "product_integration",
+    "decision": "NO-GO",
+    "reason": "GitHub metadata reports archived repository.",
+    "observed_at": "2026-10-29T16:30:48.065349+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb",
+    "sources": [
+      "https://github.com/FlowiseAI/Flowise",
+      "https://github.com/FlowiseAI/Flowise/pulls",
+      "https://github.com/FlowiseAI/Flowise/blob/9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb/CONTRIBUTING.md",
+      "https://github.com/FlowiseAI/Flowise/blob/9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb/README.md"
+    ]
+  },
+  {
+    "repo": "OthmanAdi/planning-with-files",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Current substantive issue #326 is an opt-in re-attestation design request, not a confirmed small native defect; remaining issues are usage/partnership requests.",
+    "observed_at": "2026-10-29T16:30:48.071328+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "5d29800bf8b919ca9a88ee7885b90050b5cb64ed",
+    "sources": [
+      "https://github.com/OthmanAdi/planning-with-files",
+      "https://github.com/OthmanAdi/planning-with-files/pulls",
+      "https://github.com/OthmanAdi/planning-with-files/blob/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/AGENTS.md",
+      "https://github.com/OthmanAdi/planning-with-files/blob/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/CONTRIBUTING.md",
+      "https://github.com/OthmanAdi/planning-with-files/blob/5d29800bf8b919ca9a88ee7885b90050b5cb64ed/README.md"
+    ]
+  },
+  {
+    "repo": "numman-ali/openskills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Last push January 18; issue #94 questions maintenance. No current maintenance evidence; do not invest in a PoC.",
+    "observed_at": "2026-10-29T16:30:48.074124+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "57d933a4f0d5c8659bd8b285f50fb9554360f0b3",
+    "sources": [
+      "https://github.com/numman-ali/openskills",
+      "https://github.com/numman-ali/openskills/pulls",
+      "https://github.com/numman-ali/openskills/blob/57d933a4f0d5c8659bd8b285f50fb9554360f0b3/AGENTS.md",
+      "https://github.com/numman-ali/openskills/blob/57d933a4f0d5c8659bd8b285f50fb9554360f0b3/CONTRIBUTING.md",
+      "https://github.com/numman-ali/openskills/blob/57d933a4f0d5c8659bd8b285f50fb9554360f0b3/README.md"
+    ]
+  },
+  {
+    "repo": "davila7/claude-code-templates",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Issue #1046 already fixed by YAML parser on current source / PR #1070; #1176 pymc correction already has PR #1221. No duplicate.",
+    "observed_at": "2026-10-29T16:30:48.081596+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "52701d8578f88b15c9c18e4894201d531279809a",
+    "sources": [
+      "https://github.com/davila7/claude-code-templates",
+      "https://github.com/davila7/claude-code-templates/pulls",
+      "https://github.com/davila7/claude-code-templates/blob/52701d8578f88b15c9c18e4894201d531279809a/CONTRIBUTING.md",
+      "https://github.com/davila7/claude-code-templates/blob/52701d8578f88b15c9c18e4894201d531279809a/README.md"
+    ]
+  },
+  {
+    "repo": "Jeffallan/claude-skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Issue #275 would activate broad formatting across the skill corpus; minimal corrective scope and full validation not established within this campaign.",
+    "observed_at": "2026-10-29T16:30:48.087963+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "143243cb2da0e52b02a766fa69c1ff77a71cc73c",
+    "sources": [
+      "https://github.com/Jeffallan/claude-skills",
+      "https://github.com/Jeffallan/claude-skills/pulls",
+      "https://github.com/Jeffallan/claude-skills/blob/143243cb2da0e52b02a766fa69c1ff77a71cc73c/CONTRIBUTING.md",
+      "https://github.com/Jeffallan/claude-skills/blob/143243cb2da0e52b02a766fa69c1ff77a71cc73c/README.md"
+    ]
+  },
+  {
+    "repo": "kepano/obsidian-skills",
+    "campaign": "native_skill_fix",
+    "decision": "NO-GO",
+    "reason": "Current reports concern Obsidian runtime/CLI behavior and documentation; no installed version/vault reproduction established. Do not assert runtime validation from prose.",
+    "observed_at": "2026-10-29T16:30:48.091708+00:00",
+    "acquisition": "complete_low_cost_inspection",
+    "commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+    "sources": [
+      "https://github.com/kepano/obsidian-skills",
+      "https://github.com/kepano/obsidian-skills/pulls",
+      "https://github.com/kepano/obsidian-skills/blob/3ccff5338ea700537839b21900aa5358a0402c98/README.md"
+    ]
+  }
+]
