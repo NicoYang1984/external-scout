@@ -132,7 +132,7 @@ def normalize(raw):
     return spec
 
 
-def gate(spec, now=None):
+def gate(spec, now=None, facts=None):
     now = now or datetime.now(timezone.utc)
     reasons = []
     if spec['provenance']['kind'] == 'historical_import' or spec.get('existing_pr'):
@@ -150,7 +150,7 @@ def gate(spec, now=None):
             reasons.append(name + ': evidence needs refresh')
     if spec['campaign_type'] == 'product_integration':
         context = spec.get('capability_context', {})
-        ok, reason = policy.assess(context)
+        ok, reason = policy.assess(context, facts=facts, now=now)
         if not ok:
             reasons.append(reason)
         try:

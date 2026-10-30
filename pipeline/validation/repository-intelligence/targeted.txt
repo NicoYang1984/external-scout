@@ -1,0 +1,30 @@
+test_bad_policy_and_numeric_inputs_fail_closed (test_screening.ScreeningTests) ... ok
+test_bot_only_recent_updates_not_high_activity (test_screening.ScreeningTests) ... ok
+test_campaign_specific_and_fixed_reproducibility (test_screening.ScreeningTests) ... ok
+test_claim_without_permission_is_hold (test_screening.ScreeningTests) ... ok
+test_core_unknown_stale_revision_and_environment_hold (test_screening.ScreeningTests) ... ok
+test_existing_capability_gate_and_core_scope_preserved (test_screening.ScreeningTests) ... ok
+test_high_stars_policy_prohibition_and_duplicate (test_screening.ScreeningTests) ... ok
+test_insufficient_ambiguous_and_partial_pr_samples_no_fake_rate (test_screening.ScreeningTests) ... ok
+test_link_churn_and_unknown_commit_identity (test_screening.ScreeningTests) ... ok
+test_pinned_capability_snapshot_survives_catalog_changes (test_screening.ScreeningTests) ... ok
+test_policy_assess_fixed_time_not_wall_clock (test_screening.ScreeningTests) ... ok
+test_reports_separate_history_from_new_results (test_screening.ScreeningTests) ... ok
+test_small_native_quality_not_excluded_and_weights (test_screening.ScreeningTests) ... ok
+test_truncated_policy_tree_cannot_be_overridden_by_popularity (test_screening.ScreeningTests) ... ok
+test_api_failure_does_not_infer_results_or_continue (test_screening.StoreAndCollectionTests) ... ok
+test_archived_stops_after_metadata_and_unknown_policy_stops_before_prs (test_screening.StoreAndCollectionTests) ... ok
+test_cache_freshness_policy_version_and_pending_order (test_screening.StoreAndCollectionTests) ... ok
+test_cli_replay_exports_same_spec_and_preserves_unauthorized_progress (test_screening.StoreAndCollectionTests) ... ok
+test_complete_collection_is_read_only_and_retains_raw_evidence (test_screening.StoreAndCollectionTests) ... ok
+test_get_only_and_repo_budget (test_screening.StoreAndCollectionTests) ... ok
+test_historical_profile_cannot_reverse_verified_rename (test_screening.StoreAndCollectionTests) ... ok
+test_partial_pagination_and_duplicate_rows (test_screening.StoreAndCollectionTests) ... ok
+test_policy_content_change_requires_version_bump (test_screening.StoreAndCollectionTests) ... ok
+test_policy_upgrade_keeps_approval_evidence_and_old_database (test_screening.StoreAndCollectionTests) ... ok
+test_screening_cannot_authorize_publish (test_screening.StoreAndCollectionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.167s
+
+OK

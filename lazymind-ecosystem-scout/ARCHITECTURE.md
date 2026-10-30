@@ -1,5 +1,11 @@
 # ARCHITECTURE
 
+## Repository Intelligence 与 Opportunity Ranking 增量
+
+详见 [版本化筛选说明](../pipeline/SCREENING.md)。`repository_intelligence.py` 把元数据、实质活动、外部 PR cohort 和政策原文转为带来源、时间、可信度的字段；`screening.py` 先 Gate，再按配置生成分数或区间、中文及 JSON 报告。已有 `ranking.py` 分发 profile/screen，保留旧 collect/rank。未知政策不触发昂贵采集；既有租约和游标继续由原 scanner 管理，新层不手动推进。
+
+没有新表或身份迁移；使用 source_observations 的 source 类型区分画像与评分，保留原始快照及策略 hash，同版本不同配置被拒绝。source_items 的当前视图不是评分历史的替代品。只读取已有 Pipeline state，导出原 Spec，不自动提升 validation_status、写审批或对外发布。原生产能力门禁保持当前事实与阈值，可选固定时间和事实参数仅使离线回放确定性。
+
 ## 范围与数据流
 
 这是原 Scout 的可靠性与团队复用升级。发现/筛选 → 证据化机会 → 用户审查 → 后续独立贡献执行。扫描本身没有外部写入工具、产品运行器或后台调度。

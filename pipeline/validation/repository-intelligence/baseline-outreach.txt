@@ -1,0 +1,54 @@
+test_535_is_explicitly_authentication_failure_before_send (test_credential_repair.CredentialRepairTests) ... ok
+test_imap_error_after_acceptance_does_not_cause_duplicate_test_send (test_credential_repair.CredentialRepairTests) ... ok
+test_noninteractive_secret_input_never_falls_back_to_echo (test_credential_repair.CredentialRepairTests) ... ok
+test_repair_reuses_verified_credential_across_both_phases (test_credential_repair.CredentialRepairTests) ... ok
+test_search_result_with_different_message_id_cannot_pass (test_credential_repair.CredentialRepairTests) ... ok
+test_successful_write_must_verify_readback (test_credential_repair.CredentialRepairTests) ... ok
+test_wrong_keychain_readback_uses_memory_without_claiming_saved (test_credential_repair.CredentialRepairTests) ... ok
+test_wrong_mime_charset_cannot_pass_self_test (test_credential_repair.CredentialRepairTests) ... ok
+test_identity_handshake_precedes_inbox_selection (test_imap_compatibility.IMAPCompatibilityTests) ... ok
+test_rejected_client_identity_stops_before_mailbox_read (test_imap_compatibility.IMAPCompatibilityTests) ... ok
+test_rejected_inbox_is_reported_instead_of_being_treated_as_empty (test_imap_compatibility.IMAPCompatibilityTests) ... ok
+test_reply_reader_also_identifies_itself (test_imap_compatibility.IMAPCompatibilityTests) ... ok
+test_sent_mailbox_with_spaces_is_quoted (test_imap_compatibility.IMAPCompatibilityTests) ... ok
+test_sent_uses_server_encoded_name_without_guessing_chinese_folder (test_imap_compatibility.IMAPCompatibilityTests) ... ok
+test_abandoned_queued_request_requires_reconciliation_not_retry (test_netease163.NetEase163Tests) ... ok
+test_authorization_code_is_not_persisted_to_sqlite (test_netease163.NetEase163Tests) ... ok
+test_delivery_unknown_is_not_blindly_retried (test_netease163.NetEase163Tests) ... ok
+test_enterprise_account_is_rejected_before_personal_configuration (test_netease163.NetEase163Tests) ... ok
+test_keychain_save_never_places_secret_in_process_arguments (test_netease163.NetEase163Tests) ... ok
+test_probe_authenticates_both_servers_without_sending (test_netease163.NetEase163Tests) ... ok
+test_recipient_change_invalidates_approval (test_netease163.NetEase163Tests) ... ok
+test_reply_reader_correlates_message_id_and_sender (test_netease163.NetEase163Tests) ... ok
+test_utf8_mime_preserves_chinese_subject_body_and_link (test_netease163.NetEase163Tests) ... ok
+test_content_change_invalidates_old_approval (test_outreach.OutreachTests) ... ok
+test_decline_immediately_suppresses_organization (test_outreach.OutreachTests) ... ok
+test_duplicate_email_and_project_are_deduplicated (test_outreach.OutreachTests) ... ok
+test_failed_send_recovers_and_is_idempotent (test_outreach.OutreachTests) ... ok
+test_missing_permission_cannot_be_approved (test_outreach.OutreachTests) ... ok
+test_nationality_is_never_inferred_or_stored (test_outreach.OutreachTests) ... ok
+test_same_organization_multiple_channels_blocked_in_batch (test_outreach.OutreachTests) ... ok
+test_scout_database_remains_byte_identical (test_outreach.OutreachTests) ... ok
+test_simulated_and_real_results_are_strictly_distinct (test_outreach.OutreachTests) ... ok
+test_import_preserves_source_campaign_and_cannot_send (test_pipeline_adapter.PipelineAdapterTests) ... ok
+test_no_channel_empty_tasks_produce_no_leads (test_pipeline_adapter.PipelineAdapterTests) ... ok
+test_repeat_never_overwrites_suppression_or_creates_duplicate (test_pipeline_adapter.PipelineAdapterTests) ... ok
+test_stale_unsuitable_missing_evidence_or_permission_transfer_rejected (test_pipeline_adapter.PipelineAdapterTests) ... ok
+test_account_revocation_during_cooldown_is_blocked (test_send_pacing.SendPacingTests) ... ok
+test_changed_content_during_cooldown_is_blocked (test_send_pacing.SendPacingTests) ... ok
+test_cli_waits_in_short_chunks_and_confirms_only_once (test_send_pacing.SendPacingTests) ... ok
+test_config_validates_and_cannot_shorten_existing_cooldown (test_send_pacing.SendPacingTests) ... ok
+test_cooldown_survives_restart_and_applies_across_batches (test_send_pacing.SendPacingTests) ... ok
+test_default_interval_defers_then_resumes_without_resending (test_send_pacing.SendPacingTests) ... ok
+test_missing_approval_does_not_consume_slot (test_send_pacing.SendPacingTests) ... ok
+test_other_connection_cannot_take_a_reserved_slot (test_send_pacing.SendPacingTests) ... ok
+test_provider_error_stops_batch_and_preserves_cooldown (test_send_pacing.SendPacingTests) ... ok
+test_simulation_does_not_consume_real_cooldown (test_send_pacing.SendPacingTests) ... ok
+test_suppression_during_cooldown_is_blocked (test_send_pacing.SendPacingTests) ... ok
+test_unhandled_provider_error_is_uncertain_not_auto_retryable (test_send_pacing.SendPacingTests) ... ok
+test_unknown_language_cannot_be_overridden_when_drafting (test_send_pacing.SendPacingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 0.634s
+
+OK

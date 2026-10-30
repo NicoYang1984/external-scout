@@ -17,6 +17,8 @@ description: 为 LazyMind 搜索当前产品已经能解决或只需轻量适配
 
 ## 启动与持久化
 
+新一轮先用 [Repository Intelligence 与 Ranking](../pipeline/SCREENING.md) 的 `ranking.py profile/screen`，策略位于 `references/screening-policy.json`。沿用原仓库 ID、来源观察和待办顺序，画像与评分分版本追加保存。先廉价检查仓库状态与贡献政策，明确禁止即停止；核心未知为 HOLD，不凭 Stars 或总分覆盖硬门槛。完整 Spec 通过后才评分和本地导出；原 gate、A/B 能力事实、验证状态及发布授权不被更改。旧 `collect/rank` 保留历史接口。
+
 本 Skill 目录记为 SKILL_DIR。使用 `python3 SKILL_DIR/scripts/registry.py init` 初始化状态；已有配置和记录不会覆盖。默认使用 `$XDG_DATA_HOME/lazymind-ecosystem-scout-v2`（未设置时为 `~/.local/share/lazymind-ecosystem-scout-v2`）。优先级：`--data-dir` > `LAZYMIND_SCOUT_DATA_DIR` > 默认路径。V2 默认不接触原版数据；迁移只对副本操作，见 [MIGRATION.md](MIGRATION.md)。
 
 读取数据目录的 `config.json`。project_root 默认为空。从显式 `LAZYMIND_PROJECT_ROOT` 或团队 config.json 的 project_root 读取产品仓库路径；不存在时只用固定版本公开证据，不假装检查过本地产品。先读项目适用指令、README.CN.md、相关能力的文档或实现，区分已实现、文档宣称、待建设能力。原有 Codex 集成文档不等于所有宿主都支持相同生命周期。

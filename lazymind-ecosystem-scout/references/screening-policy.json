@@ -1,0 +1,23 @@
+{
+  "policy_version": "repository-screening/v1",
+  "weights": {
+    "resource_listing": {"audience_fit":20,"reach_potential":20,"maintainer_activity":15,"external_pr_friendliness":20,"technical_value":0,"execution_feasibility":15,"direct_exposure_path":10},
+    "native_skill_fix": {"audience_fit":5,"reach_potential":10,"maintainer_activity":15,"external_pr_friendliness":20,"technical_value":30,"execution_feasibility":20,"direct_exposure_path":0},
+    "product_integration": {"audience_fit":20,"reach_potential":10,"maintainer_activity":10,"external_pr_friendliness":15,"technical_value":15,"execution_feasibility":20,"direct_exposure_path":10}
+  },
+  "windows": {"short_days":30,"activity_days":90,"external_pr_days":180,"backlog_days":90},
+  "limits": {"max_pages":2,"page_size":100,"commit_details":20,"documents":20,"response_pages":1,"requests_per_repository":60,"requests_per_batch":200,"repositories_per_batch":5,"deep_per_batch":2,"top_n":3},
+  "cache_ttl_hours":24,
+  "evidence_max_age_days":7,
+  "external_min_sample":10,
+  "reach": {"stars_cap":10000,"forks_cap":1000,"stars_fraction":0.9},
+  "activity": {"short_commit_target":10,"long_commit_target":20,"commit_fraction":0.6,"response_fraction":0.25,"release_fraction":0.15},
+  "friendliness": {"merge_fraction":0.5,"response_fraction":0.3,"backlog_fraction":0.2},
+  "rubrics": {
+    "audience_fit": {"unrelated":0,"adjacent":1,"broad_ai":2,"defined_users":3,"shared_task":4,"exact_category":5},
+    "technical_value": {"none":0,"cosmetic":1,"documentation":2,"bounded_improvement":3,"reproduced_bug":4,"maintainer_requested_regression":5},
+    "direct_exposure_path": {"none":0,"indirect":1,"neutral_guide":2,"linked_directory":3,"runnable_example":4,"tested_integration":5}
+  },
+  "effort_minutes": {"resource_listing":45,"native_skill_fix":90,"product_integration":180},
+  "notes": "V1 initial judgment-based weights, not statistically optimized. No minimum stars or acceptance probability. Scores prioritize review only."
+}

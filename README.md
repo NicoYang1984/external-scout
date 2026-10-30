@@ -26,6 +26,8 @@ LazyMind 的生态机会发现与外联工作区，包含两个独立的 Python 
 
 ## 快速开始
 
+新增 [Repository Intelligence 与分 Campaign 排序](pipeline/SCREENING.md)：版本化权重、先 Gate 后评分、证据区间、历史回放与 SQLite 评分历史；仅本地/只读，不授予发布权限。
+
 从仓库根目录执行以下命令，创建全新的本地状态库：
 
 ```bash

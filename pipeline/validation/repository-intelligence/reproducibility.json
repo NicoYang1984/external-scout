@@ -1,0 +1,8 @@
+{
+  "identical": true,
+  "artifacts": {
+    "results.json": "1c91e384a0f159edd8ddfb5993bbf7877d53121ad951cfc9a2e9b2bedfbc8637",
+    "comparison.json": "76e801883c3dbb223deda3f304eedba2681020c051840e59b53596673cc2c549",
+    "report.md": "f1f996f8f9afadbff1f8dcb6e3e48e6e796ef12d367edc3d074190c249b8803b"
+  }
+}

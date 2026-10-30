@@ -22,6 +22,12 @@
 - 先准备上游 checkout 和自己有推送权的 fork。Pipeline 不自动创建账号或 fork、不安装依赖、不切换邮箱账号。Worktree 负责 Git 隔离；目标测试仍应在经审阅的受控环境运行，Worktree 不是安全沙箱。
 - `codex -a never exec --sandbox workspace-write --json --output-schema ...` 调用执行 Agent；只读审查用 `read-only`。接口参照 [Codex 非交互执行文档](https://learn.chatgpt.com/docs/non-interactive-mode) 并以本机 `codex exec --help` 核对。模型沿用用户配置。
 
+## 先初筛，再进入完整交接
+
+下一轮先按 [Repository Intelligence 筛选策略](SCREENING.md) 使用 `ranking.py profile/screen`：低成本元数据与政策审阅 → 有界活动采集 → 核心证据 Gate → 分 Campaign 排名和报告。HOLD 区分证据不足，NO-GO 表示明确阻断。原 [60 天 Opportunity-first 排序](RANKING.md) 与 `collect/rank` 保留作旧接口及历史复现。
+
+筛选层 GO 仅表示候选门槛通过，不产生发布授权；画像和评分追加到 source_observations，不修改机会或审批状态。下述 gate、Codex Contributor、完整去重、测试和精确发布审批保持原样。已有执行记录按 SQLite 恢复，不能因重新排序重复实施。
+
 ## Scout 生成和导出交接包
 
 完整契约见 [OpportunitySpec JSON Schema](schemas/opportunity.schema.json)。Scout 先检查源码、贡献/AI 政策、相关 PR 和可用环境，填写 Spec；输入命令本身不执行目标代码，也不修改目标仓库。

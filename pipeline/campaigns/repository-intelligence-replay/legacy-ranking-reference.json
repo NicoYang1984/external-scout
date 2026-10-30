@@ -1,0 +1,100 @@
+{
+  "source": "../2026-10-30-ranking/ranking-results.json",
+  "source_sha256": "1933bf8c89d040aa22f249a0ab37f52e5bf854015d650ede99be471aacf5f65b",
+  "limitation": "60-day observations and discretionary ratings cannot certify new 90/180-day metrics; recollection/review is required. Original file remains unchanged.",
+  "prior_rankings": [
+    {
+      "key": "opp_29e03019a7dfaaae0ad9cbb1",
+      "campaign_type": "resource_listing",
+      "score": 78.7,
+      "weights": {
+        "audience": 25,
+        "acceptance": 25,
+        "activity": 20,
+        "reach": 20,
+        "cost": 10
+      },
+      "status": "ranked_for_review",
+      "publication_authorized": false,
+      "execution_gate": {
+        "decision": "GO",
+        "reasons": [],
+        "campaign_type": "resource_listing",
+        "next_action": "Run existing Pipeline audit and implementation, inspect final diff, commit, then include in exact batch for user approval. Do not authorize or publish yet."
+      },
+      "points": {
+        "audience": 25.0,
+        "acceptance": 16.65,
+        "activity": 20.0,
+        "reach": 10.38,
+        "cost": 6.67
+      },
+      "priority_key": [
+        78.7
+      ],
+      "next_action": "Select top candidates for complete dossier; existing Pipeline gates still required"
+    },
+    {
+      "key": "opp_59a822bfa328aeda63e47000",
+      "campaign_type": "resource_listing",
+      "score": 80.97,
+      "weights": {
+        "audience": 25,
+        "acceptance": 25,
+        "activity": 20,
+        "reach": 20,
+        "cost": 10
+      },
+      "status": "ranked_for_review",
+      "publication_authorized": false,
+      "execution_gate": {
+        "decision": "GO",
+        "reasons": [],
+        "campaign_type": "resource_listing",
+        "next_action": "Run existing Pipeline audit and implementation, inspect final diff, commit, then include in exact batch for user approval. Do not authorize or publish yet."
+      },
+      "points": {
+        "audience": 25.0,
+        "acceptance": 19.29,
+        "activity": 20.0,
+        "reach": 10.01,
+        "cost": 6.67
+      },
+      "priority_key": [
+        80.97
+      ],
+      "next_action": "Select top candidates for complete dossier; existing Pipeline gates still required"
+    },
+    {
+      "key": "opp_d1616c519a6b7f7c4d5364ff",
+      "campaign_type": "native_skill_fix",
+      "score": 81.08,
+      "weights": {
+        "defect_tests": 35,
+        "acceptance": 25,
+        "activity": 20,
+        "reach": 10,
+        "cost": 10
+      },
+      "status": "ranked_for_review",
+      "publication_authorized": false,
+      "execution_gate": {
+        "decision": "GO",
+        "reasons": [],
+        "campaign_type": "native_skill_fix",
+        "next_action": "Pipeline audit and minimal implementation; exact final batch approval before any push or PR."
+      },
+      "points": {
+        "defect_tests": 35.0,
+        "acceptance": 23.69,
+        "activity": 16.5,
+        "reach": 0.89,
+        "cost": 5.0
+      },
+      "priority_key": [
+        81.08
+      ],
+      "next_action": "Select top candidates for complete dossier; existing Pipeline gates still required"
+    }
+  ]
+}

@@ -32,7 +32,7 @@ def axis(values, limits):
     return sum(values.values())
 
 
-def assess(data, facts=None):
+def assess(data, facts=None, now=None):
     facts = facts or catalog()
     ids = data.get('capability_ids', [])
     if not ids:
@@ -45,7 +45,7 @@ def assess(data, facts=None):
         if not fact.get('runnable') or not fact.get('sources') or not fact.get('version'):
             return False, 'Missing runnable, versioned evidence: ' + id_
         checked = datetime.fromisoformat(fact['last_verified']).date()
-        age = (datetime.now(timezone.utc).date() - checked).days
+        age = ((now or datetime.now(timezone.utc)).date() - checked).days
         if age < 0 or age > facts.get('max_age_days', 90):
             return False, 'Capability evidence needs refresh: ' + id_
     if data.get('support_level') not in {'existing', 'easy_extension'}:
